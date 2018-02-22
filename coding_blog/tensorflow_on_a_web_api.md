@@ -2,7 +2,7 @@
 
 _2018, Feb 20th_
 
-![Python logo](.img/Python-logo-notext.svg) ![TensorFlow logo](https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg) ![CherryPy logo](.img/cherrypy_logo_resized.png)
+![Python logo](.img/logos/Python-logo-notext.svg) ![TensorFlow logo](.img/logos/Tensorflow_logo.svg) ![CherryPy logo](.img/logos/cherrypy_logo_resized.png)
 
 Once you've trained your [deep learning](https://machinelearningmastery.com/what-is-deep-learning/) model to accurately classify images into categories, what's next? Make it available to your colleagues, the company or the public internet by integrating into it in a [REST API](https://www.mulesoft.com/resources/api/what-is-rest-api-design) server!
 
@@ -30,6 +30,8 @@ The requirement for the project was to enable users to upload images to the serv
 
 ### Model files
 
+![Code to load model](.img/tensorflow_api/tensorflow_code.png)
+
 My colleague in the Data Science department did all the research and training on the machine learning side, then supplied me with two trained TensorFlow "model graph" files, which are both category classifiers.
 
 - `themeClassifier.pb` - _Convolutional Neutral Network_
@@ -40,6 +42,8 @@ He also provided me with a command-line Python script to do a single prediction 
 When doing a prediction, a model expects an image which has been cropped - around 80% crop gives good accuracy for themes and a 9x9 pixel image is the required input for the color model. The model prediction returns a set of all the model's nodes, which are ordered from most to least relevant. These IDs can be mapped to human-readable labels in a text file. The probabilities associated with each label are also outputted, to give an idea of how confident the model is in the prediction. These are useful for internal testing.
 
 ### Predictions service
+
+![Structure](.img/tensorflow_api/structure.png)
 
 I planned and built a Python REST API service which reads the static model files into memory on start-up using TensforFlow, then waits for images to be sent on requests from users. When it receives an request, it crops the images as required, runs a color prediction and a theme prediction (using a TensorFlow Session) and returns the color results and the theme results in a JSON response. I used Pillow for image cropping and resizing and CherryPy for the API.
 
@@ -64,6 +68,8 @@ On computing, reading from a file on the hard disk is slow while reading from me
 ### Improve testing
 
 Instead of rushing to integrate in the larger product, build your API as standalone service which can be demonstrated as a proof of concept and tested independently. Make it easy for non-technical users to use your service, even if it is only for internal testing. Such as by providing a static HTML form on your API, which expects an image and co-ordinates and then does a [POST](https://en.wikipedia.org/wiki/POST_(HTTP)) request to your predictions API endpoint when clicking the Submit button.
+
+![HTML form](.img/tensorflow_api/html_form_example.png)
 
 Choose an image input method which suits the testing process. On production, you might give the remote server the path to an image stored on the same machine, but, for testing a local server, it might be most convenient to provide an image as a binary file in the body of the request (such as when using the HTML form or [uploading an image with cURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)).
 
@@ -126,6 +132,10 @@ Ultimately, having a fast service means nothing if it doesn't give value for the
 Perhaps the service's top 5 themes includes an appropriate theme 90% of the time and 80% of the time it gets the number one item spot on. Maybe the color service gets the top 5 items correct 95% of the time, but it performs much lower on certain colors. In my project, the initial iteration of the color classifier performed poorly on obscure items like silver, rose gold, multi-colored and black & white. But when it the model was revised and retrained on more of that kind of data, it performed much better on those items.
 
 Your service might perform well on a set of test images you sourced, but does it provide value in a real life situation? Look at logging what your service predicted and also record what the _users actually choose_ from the selection, to see if the accept or rejected the prediction. If the user overrides the suggestion by choosing something outside of the recommend top 5 values, perhaps your model is not as accurate as your thought, or users are uploading images which are very different from the images you used in training.
+
+---
+
+There are many approaches to this problem, depending on your business needs, tools and experience. Hopefully some of this can benefit you when mixing machine learning and a REST API, or at least opened your mind to some obstacles and opportunities.
 
 
 ## Further reading
