@@ -45,8 +45,8 @@ It was great for me to first test and understand the project's most basic compon
 
 I was supplied two trained TensorFlow "model graph" files, which are both category classifiers.
 
-- `themeClassifier.pb` - _Convolutional Neural Network_
-- `colorClassifier.pb` - _Recurrent Neural Net_
+- `themeClassifier.pb` (created as a _Convolutional Neural Network_)
+- `colorClassifier.pb` (created as a _Recurrent Neural Net_)
 
 I was also supplied theme prediction script and a color prediction script. These Python scripts expected a path to an image, cropped it, printed the prediction results in the terminal and then exited.
 
@@ -84,7 +84,7 @@ Here are steps I followed to build up the layers:
 
 1. Test and refactor a simple command-line prediction script.
 2. Create and test the REST API part of the service.
-4. Add a basic HTML form to the API service, for easy testing in the browser - see _Make testing easy_ section below.
+4. Add a basic HTML form to the API service, for easy testing in the browser - see [Make testing easy](#make-testing-easy) below.
 5. Deploy the prediction service on a remote development server. Test the REST API and the HTML form.
 6. Integrate the predictions service within the main application and test the main application layer.
 7. Deploy to the production environment.
@@ -97,8 +97,8 @@ If you are going to easily and regularly test the layers described in the previo
 
 With the initial REST API created, I tested the endpoints manually, to check accuracy and times. I sent an image and co-ordinate values with a command-line command. I used two approaches:
 
-- [cURL](https://www.rosehosting.com/blog/curl-command-examples/) in the terminal - see an article on uploading files with cURL [here](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76).
-- the [Python requests](http://docs.python-requests.org/) package - see a guide to send a file on a POST [here](http://docs.python-requests.org/en/latest/user/quickstart/#post-a-multipart-encoded-file).
+- [cURL](https://www.rosehosting.com/blog/curl-command-examples/) in the bash terminal - see an article on uploading files with cURL [here](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76).
+- [Python requests](http://docs.python-requests.org/) package - see a guide to send a file on a POST [here](http://docs.python-requests.org/en/latest/user/quickstart/#post-a-multipart-encoded-file).
 
 I then wrote a bash script which called the various endpoints on the API, to ensure they returned an appropriate success or failure response based on a given image and co-ordinate arguments (or possibly bad or missing data).
 
@@ -190,10 +190,10 @@ Think about the approach from a few angles. Make sure you think about how your s
 - TensorFlow website
     * The [homepage](https://www.tensorflow.org)
     * [TensorFlow Session](https://www.tensorflow.org/api_docs/python/tf/Session)
-    * [TensorFlow Serving](https://www.tensorflow.org/serving/) - this was not mentioned previously but is a new way to serve a model on an API and is worth exploring
+    * [TensorFlow Serving](https://www.tensorflow.org/serving/) - this was not covered in this article, but it was a new way to serve a model and is available within the TensorFlow package, so it is worth exploring
 - Tutorials
     * ["Deploy TensorFlow models in Flask"](https://github.com/benman1/tensorflow_flask)
-    * [TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) repo - in particular, see [inception.py](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/inception.py) and how _with_ blocks are implemented, both in the main body and in the `Inception` class’s methods, such as  `.__init__`, `.classify` and `.close`.
+    * [TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) repo - in particular, see [inception.py](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/inception.py) and how `with` blocks are implemented, both in the main body and in the `Inception` class’s methods, such as  `.__init__`, `.classify` and `.close`.
 
 ## Attribution
 
