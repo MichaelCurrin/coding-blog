@@ -12,8 +12,11 @@ I like using an ORM to do complex [CRUD](https://en.wikipedia.org/wiki/Create,_r
 
 I didn't realize how slow the ORM was compared with native SQL statements until I started growing my project to larger volumes of tweet data. I used `tweepy` to do a search query on the Twitter API to get tweets within the past 7 days. I had a script to fetch the tweet object (including the profile of the author), write the tweet and profile records and then assign each tweet a campaign label and each profile a category label (so I can filter and group the records in my database later). The entire process took nearly 4 hours for a batch of 50 000 tweets. But, I wanted to do it faster.
 
-I decided to optimize the campaign labeling process first. When assigning a campaign label, the script uses the ORM to _insert_ a single record, _get_ the record and then repeat for the each data items, one item at a time. This is inefficient because there is overhead in connecting to the database and executing the query to read or write data. So, instead of handling record individually due to the ORM limitation, I composed a single [INSERT](https://www.w3schools.com/sql/sql_insert.asp) statement in SQL with all the required values. The duration came down from minutes to _less than a second_, which is several orders of magnitude faster. I used the ORM's [SQLBuilder](http://sqlobject.org/SQLBuilder.html) module to do this dynamically for multiple items. I essentially did it like this in Python.
+I decided to optimize the campaign labeling process first. When assigning a campaign label, the script uses the ORM to _insert_ a single record, _get_ the record and then repeat for the each data items, one item at a time. This is inefficient because there is overhead in connecting to the database and executing the query to read or write data. So, instead of handling record individually due to the ORM limitation, I composed a single [INSERT](https://www.w3schools.com/sql/sql_insert.asp) statement in SQL with all the required values. The duration came down from minutes to _less than a second_, which is several orders of magnitude faster. I used the ORM's [SQLBuilder](http://sqlobject.org/SQLBuilder.html) module to do this dynamically for multiple items. 
 
+The logic is in a function called `bulkAssignTweetCampaign` in [tweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/lib/tweets.py), currently on a feature branch.
+
+Here is the simplified version of the code.
 ```python
 from sqlobject.sqlbuilder import Insert
 
@@ -21,20 +24,26 @@ from sqlobject.sqlbuilder import Insert
 
 # This is dynamic but fixed here as an example.
 campaignID = 2
+
 # Create the INSERT statement using N number of tweetIDs and 
-# a constant campaignID value.
+# a constant campaignID value. The tweet_campaign table
+# contains pairs of values, in order to map a tweet table ID
+# to campaign table ID with a many-to-many relationship.
 insert = Insert(
     'tweet_campaign',
     template=['campaign_id', 'tweet_id'],
     valueList=[(campaignID, tweetID) for tweetID in tweetIDs]
 )
+
 # Convert the object into a native SQL statement.
 SQL = db.conn.sqlrepr(insert)
-# The output is something like:
+
+# The sql statement looks something like this:
 """
-INSERT INTO campaign_id (campaign_id, tweet_id)
+INSERT INTO tweet_campaign (campaign_id, tweet_id)
 VALUES (2, 10024525), (2, 12532657547), (2, 795445656) ... ;
 """
+
 # I want to ignore duplicates silently, so manually alter this.
 SQL = SQL.replace("INSERT", "INSERT OR IGNORE")
 # Execute the query using the database connection object.
