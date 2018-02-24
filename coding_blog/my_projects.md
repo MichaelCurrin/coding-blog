@@ -1,6 +1,10 @@
 # My Projects
 
+>_2018, Feb 22nd_
+
 This article is around the projects I have hosted as [repositories on my Github profile](https://github.com/MichaelCurrin?tab=repositories). I cover the reason I created them and some learnings and challenges I found while working on them. This article will continue to grow as work on these and other projects.
+
+
 
 ## [developerConfigurations](https://github.com/MichaelCurrin/developerConfigurations)
 

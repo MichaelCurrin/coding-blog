@@ -1,6 +1,8 @@
 # Twitterverse project
 
 >This article is about the purpose of and learnings around my [twitterverse](https://github.com/MichaelCurrin/twitterverse) repo.
+>
+>_2018, Feb 22nd_
 
 I created my _twitterverse_ repo because I was interested in fetching, storing and reporting on data in the [Twitter API](https://developer.twitter.com/en/docs). Such as [trending topics](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place) at locations, or using the [Search API](https://developer.twitter.com/en/docs/tweets/search/overview) to get individual tweets in the past 7 days which match a search query.
 

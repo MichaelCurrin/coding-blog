@@ -1,6 +1,10 @@
 # Learn To Code project
 
+
 >This article is about the purpose of and learnings around my [learn-to-code](https://github.com/MichaelCurrin/learn-to-code) repo.
+>
+>_2018, Feb 22nd_
+
 
 I like to write tutorials when I learn to solve a problem with _Python_, _Bash_, _Git_, _Thunderbird mail_ or other areas. It is a useful reference when I need to solve the problem again.
 
