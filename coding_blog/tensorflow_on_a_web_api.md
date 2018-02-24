@@ -6,19 +6,19 @@ _2018, Feb 20th_
 
 You've trained your [deep learning](https://machinelearningmastery.com/what-is-deep-learning/) algorithm to accurately label images, but what _next_? 
 
-One way to get it to add value in a production environment is to integrate your predictions service into a [REST API](https://www.mulesoft.com/resources/api/what-is-rest-api-design) web server! And if you don't have one yet, you can built one using a light-weight Python framework (see the _Further Reading_ section). As a web server, it can be accessible in the browser for your colleagues on the network, you can implement it as backend component of your company's main application, or even offer it as a public service on the internet (similar to [IBM Watson](https://watson-api-explorer.mybluemix.net/) or [Cloudsight](https://cloudsight.ai/api)).
+One way to get it to add value in a production environment is to integrate your predictions service into a [REST API](https://www.mulesoft.com/resources/api/what-is-rest-api-design) web server! And if you don't have one yet, you can built one using a light-weight Python framework (see the [Further Reading](#further-reading) section). As a web server, it can be accessible in the browser for your colleagues on the network, you can implement it as backend component of your company's main application, or even offer it as a public service on the internet (similar to [IBM Watson](https://watson-api-explorer.mybluemix.net/) or [Cloudsight](https://cloudsight.ai/api)).
 
 This article aims to provide a case study on how to implement an image classification algorithm on a web server. I've added some advice to get you started and some opportunities and pitfalls to look out for. The content is targeted at Python developers who have an interest in machine learning and/or web APIs. However, the focus is on the principles rather than the code, to make the content accessible for a wider audience.
 
 _Contents_
 
-- Context
-- Business need
-- Implementation
-- Challenges and learnings
-- TD;DR
-- Further reading
-- Attribution
+- [Context](#context)
+- [Business need](#business-need)
+- [Implementation](#implementation)
+- [Challenges and learnings](#challenges-and-learnings)
+- [TD;DR](#tldr)
+- [Further reading](#further-reading)
+- [Attribution](#attribution)
 
 ![Sample code to load a model](.img/tensorflow_api/tensorflow_code.png "Sample code to load a model")
 
@@ -89,7 +89,7 @@ Here are steps I followed to build up the layers:
 6. Integrate the predictions service within the main application and test the main application layer.
 7. Deploy to the production environment.
 
-Seek to improve how your service handles memory, so you get optimal prediction times. In computing, reading from a file on the hard disk is relatively slow, compared with reading from memory. The theme model was about 80MB and on the first iteration of the project this was read into memory (which took a few seconds), whenever it was needed for a prediction, then it was released from memory. When the next request was made, this would happen again. But, I found that the service returned request data to the client much quicker when I moved loading of models to server start-up and then reused the models in memory on all requests. This might not work in all projects, but it definitely made a difference for this one. If you are using _TensorFlow_, I highly recommend you read up how on to use _Sessions_ can be used manage your models and predictions to give optimal prediction times and memory management. See the links at the end of this article.
+Seek to improve how your service handles memory, so you get optimal prediction times. In computing, reading from a file on the hard disk is relatively slow, compared with reading from memory. The theme model was about 80MB and on the first iteration of the project this was read into memory (which took a few seconds), whenever it was needed for a prediction, then it was released from memory. When the next request was made, this would happen again. But, I found that the service returned request data to the client much quicker when I moved loading of models to server start-up and then reused the models in memory on all requests. This might not work in all projects, but it definitely made a difference for this one. If you are using _TensorFlow_, I highly recommend you read up how on to use _Sessions_ can be used manage your models and predictions to give optimal prediction times and memory management. See the [Further Reading](#further-reading) section.
 
 ### Make testing easy
 
