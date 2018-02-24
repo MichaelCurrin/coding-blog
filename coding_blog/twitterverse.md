@@ -14,11 +14,13 @@ I didn't realize how slow the ORM was compared with native SQL statements until 
 
 I decided to optimize the campaign labeling process first. When assigning a campaign label, the script uses the ORM to _insert_ a single record, _get_ the record and then repeat for the each data items, one item at a time. This is inefficient because there is overhead in connecting to the database and executing the query to read or write data. So, instead of handling record individually due to the ORM limitation, I composed a single [INSERT](https://www.w3schools.com/sql/sql_insert.asp) statement in SQL with all the required values. The duration came down from minutes to _less than a second_, which is several orders of magnitude faster. I used the ORM's [SQLBuilder](http://sqlobject.org/SQLBuilder.html) module to do this dynamically for multiple items. 
 
-The logic is in a function called `bulkAssignTweetCampaign` in [tweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/lib/tweets.py), currently on a feature branch.
+The logic is in a function named `bulkAssignTweetCampaign` in [tweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/lib/tweets.py), currently on a feature branch. That is called by the `main` function of [searchAndStoreTweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/utils/insert/searchAndStoreTweets.py).
 
 Here is the simplified version of the code.
 ```python
 from sqlobject.sqlbuilder import Insert
+
+from lib import database as db
 
 ...
 
