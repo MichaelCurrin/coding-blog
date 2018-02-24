@@ -1,18 +1,18 @@
 # Twitterverse project
 
->This article is about the purpose of and learnings around my [twitterverse]((https://github.com/MichaelCurrin/twitterverse)) repo.
+>This article is about the purpose of and learnings around my [twitterverse](https://github.com/MichaelCurrin/twitterverse) repo.
 
 I created my _twitterverse_ repo because I was interested in fetching, storing and reporting on data in the [Twitter API](https://developer.twitter.com/en/docs). Such as [trending topics](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place) at locations, or using the [Search API](https://developer.twitter.com/en/docs/tweets/search/overview) to get individual tweets in the past 7 days which match a search query.
 
-Some years ago I started out learning to use the [Twitter API](https://developer.twitter.com/en/docs) in the Twitter _developer console_ - that doesn't seem available anymore on their site, though [apigee](https://apigee.com/console) still provides this functionality. When I started learning Python, I found a way to compose URLs and do queries to get tweet data. Over time, the requests I wanted to do become more complex and also I needed an elegant way to handle rate-limiting. So I moved using to the [tweepy](http://www.tweepy.org/) _Python_ library to access the Twitter API. There are a few [Python libraries for the Twitter API](https://www.quora.com/What-is-the-best-Python-Twitter-library-to-use-with-the-Twitter-API), including [Twython](https://twython.readthedocs.io/en/latest/).
+Some years ago I started out learning to use the [Twitter API](https://developer.twitter.com/en/docs) in the Twitter _developer console_ - that doesn't seem available anymore on their site, though [apigee](https://apigee.com/console) still provides this functionality. When I started learning Python, I found a way to compose URLs and do queries to get tweet data. Over time, the requests I wanted to do become more complex and also I needed an elegant way to handle rate-limiting. So I moved using to the [tweepy](http://www.tweepy.org/) Python library to access the Twitter API. There are a few [Python libraries for the Twitter API](https://www.quora.com/What-is-the-best-Python-Twitter-library-to-use-with-the-Twitter-API), including [Twython](https://twython.readthedocs.io/en/latest/).
 
 I am aware of [SQLAlchemy](https://www.sqlalchemy.org/) and its popularity, though I implemented the application using [SQLObject](http://www.sqlobject.org/) as the [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) between Python and the database. That was because I was a lot more familiar with using _SQLObject_ at work and wanted to focus my efforts in one direction for a while. 
 
 I like using an ORM to do complex [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations on your database from within Python script or the iPython console, since the ORM lets you work with tables and records as objects and it takes care of a lot of things for you like _JOIN_ operations. The downside, though, is the speed of execution, since reading and writing (whether to a text file or a database) is a lot slower than doing those operations in-memory. Also, the ORM has to process its own validation rules from within Python, as the rules are not the database schema and cannot be executed in the database layer.
 
-I didn't realize how slow the ORM was compared with native _SQL_ statements until I started growing my project to larger volumes of tweet data. I used `tweepy` to do a search query on the Twitter API to get tweets within the past 7 days. I had a script to fetch the tweet object (including the profile of the author), write the tweet and profile records and then assign each tweet a campaign label and each profile a category label (so I can filter and group the records in my database later). The entire process took nearly 4 hours for a batch of 50 000 tweets. But, I wanted to do it faster.
+I didn't realize how slow the ORM was compared with native SQL statements until I started growing my project to larger volumes of tweet data. I used `tweepy` to do a search query on the Twitter API to get tweets within the past 7 days. I had a script to fetch the tweet object (including the profile of the author), write the tweet and profile records and then assign each tweet a campaign label and each profile a category label (so I can filter and group the records in my database later). The entire process took nearly 4 hours for a batch of 50 000 tweets. But, I wanted to do it faster.
 
-I decided to optimize the campaign labeling process first. When assigning a campaign label, the script uses the ORM to _insert_ a single record, _get_ the record and then repeat for the each data items, one item at a time. This is inefficient because there is overhead in connecting to the database and executing the query to read or write data. So, instead of handling record individually due to the ORM limitation, I composed a single [INSERT](https://www.w3schools.com/sql/sql_insert.asp) statement in _SQL_ with all the required values. The duration came down from minutes to _less than a second_, which is several orders of magnitude faster. I used the ORM's [SQLBuilder](http://sqlobject.org/SQLBuilder.html) module to do this dynamically for multiple items. I essentially did it like this in Python.
+I decided to optimize the campaign labeling process first. When assigning a campaign label, the script uses the ORM to _insert_ a single record, _get_ the record and then repeat for the each data items, one item at a time. This is inefficient because there is overhead in connecting to the database and executing the query to read or write data. So, instead of handling record individually due to the ORM limitation, I composed a single [INSERT](https://www.w3schools.com/sql/sql_insert.asp) statement in SQL with all the required values. The duration came down from minutes to _less than a second_, which is several orders of magnitude faster. I used the ORM's [SQLBuilder](http://sqlobject.org/SQLBuilder.html) module to do this dynamically for multiple items. I essentially did it like this in Python.
 
 ```python
 from sqlobject.sqlbuilder import Insert
@@ -21,7 +21,8 @@ from sqlobject.sqlbuilder import Insert
 
 # This is dynamic but fixed here as an example.
 campaignID = 2
-'# Create the INSERT statement using N number of tweetIDs and a constant campaignID value.
+# Create the INSERT statement using N number of tweetIDs and 
+# a constant campaignID value.
 insert = Insert(
     'tweet_campaign',
     template=['campaign_id', 'tweet_id'],
@@ -37,7 +38,9 @@ VALUES (2, 10024525), (2, 12532657547), (2, 795445656) ... ;
 # I want to ignore duplicates silently, so manually alter this.
 SQL = SQL.replace("INSERT", "INSERT OR IGNORE")
 # Execute the query using the database connection object.
-# Note that this can return a success code. But, unlike using the ORM, this does not get any records, as this is just a write operation.
+# Note that this can return a success code. But, unlike using
+# the ORM, this does not get any records, as this is just a 
+# write operation.
 db.conn.query(SQL)
 ```
 
