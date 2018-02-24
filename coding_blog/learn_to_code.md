@@ -99,3 +99,5 @@ x = 1; x +=1
 The semi-colon is JavaScript is required when in [strict mode](https://www.w3schools.com/js/js_strict.asp), but otherwise it can be [inferred in some cases](http://es5.github.io/#x7.9). Though, this is [not recommended](https://stackoverflow.com/questions/8108903/are-semicolons-mandatory-in-javascript-statements) because it can be ambiguous.
 
 There are different approaches to creating functions in each language. _Python_ uses `def my_func():`, _JavaScript_ uses `function my_func() {}`, a [Bash function](https://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php) accepts either `my_func() {}` or `function my_func {}`, while a [C function](https://www.tutorialspoint.com/cprogramming/c_functions.htm) has no function keyword but is in the format `return_type my_func {}`.
+
+I am going to aim adding to my Learnt to Code repo regularly and when I find something more that is worth writing about, I'll add more content here.
