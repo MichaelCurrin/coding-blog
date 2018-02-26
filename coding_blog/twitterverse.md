@@ -42,18 +42,20 @@ insert = Insert(
 # Convert the object into a native SQL statement.
 SQL = db.conn.sqlrepr(insert)
 
-# The sql statement looks something like this:
+# I want ignore duplicate errors if the assignment has
+# been done previously.
+SQL = SQL.replace("INSERT", "INSERT OR IGNORE")
+
+# The SQL statement looks something like this:
 """
-INSERT INTO tweet_campaign (campaign_id, tweet_id)
-VALUES (2, 10024525), (2, 12532657547), (2, 795445656) ... ;
+INSERT OR IGNORE INTO tweet_campaign (campaign_id, tweet_id)
+VALUES (2, 403), (2, 404), (2, 405) ... ;
 """
 
-# I want to ignore duplicates silently, so manually alter this.
-SQL = SQL.replace("INSERT", "INSERT OR IGNORE")
 # Execute the query using the database connection object.
-# Note that this can return a success code. But, unlike using
-# the ORM, this does not get any records, as this is just a 
-# write operation.
+# Note that this should a success code. But, unlike using
+# the ORM, this does not return any inserted tweet_campaign
+# records, as this is just a write operation.
 db.conn.query(SQL)
 ```
 
