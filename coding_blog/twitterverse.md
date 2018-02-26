@@ -42,11 +42,11 @@ insert = Insert(
 # Convert the object into a native SQL statement.
 SQL = db.conn.sqlrepr(insert)
 
-# I want ignore duplicate errors if the assignment has
-# been done previously.
+# Ignore duplicate errors if the assignment has been done 
+# previously.
 SQL = SQL.replace("INSERT", "INSERT OR IGNORE")
 
-# The SQL statement looks something like this:
+# The resulting SQL statement looks something like this:
 """
 INSERT OR IGNORE INTO tweet_campaign (campaign_id, tweet_id)
 VALUES (2, 403), (2, 404), (2, 405) ... ;
