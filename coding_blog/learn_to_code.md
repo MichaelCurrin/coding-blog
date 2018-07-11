@@ -25,18 +25,48 @@ void main()
 }
 ```
 
-In Bash, the double-quotes allows substitution of variables, while single-quotes restricts to literal characters.
+In _Bash_, the double-quotes allows substitution of variables, while single-quotes restricts to literal characters.
 
 ```bash
-$ echo "$HOME"
-/home/michael
-$ echo '$HOME'
-$HOME
+$ NAME='Michael'
+$ echo Hello $NAME!
+Hello Michael!
+$ echo "Hello $NAME!"
+Hello Michael!
+$ echo 'Hello $NAME!'
+Hello $NAME!
 ```
 
-Each language has its own style and syntax, but often these are borrowed from other languages. For example, `printf` in _Bash_ comes from the same keyword in _C_. And using the _Ruby_ syntax with the word "_puts_" (e.g. `puts "Hello world"`) to print a string seems weird compared with other modern languages, until you see that C has `putchar('H')` to print a character which probably influenced Ruby. 
+This is similar in _PHP_.
+
+```php
+$ php -a
+php > $name = 'Michael';
+php > echo 'Hello ' . $name . '!';
+Hello Michael!
+php > echo "Hello $name!";
+Hello Michael!
+php > echo 'Hello $name!';
+Hello $name!
+```
+
+In _Bash_, double quotes around a variable can give different output compared to without.
+
+```bash
+$ echo $HOME
+/home/michael
+$ echo "$HOME" # Same output as above.
+/home/michael
+$ echo ~
+/home/michael
+$ echo "~" # Will not expand.
+~
+```
+
+Each language has its own style and syntax, but often these are borrowed from other languages. For example, `printf` in _Bash_ comes from the same keyword in _C_. And using the _Ruby_ syntax with the word "_puts_" (e.g. `puts "Hello world"`) to print a string seems unlike other languages I've come across, Until you see that _C_ actually has `puts` ([print string](https://www.tutorialspoint.com/c_standard_library/c_function_puts.htm)) and `putchar` ([print character](https://www.tutorialspoint.com/c_standard_library/c_function_putchar.htm) and that probably influenced _Ruby_.
 
 Interpolating (or substituting) values into a string in _C_ and _Python_ is also very similar.
+
 ```c
 // C
 #include <stdio.h>
@@ -51,41 +81,44 @@ void main()
 ```
 
 ```python
-# Python
-string_value = "Hello"
-decimal_value = 1
-print("string: %s decimal: %d" % (string_value, decimal_value))
-string: Hello decimal: 1
-```
-
-Though, the new Python standard is to use the curly brackets with the [format method](https://pyformat.info/).
-```python
-# Python 2.7+ and 3.2+
+$ python
 >>> string_value = "Hello"
 >>> decimal_value = 1
->>> print("string: {0} decimal: {1}".format(string_value, decimal_value))
+>>> "string: %s decimal: %d" % (string_value, decimal_value)
+>>> string: Hello decimal: 1
+```
+
+Though, the newer Python standard (for versions 2.7+ and 3.2+) is to use the curly brackets as the [format method](https://pyformat.info/).
+
+```python
+$ python
+>>> string_value = "Hello"
+>>> decimal_value = 123
+>>> "string: {0}. decimal: {1}".format(string_value, decimal_value)
+string: Hello. decimal: 123
 >>> # OR
->>> print("string: {string_value} decimal: {decimal_value}".format(string_value=string_value, 
-                                                               decimal_value=decimal_value))
-string: Hello decimal: 1
+>>> "string: {greeting}. decimal: {number}".format(greeting=string_value, 
+                                                   number=decimal_value)
+string: Hello. decimal: 123
 ```
 
-From Python 3.6, you can use the much cleaner [f strings](https://cito.github.io/blog/f-strings/), which implicitly substitute in values which are in scope.
+From Python 3.6, you can use the much cleaner [f strings](https://cito.github.io/blog/f-strings/), which implicitly substitutes in values which are in scope, provide the string has a `f` prefix.
 ```python
-# Python 3.6
->>> string_value = "Hello"
->>> decimal_value = 1
->>> # Note the f prefix.
->>> print(f"string: {string_value} decimal: {decimal_value}")
-string: Hello decimal: 1
+$ python3.6
+>>> greeting = "Hello"
+>>> number = 123
+>>> f"string: {greeting}. decimal: {number}"
+string: Hello. decimal: 123
 ```
 
 _Ruby_ supports the implicit interpolation too, but some years before _Python_ did.
+
 ```ruby
-irb> string_value = "Hello"
-irb> decimal_value = 1
-irb> puts "string: #{string_value} decimal: #{decimal_value}"
-string: Hello decimal: 1
+$ irb
+irb> greeting = "Hello"
+irb> numbner = 123
+irb> puts "string: #{greeting}. decimal: #{number}"
+string: Hello. decimal: 123
 ```
 
 The increment notation of `i++;` is in Java and JavaScript. It actually goes back at least as far as _C_. In _Python_, you can just do `i += 1`.
@@ -101,6 +134,8 @@ x = 1; x +=1
 ```
 
 The semi-colon is JavaScript is required when in [strict mode](https://www.w3schools.com/js/js_strict.asp), but otherwise it can be [inferred in some cases](http://es5.github.io/#x7.9). Though, this is [not recommended](https://stackoverflow.com/questions/8108903/are-semicolons-mandatory-in-javascript-statements) because it can be ambiguous.
+
+
 
 There are different approaches to creating functions in each language. _Python_ uses `def my_func():`, _JavaScript_ uses `function my_func() {}`, a [Bash function](https://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php) accepts either `my_func() {}` or `function my_func {}`, while a [C function](https://www.tutorialspoint.com/cprogramming/c_functions.htm) has no function keyword but is in the format `return_type my_func {}`.
 
