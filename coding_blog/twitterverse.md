@@ -14,19 +14,22 @@ I like using an ORM to do complex [CRUD](https://en.wikipedia.org/wiki/Create,_r
 
 I didn't realize how slow the ORM was compared with native SQL statements until I started growing my project to larger volumes of tweet data. I used `tweepy` to do a search query on the Twitter API to get tweets within the past 7 days. I had a script to fetch the tweet object (including the profile of the author), write the tweet and profile records and then assign each tweet a campaign label and each profile a category label (so I can filter and group the records in my database later). The entire process took nearly 4 hours for a batch of 50 000 tweets. But, I wanted to do it faster.
 
-I decided to optimize the campaign labeling process first. When assigning a campaign label, the script uses the ORM to _insert_ a single record, _get_ the record and then repeat for the each data items, one item at a time. This is inefficient because there is overhead in connecting to the database and executing the query to read or write data. So, instead of handling record individually due to the ORM limitation, I composed a single [INSERT](https://www.w3schools.com/sql/sql_insert.asp) statement in SQL with all the required values. The duration came down from minutes to _less than a second_, which is several orders of magnitude faster. I used the ORM's [SQLBuilder](http://sqlobject.org/SQLBuilder.html) module to do this dynamically for multiple items. 
+I decided to optimize the campaign labeling process first. When assigning a campaign label, the script uses the ORM to _insert_ a single record, then immediately _get_ the created record (so it is available as Python object). This is repeated for every single record to be insrted. This is inefficient because there is overhead in connecting to the database and executing the query to read or write data. So, instead of handling record individually due to the ORM limitation, I composed a single [INSERT](https://www.w3schools.com/sql/sql_insert.asp) statement in SQL with all the values - this requires only a single query to the database. So the duration came down from minutes to _less than a second_, which is several orders of magnitude faster. 
 
-The logic is in a function named `bulkAssignTweetCampaign` in [tweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/lib/tweets.py), currently on a feature branch. That is called by the `main` function of [searchAndStoreTweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/utils/insert/searchAndStoreTweets.py).
+I could have gone through the trouble of writing the raw SQL as a string and substiting in values, but that is not elegant and also means a risk of SQL syntax errors. I used the ORM's [SQLBuilder](http://sqlobject.org/SQLBuilder.html) module to compose and execute the batch SQL statement, passing in the table name, field names and a list of rows to be used.
+
+The logic is in a function named `bulkAssignTweetCampaign` in [tweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/lib/tweets.py). That is called by the `main` function of [searchAndStoreTweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/utils/insert/searchAndStoreTweets.py).
 
 Here is the simplified version of the code.
+
 ```python
 from sqlobject.sqlbuilder import Insert
 
 from lib import database as db
 
-...
+# ...
 
-# This is dynamic but fixed here as an example.
+# Example value hardcoded here.
 campaignID = 2
 
 # Create the INSERT statement using N number of tweetIDs and 
@@ -53,22 +56,24 @@ VALUES (2, 403), (2, 404), (2, 405) ... ;
 """
 
 # Execute the query using the database connection object.
-# Note that this should a success code. But, unlike using
-# the ORM, this does not return any inserted tweet_campaign
-# records, as this is just a write operation.
+# This will just return a success code. A downside of this
+# approach is that, unlike when using the ORM, here
+# we do not get theinserted tweet_campaign records returned
+# as Python objects, as this is just a write operation with no
+# ORM layer.
 db.conn.query(SQL)
 ```
 
 Reducing the campaign insert time was only part of the script. I then improved category insert time the same way. I worked out that the next step is inserting tweets and profile objects into the database. That would reduce the entire insertion process to a matter of seconds. 
 
-So now I fetch tweets from the API, and instead of writing out to the database immediately, I append thousands of rows to a CSV location in a staging directory. I write out to the CSV as infrequently as possible, to avoid the cost of the write operation. I write either when hitting a certain number of pages to stop memory usage from growing too much, or when hitting the rate limit window (as that means there is deadtime waiting, which can be used to do a write to a file). 
+I fetch tweets from the API but but instead of writing out to the database immediately, after a certain number of pages have been process then I flatten the pages to rows of data and then write them out to a CSV location in a staging directory. The tweets are cleared from memory then the process is repeated for more pages.
 
-Once the rows are written to a CSV, the memory can be cleared and the script can fetch the next batch of pages of tweets. Then, when the entire process to fetch tweets and write to a CSV a few times finished, I can do the insert logic in a separate script, reading in from the CSV and writing out to the database with a handful of statements to be executed. This can be done immediately or when run manually later.
+When there are no more pages to process and write, the script ends. I then use a separate script to read in from the CSV and writing out to the database with a handful of statements to be executed. This can be done immediately or when run manually later.
 
 With the rate limiting of 480 pages per 15 minute window (using the [Application-only auth](https://developer.twitter.com/en/docs/basics/authentication/overview/application-only)) and a good network and processing speed, I am able to get almost 500 pages every 15 minutes, which is almost 2 000 pages an hour. And one page has up to 100 tweets on it, letting me fetch nearly 200 000 tweets in a hour. That is 4 times the number of records as in the previous case, yet in a quarter of the time, meaning it is 8 times faster. This makes it much easier to get large volumes of tweets into my system. 
 
 I currently have this extract process working well and I am logging the requests to a log file. I can see that each request for 100 tweets takes on average close to 1 second on my laptop. When executing on [PythonAnywhere](https://pythonanywhere.com) as a cloud solution, it only takes about a third of a second per request, due to differences in hardware and internet connectivity speeds.
 
-I worked on my _twitterverse_ repo frequently over a few months. When I took a break from developing my application and actually started using it as a tool  to fetch and report on data, I found that I got faster at identifying bugs and finding new features to add to it. That is something I can apply now across many projects. I choses topic which are relevant to me and the people around me. Such as South African politics (`#ZumaRecall`) or the Cape Town water crisis (`#CapeTownWaterCrisis`, `#CPTWaterCrisis` and `#DayZero`). 
+I worked on my _twitterverse_ repo frequently over a few months. When I took a break from developing my application and actually started using it as a tool to fetch and report on data, I found that I got faster at identifying bugs and finding new features to add to it. That is something I can apply now across many projects. I choses topic which are relevant to me and the people around me. Such as South African politics (`#ZumaRecall`, `#BudgetSpeech2019`) or the Cape Town water crisis (`#CapeTownWaterCrisis`, `#CPTWaterCrisis` and `#DayZero`). 
 
-I am continuing to scrape and store data related to topics like this, finding ways to improve the efficiency and thinking of creative ways to visualize in the data in a meaningful way. I'll update this article occasionally as I make progress.
+I am continuing to scrape and store data related to topics like this, finding ways to improve the efficiency and thinking of creative ways to visualize in the data in a meaningful way.
