@@ -3,12 +3,14 @@
 
 For context, hackers have more powerful algorithms and launch attacks on larger scales, so everyone is at risk. And most password cracking is automated and systematic, rather than a human guessing passwords.
 
-
 This article covers the following:
 - [Passwords](#passwords)
-- [Passphrases](#passphrases)
 - [Password managers](#password-managers)
-- [
+- [Two-factor Authentication](#two-factor-authentication)
+- [Get Secured](#get-secured)
+    * [How to setup 2FA](#how-to-setup-2fa)
+    * [How to setup LastPass](#how-to-setup-lasspass)
+    
 
 ## Passwords
 
@@ -18,7 +20,7 @@ Choose a password which is long (but easy to remember) rather than one which use
 
 This article on [The Eternal Password Riddle](https://www.secjuice.com/eternal-password-riddle/) covers information entropy (or randomness) as way of measuring strength. It shows that a password made up of 12 characters picked from a set of 26 (the lowercase alphabet) is stronger than an 8-character password which has 41 characters including special characters. The shorter one has two thirds the length and one and half times the size yet it weaker. The article also explains brute-force attacks and how to generate a strong password.
 
-### Passphrase
+### Passphrases
 
 Use a passphrase for password you have to type and remember easily (and perhaps don't want even want to store anywhere). Such as your laptop or LastPass password.
 
@@ -50,13 +52,13 @@ Using a password manager is a convenient way to securely store usernames and pas
 
 LastPass has been recommended to me before and is a required at my work, therefore it is my password manager solution for work and personal credentials. As an alternative, there is [1password.com](https://1password.com), but I have not used it.
 
-## Reasons to not use a browser's own password storage
+### Reasons to not use a browser's own password storage
 
 - There is a risk in someone accessing your passwords if your browser is left open.
 - There is no master password setup default.
 - Your passwords could be synced, so someone signed into Chrome/Firefox as you on another machine could get your passwords. 
 
-## Reasons to use LastPass
+### Reasons to use LastPass
 
 - LastPass is built as a central credentials storage location and it does this great. You don't have to manage credentials across Chrome, Firefox and whatever other documents you use. 
 - You can force LastPass to require a password after a period of inactivity or reopening the browser.
@@ -64,19 +66,31 @@ LastPass has been recommended to me before and is a required at my work, therefo
 - LastPass allows storing of text notes, for extra details around a site.
 - It works on desktop and mobile. 
 
-## Two-step sign-in
+## Two-factor Authentication
 
-Some websites support two-factor authentication. This means that you need both the password (entered on desktop or mobile) and your actual mobile device (for a one time pin) in order to login in. Use this for your most important or sensitive accounts where 2FA is supported, to protect them even if your password is stolen/guessed. Such as for your password manager, Twitter, Gmail, Github and AWS.
+Some websites support _two-factor authentication (2FA)_. This means that you need both the password (entered on desktop or mobile) and your actual mobile device (for a one time pin) in order to login in. Use this for your most important or sensitive accounts where 2FA is supported, to protect them even if your password is stolen/guessed. Such as for your password manager, Twitter, Gmail, Github and AWS.
 
+### Method
 
-## Setup your passwords and 2FA
+You can use **SMS**, which is tied to a simcard in a mobile device and does not need an internet connection. You need to wait for an SMS to arrive with a security code.
 
-Below are the steps I suggest to completely replace your password storage approach with LassPass and two setup two-factor authentication for Google, LastPass and any other sites you wish to.
+You use can use a **security app** like Google Authenticator (see below), which is also tied to a phiyscal mobile device but works without needing a simcard or internet connecion. This generates codes every 60 seconds for all your accounts - the codes expire in 60 seconds and are replaced by new codes.
+
+Using the SMS method to get a security is sufficient, but using a security app can be more convenient and more secure. There is no waiting time like there is for an SMS, which may not be secure and also the SMS code does not have the same 60-second expiry.
+
+## Get secured
+
+### How to setup 2FA
 
 1. Download the Google Authenticator app for your phone. Do this now or as part of the next step.
     - Android and iOS links [here](https://support.google.com/accounts/answer/1066447) with instructions. 
-    - Using the SMS method to get a security is sufficient, but using a security app can be more convenient and more secure. There is no waiting time like there is for an SMS, which may not be secure and also the SMS code does not have the same 60-second expiry.
 1. Folow the steps here to setup [Google 2-step authentication](https://www.google.com/landing/2step/), to protect your Google account. You will be guided to setting up Google Authenticator app, starting with your Gmail account address under a _Google_ item.
+1. Add more accounts to your Google Authenticator. It is easy to add additional sites. Sites which support 2FA usually make use of your camera phone to scan a QR code on your desktop screen.
+
+### How to setup LastPass
+
+Below are the steps I suggest to completely replace your password storage approach with LassPass and two setup two-factor authentication for Google, LastPass and any other sites you wish to.
+
 1. Setup LastPass on your devices.
     1. Register an account on [LastPass.com](https://www.lastpass.com/) with your e-mail and a password (ideally at least 16 characters).
     1. Setup your LastPass account with 2FA (Google Authenticator or SMS).
