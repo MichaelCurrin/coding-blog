@@ -1,5 +1,5 @@
 # Online Security
-> How to understand modern online security and how to improve your security
+> How to generate strong passwords and setup 2FA and a password manager
 
 For context, hackers have more powerful algorithms and launch attacks on larger scales, so everyone is at risk. And most password cracking is automated and systematic, rather than a human guessing passwords.
 
