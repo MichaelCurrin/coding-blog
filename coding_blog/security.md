@@ -1,19 +1,75 @@
 # Online Security
-> Steps to secure your online accounts
+> How to understand modern online security and how to improve your security
 
-Context: hackers have more powerful algorithms and launch attacks on larger scales, so everyone is at risk.
+For context, hackers have more powerful algorithms and launch attacks on larger scales, so everyone is at risk. And most password cracking is automated and systematic, rather than a human guessing passwords.
 
-## About Passwords
+
+This article covers the following:
+- [Passwords](#passwords)
+- [Passphrases](#passphrases)
+- [Password managers](#password-managers)
+- [
+
+## Passwords
 
 Changing all your passwords on a cycle such as yearly also decreases your risk - any password can be cracked with enough time to try combinations, so regular changes are good for preventing this.
 
-Increasing a password's length increases the difficulty of guessing a password a lot more than adding special characters or numbers does. 16 characters is the required length at my company for laptop passwords. Spaces are allowed and only alpha characters are sufficient. This is a passphrase - typically 3 or 4 words which are random or form a sentence.
+Choose a password which is long (but easy to remember) rather than one which uses a large character set (but it difficult to type and remember).
 
-## About Two-step sign-in
+This article on [The Eternal Password Riddle](https://www.secjuice.com/eternal-password-riddle/) covers information entropy (or randomness) as way of measuring strength. It shows that a password made up of 12 characters picked from a set of 26 (the lowercase alphabet) is stronger than an 8-character password which has 41 characters including special characters. The shorter one has two thirds the length and one and half times the size yet it weaker. The article also explains brute-force attacks and how to generate a strong password.
+
+### Passphrase
+
+Use a passphrase for password you have to type and remember easily (and perhaps don't want even want to store anywhere). Such as your laptop or LastPass password.
+
+A passphrase is typically 3 or 4 words which are either random or form a sentence (preferably only one which makes sense to you). You can also come up with an image or a story which helps you relate your random words together, or keep generating random words until you find a list that works. 
+
+This site will generate a passphrase for you as it explains how various password styles are - [Use A Passphrase](https://www.useapassphrase.com/).
+
+e.g.
+
+- `across region guard takes`
+    * Length: 4 words, 25 characters
+    * Approximate Crack Time: 15,936 centuries
+- `reversal netview drilling plot`
+    * Length: 4 words, 30 characters
+    * Approximate Crack Time: 6,136,851,976 centuries
+
+Though, the advice I read is usually to generate a passphrase using a die and a downloaded list of possible words, rather than a site which generates passphrases for you. As a die is truly random and uncontrollable, compared with a password-generating site.
+
+At my work, which is serious about security, changed to setup a system where 16 characters is the required length for laptop passwords Spaces are allowed and all lowercase letters is sufficient.
+
+### More complex passwords
+
+I use about 24 characters for most sites where I set a password. Sites often require at least one capital letter, number and special character - you could add these somewhere in your passwords such as the beginniner or end. Or if, you only ever will copy and paste or autofill your password, you can let LastPass generate a 24-character password for you which uses a set of over 60 characters.
+
+
+## Password managers
+
+Using a password manager is a convenient way to securely store usernames and passwords for all the sites where you have accounts. They can autofill the values for you to save you having to remember them. If you have multiple accounts on one site, you get a choice of which account to use.
+
+LastPass has been recommended to me before and is a required at my work, therefore it is my password manager solution for work and personal credentials. As an alternative, there is [1password.com](https://1password.com), but I have not used it.
+
+## Reasons to not use a browser's own password storage
+
+- There is a risk in someone accessing your passwords if your browser is left open.
+- There is no master password setup default.
+- Your passwords could be synced, so someone signed into Chrome/Firefox as you on another machine could get your passwords. 
+
+## Reasons to use LastPass
+
+- LastPass is built as a central credentials storage location and it does this great. You don't have to manage credentials across Chrome, Firefox and whatever other documents you use. 
+- You can force LastPass to require a password after a period of inactivity or reopening the browser.
+- LastPass has a more elegant way of adding/updating/viewing/searching your site logins.
+- LastPass allows storing of text notes, for extra details around a site.
+- It works on desktop and mobile. 
+
+## Two-step sign-in
 
 Some websites support two-factor authentication. This means that you need both the password (entered on desktop or mobile) and your actual mobile device (for a one time pin) in order to login in. Use this for your most important or sensitive accounts where 2FA is supported, to protect them even if your password is stolen/guessed. Such as for your password manager, Twitter, Gmail, Github and AWS.
 
-## Setup 
+
+## Setup your passwords and 2FA
 
 Below are the steps I suggest to completely replace your password storage approach with LassPass and two setup two-factor authentication for Google, LastPass and any other sites you wish to.
 
@@ -46,17 +102,3 @@ Go into your account and under the security section, get the backup codes. There
 An alternative is to print out the backup codes and keep them somewhere secure at home or work or at a friend.
 
 Printing codes is needed for LastPass as the codes will be inaccessible without the codes or a device.
-
-## Reasons to use LastPass
-
-- LastPass is built as a central credentials storage location and it does this great. You don't have to manage credentials across Chrome, Firefox and whatever other documents you use. 
-- You can force LastPass to require a password after a period of inactivity or reopening the browser.
-- LastPass has a more elegant way of adding/updating/viewing/searching your site logins.
-- LastPass allows storing of text notes, for extra details around a site.
-- It works on desktop and mobile. 
-
-## Reasons to not use a browser's own password storage
-
-- There is a risk in someone accessing your passwords if your browser is left open.
-- There is no master password setup default.
-- Your passwords could be synced, so someone signed into Chrome/Firefox as you on another machine could get your passwords. 
