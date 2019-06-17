@@ -9,7 +9,8 @@ This article covers the following:
 - [Two-factor Authentication](#two-factor-authentication)
 - [Get Secured](#get-secured)
     * [How to setup 2FA](#how-to-setup-2fa)
-    * [How to setup LastPass](#how-to-setup-lasspass)
+    * [How to setup LastPass](#how-to-setup-lass-pass)
+    * [2FA backup codes](#2fa-backupcodes)
     
 
 ## Passwords
@@ -107,7 +108,7 @@ Below are the steps I suggest to completely replace your password storage approa
     1. In browser Password section, delete all your saved site passwords from your browser, provided you have moved them across completely.
     1. Repeat for all your browsers.
     
-### Backup security codes
+### 2FA backup codes
 
 Make sure you have a way to login to Google and LastPass without your device, in case you have an issue with 2FA (such as your device is lost or not with you).
 
