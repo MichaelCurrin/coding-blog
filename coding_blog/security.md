@@ -9,7 +9,7 @@ This article covers the following:
 - [Two-factor Authentication](#two-factor-authentication)
 - [Get Secured](#get-secured)
     * [How to setup 2FA](#how-to-setup-2fa)
-    * [How to setup LastPass](#how-to-setup-lasspass)
+    * [How to setup LastPass](#how-to-setup-lastpass)
     * [2FA backup codes](#2fa-backup-codes)
     
 
