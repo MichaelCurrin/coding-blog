@@ -86,7 +86,7 @@ Some websites support _two-factor authentication (2FA)_. This means that you nee
 
 You can use **SMS**, which is tied to a simcard in a mobile device and does not need an internet connection. You need to wait for an SMS to arrive with a security code.
 
-You use can use a **security app** like Google Authenticator (see below), which is also tied to a phyiscal mobile device but works without needing a simcard or internet connection. This generates codes every 60 seconds for all your accounts - the codes expire in 60 seconds and are replaced by new codes.
+You use can use a **security app** like Google Authenticator (see below), which is also tied to a physical mobile device but works without needing a simcard or internet connection. This generates codes every 30 seconds for all your accounts - the codes expire in 30 seconds and are replaced by new codes.
 
 Using the SMS method to get a security is sufficient, but using a security app can be more convenient and more secure. There is no waiting time like there is for an SMS, which may not be secure and also the SMS code does not have the same 60-second expiry.
 
@@ -95,8 +95,9 @@ Using the SMS method to get a security is sufficient, but using a security app c
 ### How to setup 2FA
 
 1. Download the Google Authenticator app for your phone. Do this now or as part of the next step.
-    - Android and iOS links [here](https://support.google.com/accounts/answer/1066447) with instructions.
-2. Follow the steps here to setup [Google 2-step authentication](https://www.google.com/landing/2step/), to protect your Google account. You will be guided to setting up Google Authenticator app, starting with your Gmail account address under a _Google_ item.
+    - See Android and iOS links [here](https://support.google.com/accounts/answer/1066447), with instructions.
+    - You can read about the app on Wikipedia [here]((https://en.wikipedia.org/wiki/Google_Authenticator)
+2. Follow the steps here to setup [Google 2-step authentication](https://www.google.com/landing/2step/), which will protect your Google account. You will be guided to setting up Google Authenticator app, starting with your Gmail account address under a _Google_ item.
 3. Add more accounts to your Google Authenticator. It is easy to add additional sites. Sites which support 2FA usually make use of your camera phone to scan a QR code on your desktop screen.
 
 ### How to setup LastPass
