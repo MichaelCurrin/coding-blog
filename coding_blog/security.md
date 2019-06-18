@@ -49,7 +49,13 @@ At my work, which is serious about security, changed to setup a system where 16 
 
 ### More complex passwords
 
-I use about 24 characters for most sites where I set a password. Sites often require at least one capital letter, number and special character - you could add these somewhere in your passwords such as the beginner or end. Or if, you only ever will copy and paste or autofill your password, you can let LastPass generate a 24-character password for you which uses a set of over 60 characters.
+I usually get LastPass to generate a strong password for me, using 24 characters.
+
+You may want a password which is mostly lowercase letters and so easy to type and remember. But bites often require at least one capital letter, number and special character - you can manually add these somewhere in your generated password (such as the beginner or end) instead of letting LastPass add them through the password. Or if, you only ever will copy and paste or autofill your password, you can let LastPass generate a 24-character password for you which uses a set of over 60 characters.
+
+Example output when generating a password with the LastPass browser extension:
+
+![Generate password with LastPass](.img/lastpass_generate_password.png)
 
 
 ## Password managers
@@ -90,8 +96,8 @@ Using the SMS method to get a security is sufficient, but using a security app c
 
 1. Download the Google Authenticator app for your phone. Do this now or as part of the next step.
     - Android and iOS links [here](https://support.google.com/accounts/answer/1066447) with instructions.
-1. Follow the steps here to setup [Google 2-step authentication](https://www.google.com/landing/2step/), to protect your Google account. You will be guided to setting up Google Authenticator app, starting with your Gmail account address under a _Google_ item.
-1. Add more accounts to your Google Authenticator. It is easy to add additional sites. Sites which support 2FA usually make use of your camera phone to scan a QR code on your desktop screen.
+2. Follow the steps here to setup [Google 2-step authentication](https://www.google.com/landing/2step/), to protect your Google account. You will be guided to setting up Google Authenticator app, starting with your Gmail account address under a _Google_ item.
+3. Add more accounts to your Google Authenticator. It is easy to add additional sites. Sites which support 2FA usually make use of your camera phone to scan a QR code on your desktop screen.
 
 ### How to setup LastPass
 
