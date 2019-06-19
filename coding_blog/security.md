@@ -94,31 +94,40 @@ Using the SMS method to get a security is sufficient, but using a security app c
 
 ### How to setup 2FA
 
-1. Download the Google Authenticator app for your phone. Do this now or as part of the next step.
+_Example screenshot showing a few accounts setup in the app._
+
+![Google Authenticator](.img/google_authenticator.png)
+
+**Steps:**
+
+1. Download the _Google Authenticator_ app for your phone. Do this now or as part of the next step.
     - See Android and iOS links [here](https://support.google.com/accounts/answer/1066447), with instructions.
-    - You can read about the app on Wikipedia [here]((https://en.wikipedia.org/wiki/Google_Authenticator)
+    - You can read about the app on Wikipedia [here](https://en.wikipedia.org/wiki/Google_Authenticator).
 2. Follow the steps here to setup [Google 2-step authentication](https://www.google.com/landing/2step/), which will protect your Google account. You will be guided to setting up Google Authenticator app, starting with your Gmail account address under a _Google_ item.
 3. Add more accounts to your Google Authenticator. It is easy to add additional sites. Sites which support 2FA usually make use of your camera phone to scan a QR code on your desktop screen.
+
 
 ### How to setup LastPass
 
 Below are the steps I suggest to completely replace your password storage approach with LassPass and two setup two-factor authentication for Google, LastPass and any other sites you wish to.
 
+**Steps:**
+
 1. Setup LastPass on your devices.
     1. Register an account on [LastPass.com](https://www.lastpass.com/) with your e-mail and a password (ideally at least 16 characters).
-    1. Setup your LastPass account with 2FA (Google Authenticator or SMS).
-    1. Install the [browser extension](https://lastpass.com/misc_download2.php).
-    1. Install the mobile app (see _mobile_ tab for above link or search your app store).
-1. Clear your desktop browser's passwords.
+    2. Setup your LastPass account with 2FA (Google Authenticator or SMS).
+    3. Install the [browser extension](https://lastpass.com/misc_download2.php).
+    4. Install the mobile app (see _mobile_ tab for above link or search your app store).
+2. Clear your desktop browser's passwords.
     1. Open your browser.
-    1. Open preferences.
-    1. Open _Passwords_ section.
-    1. Site by site, transfer the details to LastPass. You can do this by clicking the add button in LastPass, but see steps below to get LastPass to import for you you:
+    2. Open preferences.
+    3. Open _Passwords_ section.
+    4. Site by site, transfer the details to LastPass. You can do this by clicking the add button in LastPass, but see steps below to get LastPass to import for you you:
         1. Visit a site where you have an account.
-        1. Login, using your browser's credentials autofill if you like.
-        1. LastPass will recognized credentials when you sign in (or register). When prompted by the LastPass extension, click Add site.
-    1. In browser Password section, delete all your saved site passwords from your browser, provided you have moved them across completely.
-    1. Repeat for all your browsers.
+        2. Login, using your browser's credentials autofill if you like.
+        3. LastPass will recognized credentials when you sign in (or register). When prompted by the LastPass extension, click Add site.
+    5. In browser Password section, delete all your saved site passwords from your browser, provided you have moved them across completely.
+    6. Repeat for all your browsers.
 
 ### 2FA backup codes
 
