@@ -116,7 +116,10 @@ Below are the steps I suggest to completely replace your password storage approa
 1. Setup LastPass on your devices.
     1. Register an account on [LastPass.com](https://www.lastpass.com/) with your e-mail and a password (ideally at least 16 characters).
     2. Setup your LastPass account with 2FA (Google Authenticator or SMS).
-    3. Install the [browser extension](https://lastpass.com/misc_download2.php).
+    3. Install the LastPass browser extension at this [link](https://lastpass.com/misc_download2.php).
+        - The extension works well for me on both Chrome and Firefox.
+        - On the extension's page, will look almost identical to the website view.
+        - The extension will add a button to your browser's toolbar and also the extension will provide autofill functionality and recognize details that need to be added/updated.
     4. Install the mobile app (see _mobile_ tab for above link or search your app store).
 2. Clear your desktop browser's passwords.
     1. Open your browser.
@@ -128,6 +131,11 @@ Below are the steps I suggest to completely replace your password storage approa
         3. LastPass will recognized credentials when you sign in (or register). When prompted by the LastPass extension, click Add site.
     5. In browser Password section, delete all your saved site passwords from your browser, provided you have moved them across completely.
     6. Repeat for all your browsers.
+
+
+_Example screenshot of LastPass browser extension:_
+
+![LastPass sample](.img/lastpass_browser.png)
 
 ### 2FA backup codes
 
