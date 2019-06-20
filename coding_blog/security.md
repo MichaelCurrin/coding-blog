@@ -4,18 +4,19 @@
 For context, hackers have more powerful algorithms and launch attacks on larger scales, so everyone is at risk. And most password cracking is automated and systematic, rather than a human guessing passwords.
 
 This article covers the following:
-- [Passwords](#Passwords)
-    - [Passphrases](#Passphrases)
-    - [More complex passwords](#More-complex-passwords)
-- [Password managers](#Password-managers)
-    - [Reasons to not use a browser's own password storage](#Reasons-to-not-use-a-browsers-own-password-storage)
-    - [Reasons to use LastPass](#Reasons-to-use-LastPass)
-- [Two-factor Authentication](#Two-factor-Authentication)
-    - [Method](#Method)
-- [Get secured](#Get-secured)
-    - [How to setup 2FA](#How-to-setup-2FA)
-    - [How to setup LastPass](#How-to-setup-LastPass)
-    - [2FA backup codes](#2FA-backup-codes)
+- [Online Security](#Online-Security)
+    - [Passwords](#Passwords)
+        - [Passphrases](#Passphrases)
+        - [More complex passwords](#More-complex-passwords)
+    - [Password managers](#Password-managers)
+        - [Reasons to not use a browser's own credential storage](#Reasons-to-not-use-a-browsers-own-credential-storage)
+        - [Reasons to use LastPass](#Reasons-to-use-LastPass)
+    - [Two-factor Authentication](#Two-factor-Authentication)
+        - [Method](#Method)
+    - [Get secured](#Get-secured)
+        - [How to setup 2FA](#How-to-setup-2FA)
+        - [How to setup LastPass](#How-to-setup-LastPass)
+        - [2FA backup codes](#2FA-backup-codes)
 
 
 ## Passwords
@@ -53,7 +54,7 @@ I usually get LastPass to generate a strong password for me, using 24 characters
 
 You may want a password which is mostly lowercase letters and so easy to type and remember. But bites often require at least one capital letter, number and special character - you can manually add these somewhere in your generated password (such as the beginner or end) instead of letting LastPass add them through the password. Or if, you only ever will copy and paste or autofill your password, you can let LastPass generate a 24-character password for you which uses a set of over 60 characters.
 
-Example output when generating a password with the LastPass browser extension:
+_Example output when generating a password with the LastPass browser extension:_
 
 ![Generate password with LastPass](.img/lastpass_generate_password.png)
 
@@ -64,7 +65,11 @@ Using a password manager is a convenient way to securely store usernames and pas
 
 LastPass has been recommended to me before and is a required at my work, therefore it is my password manager solution for work and personal credentials. As an alternative, there is [1password.com](https://1password.com), but I have not used it.
 
-### Reasons to not use a browser's own password storage
+_Example screenshot of LastPass browser extension:_
+
+![LastPass sample](.img/lastpass_browser.png)
+
+### Reasons to not use a browser's own credential storage
 
 - There is a risk in someone accessing your passwords if your browser is left open.
 - There is no master password setup default.
@@ -90,13 +95,14 @@ You use can use a **security app** like Google Authenticator (see below), which 
 
 Using the SMS method to get a security is sufficient, but using a security app can be more convenient and more secure. There is no waiting time like there is for an SMS, which may not be secure and also the SMS code does not have the same 60-second expiry.
 
+_Example screenshot showing a few accounts setup in the security app._
+
+![Google Authenticator](.img/google_authenticator.png)
+
+
 ## Get secured
 
 ### How to setup 2FA
-
-_Example screenshot showing a few accounts setup in the app._
-
-![Google Authenticator](.img/google_authenticator.png)
 
 **Steps:**
 
@@ -104,7 +110,7 @@ _Example screenshot showing a few accounts setup in the app._
     - See Android and iOS links [here](https://support.google.com/accounts/answer/1066447), with instructions.
     - You can read about the app on Wikipedia [here](https://en.wikipedia.org/wiki/Google_Authenticator).
 2. Follow the steps here to setup [Google 2-step authentication](https://www.google.com/landing/2step/), which will protect your Google account. You will be guided to setting up Google Authenticator app, starting with your Gmail account address under a _Google_ item.
-3. Add more accounts to your Google Authenticator. It is easy to add additional sites. Sites which support 2FA usually make use of your camera phone to scan a QR code on your desktop screen.
+3. Add more accounts to your Google Authenticator, as in the screenshot in the previous section above. It is easy to add additional sites. Sites which support 2FA usually make use of your camera phone to scan a QR code on your desktop screen.
 
 
 ### How to setup LastPass
@@ -132,10 +138,6 @@ Below are the steps I suggest to completely replace your password storage approa
     5. In browser Password section, delete all your saved site passwords from your browser, provided you have moved them across completely.
     6. Repeat for all your browsers.
 
-
-_Example screenshot of LastPass browser extension:_
-
-![LastPass sample](.img/lastpass_browser.png)
 
 ### 2FA backup codes
 
