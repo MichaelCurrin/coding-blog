@@ -55,7 +55,7 @@ You may want a password which is mostly lowercase letters and so easy to type an
 
 _Example output when generating a password with the LastPass browser extension:_
 
-![Generate password with LastPass](.img/lastpass_generate_password.png)
+<img src=".img/lastpass_generate_password.png" alt="Generate password with LastPass" width="400"/>
 
 
 ## Password managers
