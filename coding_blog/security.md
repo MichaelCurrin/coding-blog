@@ -55,7 +55,7 @@ You may want a password which is mostly lowercase letters and so easy to type an
 
 _Example output when generating a password with the LastPass browser extension:_
 
-<img src=".img/lastpass_generate_password.png" alt="Generate password with LastPass" width="400"/>
+<img src=".img/lastpass_generate_password.png" alt="Generate password with LastPass" width="50%"/>
 
 
 ## Password managers
@@ -96,7 +96,7 @@ Using the SMS method to get a security is sufficient, but using a security app c
 
 _Example screenshot showing a few accounts setup in the security app._
 
-![Google Authenticator](.img/google_authenticator.png)
+<img src=".img/google_authenticator.png" alt="Google Authenticator" width="40%"/>
 
 
 ## Get secured
