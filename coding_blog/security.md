@@ -1,22 +1,21 @@
 # Online Security
-> How to generate strong passwords and setup 2FA and a password manager
+> Guide to generate strong passwords, setup two-factor authentication and setup a password manager
 
-For context, hackers have more powerful algorithms and launch attacks on larger scales, so everyone is at risk. And most password cracking is automated and systematic, rather than a human guessing passwords.
+Hackers have more powerful algorithms and launch attacks on larger scales, so everyone is at risk. And most password cracking is automated and systematic, rather than a human guessing passwords. Follow this guide to improve security for your devices and online accounts, both personal and work-related.
 
-This article covers the following:
-- [Online Security](#Online-Security)
-    - [Passwords](#Passwords)
-        - [Passphrases](#Passphrases)
-        - [More complex passwords](#More-complex-passwords)
-    - [Password managers](#Password-managers)
-        - [Reasons to not use a browser's own credential storage](#Reasons-to-not-use-a-browsers-own-credential-storage)
-        - [Reasons to use LastPass](#Reasons-to-use-LastPass)
-    - [Two-factor Authentication](#Two-factor-Authentication)
-        - [Method](#Method)
-    - [Get secured](#Get-secured)
-        - [How to setup 2FA](#How-to-setup-2FA)
-        - [How to setup LastPass](#How-to-setup-LastPass)
-        - [2FA backup codes](#2FA-backup-codes)
+
+- [Passwords](#Passwords)
+    - [Passphrases](#Passphrases)
+    - [More complex passwords](#More-complex-passwords)
+- [Password managers](#Password-managers)
+    - [Reasons to not use a browser's own credential storage](#Reasons-to-not-use-a-browsers-own-credential-storage)
+    - [Reasons to use LastPass](#Reasons-to-use-LastPass)
+- [Two-factor Authentication](#Two-factor-Authentication)
+    - [Method](#Method)
+- [Get secured](#Get-secured)
+    - [How to setup 2FA](#How-to-setup-2FA)
+    - [How to setup LastPass](#How-to-setup-LastPass)
+    - [2FA backup codes](#2FA-backup-codes)
 
 
 ## Passwords
