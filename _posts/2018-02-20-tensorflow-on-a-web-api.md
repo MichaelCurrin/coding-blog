@@ -202,7 +202,7 @@ Think about the approach from a few angles. Make sure you think about how your s
 ## Attribution
 
 - TensorFlow logo
-    * By FlorianCassayre (Own work) [CC BY-SA 4.0 ([https://creativecommons.org/licenses/by-sa/4.0](https://creativecommons.org/licenses/by-sa/4.0))], via Wikimedia Commons
+    * By Florian Cassayre (Own work) [CC BY-SA 4.0 ([https://creativecommons.org/licenses/by-sa/4.0](https://creativecommons.org/licenses/by-sa/4.0))], via Wikimedia Commons
 - CherryPy logo
     * [http://docs.cherrypy.org/en/latest/_static/images/cherrypy_logo_big.png](http://docs.cherrypy.org/en/latest/_static/images/cherrypy_logo_big.png)
 - Python logo
