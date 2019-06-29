@@ -1,0 +1,14 @@
+### Build settings ###
+
+markdown: kramdown
+theme: jekyll-theme-midnight
+
+
+### Site metadata ###
+
+title: Coding Blog
+
+# Internal links must be made relative to this to this path for Github Pages compatibility. Usually
+# the name of the repo.
+baseurl: "/coding-blog" # TODO Get from repo
+url: ""
