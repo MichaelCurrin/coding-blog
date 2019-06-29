@@ -14,17 +14,3 @@ baseurl: "/coding-blog"
 url: ""
 
 short_date: "%b %-d, %Y"
-
-
-### Content settings ###
-
-collections:
-  coding_blog:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "coding_blog"
-    values:
-      layout: "default"
