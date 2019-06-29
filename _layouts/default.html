@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en">
 
 <head>
     {% include head.html %}
@@ -11,7 +11,8 @@
     <div class="wrapper">
         <section>
             <div id="title">
-                {% comment %}This site title fortunately gets styled bigger than the page-specific title so they are both fine as H1.{% endcomment %}
+                {% comment %}This site title fortunately gets styled bigger than the page-specific title so they are
+                both fine as H1.{% endcomment %}
                 <h1>{{ site.title | default: site.github.repository_name }}</h1>
                 <p>{{ site.description | default: site.github.project_tagline }}</p>
                 <hr>
@@ -21,10 +22,12 @@
                         href="https://twitter.com/mattgraham">mattgraham</a></span>
             </div>
 
-            {{ content }}
-
+            <main class="page-content" aria-label="Content">
+                <div class="wrapper">
+                    {{ content }}
+                </div>
+            </main>
         </section>
-
     </div>
 
     {% if site.google_analytics %}
