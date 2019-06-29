@@ -3,7 +3,9 @@ title: TensorFlow on a Web API
 description: Guide to making a machine learning image recognition service available on a Python web server
 ---
 
-![Python logo](.img/logos/Python-logo-notext.svg "Python logo") ![TensorFlow logo](.img/logos/Tensorflow_logo.svg "TensorFlow logo") ![CherryPy logo](.img/logos/cherrypy_logo_resized.png "CherryPy logo")
+![Python logo]({{ "/assets/images/logos/Python-logo-notext.svg" | relative_url }})
+![TensorFlow logo]({{ "/assets/images/logos/Tensorflow_logo.svg" | relative_url }})
+![CherryPy logo]({{ "/assets/images/logos/cherrypy_logo_resized.png" | relative_url }})
 
 You've trained your [deep learning](https://machinelearningmastery.com/what-is-deep-learning/) algorithm to accurately label images, but what _next_?
 
@@ -21,7 +23,7 @@ _Contents_
 - [Further reading](#further-reading)
 - [Attribution](#attribution)
 
-![Sample code to load a model](.img/tensorflow_api/tensorflow_code.png "Sample code to load a model")
+![Sample code to load a model]({{ "/assets/images/tensorflow_api/tensorflow_code.png" | relative_url }})
 
 
 ## Context
@@ -69,7 +71,7 @@ The _DS API_ service which I built is a Python web server which does following:
 
 The _DS API_ appears as the _Predictions service_ in the system diagram below. The orange arrows show the flow of the input image and co-ordinate data, while the red arrows show the flow of the response data.
 
-![System structure](.img/tensorflow_api/structure.png "System structure")
+![System structure]({{ "/assets/images/tensorflow_api/structure.png" | relative_url }})
 
 
 ## Challenges and learnings
@@ -107,7 +109,7 @@ I recommend creating some kind of easy user interface hosted on the server, whic
 
 An example flow with the form:
 
-![HTML form](.img/tensorflow_api/html_form_example.png)
+![HTML form]({{ "/assets/images/tensorflow_api/html_form_example.png" | relative_url }})
 
 That is very easy for non-technical users to use, meaning that you can get more staff and stakeholders to try out the service themselves before it gets integrated into production. Get feedback from these users to you help identify patterns, such as areas were the accuracy or performance times are very strong or weak.
 
@@ -200,8 +202,8 @@ Think about the approach from a few angles. Make sure you think about how your s
 ## Attribution
 
 - TensorFlow logo
-    * By FlorianCassayre (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons
+    * By FlorianCassayre (Own work) [CC BY-SA 4.0 ([https://creativecommons.org/licenses/by-sa/4.0](https://creativecommons.org/licenses/by-sa/4.0))], via Wikimedia Commons
 - CherryPy logo
-    * http://docs.cherrypy.org/en/latest/_static/images/cherrypy_logo_big.png
+    * [http://docs.cherrypy.org/en/latest/_static/images/cherrypy_logo_big.png](http://docs.cherrypy.org/en/latest/_static/images/cherrypy_logo_big.png)
 - Python logo
-    * By www.python.org - www.python.org, GPL, https://commons.wikimedia.org/w/index.php?curid=34991651
+    * By www.python.org - www.python.org, GPL, [https://commons.wikimedia.org/w/index.php?curid=34991651](https://commons.wikimedia.org/w/index.php?curid=34991651)
