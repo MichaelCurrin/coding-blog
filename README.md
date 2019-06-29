@@ -1,5 +1,5 @@
 # Coding Blog
-My blog of experiences and advice around coding, focusing on Python development.
+> My blog of experiences and advice around coding, focusing on Python development.
 
 Articles:
 
