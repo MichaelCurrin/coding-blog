@@ -147,7 +147,7 @@ Test and benchmark the prediction service times on your local environment and co
 
 If your service is expected to have many users doing simultaneous requests to your server, consider how to simulate this behavior when testing. Also, if you can build any improvements to balance the incoming requests or the use of memory. Perhaps you should load the same model multiple times on startup, or maybe duplicate it across threads which are allocated to users. Look at adding a load-balancing service like [nginx](https://www.nginx.com/) in front of your web server.
 
-### Access
+#### Access
 
 Protect against you service being abused by users giving bad data or excessive data, whether intentionally or accidentally. Consider putting a limit on the frequency of requests coming from one user and also limit the dimensions, file size and format of images. Depending on your project, you might want to restrict public access to your service, or require authorization to use it.
 
@@ -183,14 +183,15 @@ Think about the approach from a few angles. Make sure you think about how your s
 ## Further reading
 
 - CherryPy docs
-    * The [homepage](http://docs.cherrypy.org)
+    * [homepage](http://docs.cherrypy.org)
     * Deploy section - [Run as a daemon](http://docs.cherrypy.org/en/latest/deploy.html#id6)
 - Flask docs
-    * The [homepage](http://flask.pocoo.org/)
-- TensorFlow website
-    * The [homepage](https://www.tensorflow.org)
-    * [TensorFlow Session](https://www.tensorflow.org/api_docs/python/tf/Session)
-    * [TensorFlow Serving](https://www.tensorflow.org/serving/) - this was not covered in this article, but it was a new way to serve a model and is available within the TensorFlow package, so it is worth exploring
+    * [homepage](http://flask.pocoo.org/)
+- TensorFlow
+    * [homepage](https://www.tensorflow.org)
+    * [TensorFlow Session docs](https://www.tensorflow.org/api_docs/python/tf/Session) and ["What is a TensorFlow Session?"](https://danijar.com/what-is-a-tensorflow-session/)
+    * [TensorFlow Serving](https://www.tensorflow.org/serving/) - _"... a flexible, high-performance serving system for machine learning models, designed for production environment."_
+    * [Tensor2Tensor](https://github.com/tensorflow/tensor2tensor) - _"... a library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research."_
 - Tutorials
     * ["Deploy TensorFlow models in Flask"](https://github.com/benman1/tensorflow_flask)
     * [TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) repo - in particular, see [inception.py](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/inception.py) and how `with` blocks are implemented, both in the main body and in the `Inception` class’s methods, such as  `.__init__`, `.classify` and `.close`.
