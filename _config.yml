@@ -14,3 +14,8 @@ baseurl: "/coding-blog"
 url: ""
 
 short_date: "%b %-d, %Y"
+
+
+### Tracking ###
+
+google_analytics:
