@@ -1,9 +1,10 @@
 ---
 title: My Projects
 layout: page
+permalink: /my_projects/
 ---
 
-This page highlights some my [Github repos](https://github.com/MichaelCurrin?tab=repositories) which I would like to draw attention to. Either for other developers to use or learn from, or for anyone interest in using the service provided by the repo (in some cases, freely available and online).
+This page highlights some of my [Github repos](https://github.com/MichaelCurrin?tab=repositories) which I would like to share. Either for other developers to use or learn from, or for anyone interested in using the service provided by the project (in some cases, freely available online).
 
 I cover the reasons I created the repos and a summary of learnings and challenges I found while working on them.
 
