@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+{% comment %}Based on midnight theme{% endcomment %}
+
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+
+    <div class="wrapper">
+        <section>
+            <div id="title">
+                {% comment %}This site title fortunately gets styled bigger than the page-specific title so they are
+                both fine as H1.{% endcomment %}
+                <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                <p>{{ site.description | default: site.github.project_tagline }}</p>
+                <hr>
+                <span class="credits left">Project maintained by <a
+                        href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+                <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a
+                        href="https://twitter.com/mattgraham">mattgraham</a></span>
+            </div>
+
+            {% comment %}Based on minima theme{% endcomment %}
+            <main class="page-content" aria-label="Content">
+                <div class="wrapper">
+                    {{ content }}
+                </div>
+            </main>
+        </section>
+    </div>
+
+    {% include footer.html %}
+</body>
+
+</html>

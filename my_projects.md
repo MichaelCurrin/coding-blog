@@ -1,8 +1,12 @@
-# My Projects
+---
+title: My Projects
+layout: page
+permalink: /my_projects/
+---
 
->_2018, Feb 22nd_
+This page highlights some of my [Github repos](https://github.com/MichaelCurrin?tab=repositories) which I would like to share. Either for other developers to use or learn from, or for anyone interested in using the service provided by the project (in some cases, freely available online).
 
-This article is around the projects I have hosted as [repositories on my Github profile](https://github.com/MichaelCurrin?tab=repositories). I cover the reason I created them and some learnings and challenges I found while working on them. This article will continue to grow as work on these and other projects.
+I cover the reasons I created the repos and a summary of learnings and challenges I found while working on them.
 
 
 ## [Developer Configurations](https://github.com/MichaelCurrin/developer_configurations)

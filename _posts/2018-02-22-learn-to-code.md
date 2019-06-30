@@ -1,10 +1,7 @@
-# Learn To Code project
-
-
->This article is about the purpose of and learnings around my [learn-to-code](https://github.com/MichaelCurrin/learn-to-code) repo.
->
->_Created: 2018, Feb 22nd_
-
+---
+title: Learn To Code Project
+description: Learnings around my [Learn To Code](https://github.com/MichaelCurrin/learn-to-code) guide.
+---
 
 I like to write tutorials when I learn to solve a problem with _Python_, _Bash_, _Git_, _Thunderbird mail_ or other areas. It is a useful reference when I need to solve the problem again.
 
@@ -14,11 +11,11 @@ From reading about the [C programming language](https://en.wikipedia.org/wiki/C_
 
 ## Strings and characters
 
-String data types differently across languages. 
+String data types differently across languages.
 
-In _Java_, double-quotes is a `String` type while single-quotes is a `char` type. 
+In _Java_, double-quotes is a `String` type while single-quotes is a `char` type.
 
-In _Python_, the double-quoted `"H"` and single-quoted `'H'` are equivalent and both a create a string. 
+In _Python_, the double-quoted `"H"` and single-quoted `'H'` are equivalent and both a create a string.
 
 I was surprised to find that in _C_ there is _no_ string data type. Though, double-quotes allows creation of an array of characters.
 
@@ -109,7 +106,7 @@ $ python
 >>> "string: {0}. decimal: {1}".format(string_value, decimal_value)
 string: Hello. decimal: 123
 >>> # OR
->>> "string: {greeting}. decimal: {number}".format(greeting=string_value, 
+>>> "string: {greeting}. decimal: {number}".format(greeting=string_value,
                                                    number=decimal_value)
 string: Hello. decimal: 123
 ```
@@ -296,7 +293,7 @@ var y = 2;
 
 ## Functions
 
-There are different approaches to creating functions in each language. 
+There are different approaches to creating functions in each language.
 
 _Python_ uses `def my_func():`.
 

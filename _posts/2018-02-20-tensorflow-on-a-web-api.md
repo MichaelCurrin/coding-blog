@@ -1,10 +1,13 @@
-# TensorFlow on a Web API
+---
+title: TensorFlow on a Web API
+description: How to integrate a machine learning (image recognition) service available on a Python web server.
+---
 
-_2018, Feb 20th_
+![Python logo]({{ "/assets/images/logos/Python-logo-notext.svg" | relative_url }})
+![TensorFlow logo]({{ "/assets/images/logos/Tensorflow_logo.svg" | relative_url }})
+![CherryPy logo]({{ "/assets/images/logos/cherrypy_logo_resized.png" | relative_url }})
 
-![Python logo](.img/logos/Python-logo-notext.svg "Python logo") ![TensorFlow logo](.img/logos/Tensorflow_logo.svg "TensorFlow logo") ![CherryPy logo](.img/logos/cherrypy_logo_resized.png "CherryPy logo")
-
-You've trained your [deep learning](https://machinelearningmastery.com/what-is-deep-learning/) algorithm to accurately label images, but what _next_? 
+You've trained your [deep learning](https://machinelearningmastery.com/what-is-deep-learning/) algorithm to accurately label images, but what _next_?
 
 One way to get it to add value in a production environment is to integrate your predictions service into a [REST API](https://www.mulesoft.com/resources/api/what-is-rest-api-design) web server! And if you don't have one yet, you can built one using a light-weight Python framework (see the [Further Reading](#further-reading) section). As a web server, it can be accessible in the browser for your colleagues on the network, you can implement it as backend component of your company's main application, or even offer it as a public service on the internet (similar to [IBM Watson](https://watson-api-explorer.mybluemix.net/) or [Cloudsight](https://cloudsight.ai/api)).
 
@@ -20,19 +23,19 @@ _Contents_
 - [Further reading](#further-reading)
 - [Attribution](#attribution)
 
-![Sample code to load a model](.img/tensorflow_api/tensorflow_code.png "Sample code to load a model")
+![Sample code to load a model]({{ "/assets/images/tensorflow_api/tensorflow_code.png" | relative_url }})
 
 
 ## Context
 
-While working as a Python developer at [Curately](https://curate.ly), I was given the opportunity to design and build what became known as the _Data Science API server_, or the _"DS API"_. I worked closely with my colleague from the Data Science department, Jaco du Toit. He provided me with the trained models and command-line prediction scripts to get me started. 
+While working as a Python developer at [Curately](https://curate.ly), I was given the opportunity to design and build what became known as the _Data Science API server_, or the _"DS API"_. I worked closely with my colleague from the Data Science department, Jaco du Toit. He provided me with the trained models and command-line prediction scripts to get me started.
 
-We built this project on open-source technology and resources, so we love to share our discoveries with others. After the _DS API_ was implemented, Jaco asked me to be a speaker at his [Deep Learning Workshops](https://deeplearningworkshops.com/) series (in Cape Town, South Africa). In the talk I gave there, I covered the principles we followed in building the _DS API_, while sharing some challenges and learnings which stood out to me. This article is based on that talk. 
+We built this project on open-source technology and resources, so we love to share our discoveries with others. After the _DS API_ was implemented, Jaco asked me to be a speaker at his [Deep Learning Workshops](https://deeplearningworkshops.com/) series (in Cape Town, South Africa). In the talk I gave there, I covered the principles we followed in building the _DS API_, while sharing some challenges and learnings which stood out to me. This article is based on that talk.
 
 
 ## Business need
 
-The requirement for the _DS API_ project was to enable users to upload images to the service, specify a pair of X and Y co-ordinates (representing a point on the image) and to then respond with the top 5 most relevant themes and top 5 most relevant colors as appropriate labels for that point. 
+The requirement for the _DS API_ project was to enable users to upload images to the service, specify a pair of X and Y co-ordinates (representing a point on the image) and to then respond with the top 5 most relevant themes and top 5 most relevant colors as appropriate labels for that point.
 
 There were fixed sets of 42 themes (such as _"Women's Fashion"_, _"Gardening"_ or _"Architecture"_) and 18 colors (such as _"blue"_, _"silver"_ or _"multi-colored"_). The aim was to provide these predicted labels as accurately and quickly as possible, in order to improve the user's experience of creating and labeling content in the main application's service.
 
@@ -68,7 +71,7 @@ The _DS API_ service which I built is a Python web server which does following:
 
 The _DS API_ appears as the _Predictions service_ in the system diagram below. The orange arrows show the flow of the input image and co-ordinate data, while the red arrows show the flow of the response data.
 
-![System structure](.img/tensorflow_api/structure.png "System structure")
+![System structure]({{ "/assets/images/tensorflow_api/structure.png" | relative_url }})
 
 
 ## Challenges and learnings
@@ -102,13 +105,13 @@ With the initial REST API created, I tested the endpoints manually, to check acc
 
 I then wrote a bash script which called the various endpoints on the API, to ensure they returned an appropriate success or failure response based on a given image and co-ordinate arguments (or possibly bad or missing data).
 
-I recommend creating some kind of easy user interface hosted on the server, which you and other staff can use to test. In my project, I created a basic HTML web form, located as a path on the _DS API_. This interface can be used to conveniently upload an image on the user's machine with co-ordinates. When a user clicks the submit button, a POST request is sent to the services endpoint and the response is shown in the browser. 
+I recommend creating some kind of easy user interface hosted on the server, which you and other staff can use to test. In my project, I created a basic HTML web form, located as a path on the _DS API_. This interface can be used to conveniently upload an image on the user's machine with co-ordinates. When a user clicks the submit button, a POST request is sent to the services endpoint and the response is shown in the browser.
 
 An example flow with the form:
 
-![HTML form](.img/tensorflow_api/html_form_example.png)
+![HTML form]({{ "/assets/images/tensorflow_api/html_form_example.png" | relative_url }})
 
-That is very easy for non-technical users to use, meaning that you can get more staff and stakeholders to try out the service themselves before it gets integrated into production. Get feedback from these users to you help identify patterns, such as areas were the accuracy or performance times are very strong or weak. 
+That is very easy for non-technical users to use, meaning that you can get more staff and stakeholders to try out the service themselves before it gets integrated into production. Get feedback from these users to you help identify patterns, such as areas were the accuracy or performance times are very strong or weak.
 
 ### Integrate safely
 
@@ -117,7 +120,7 @@ When you integrate your predictions service into a larger API or service, consid
 
 #### Performance of the entire system
 
-Look at various real-world scenarios, such as when a single model is used in a prediction, compared with using multiple models to give predictions. On a request, is it more effective to run the predictions as parallel requests, or in series? You will have to look at your situation and run experiments to answer this. 
+Look at various real-world scenarios, such as when a single model is used in a prediction, compared with using multiple models to give predictions. On a request, is it more effective to run the predictions as parallel requests, or in series? You will have to look at your situation and run experiments to answer this.
 
 Don't just measure the time for your predictions service when used alone. If your service fits in as part of a larger service of uploading and labeling images and getting the results, what is the total request time from the user's perspective and is this realistic?
 
@@ -135,7 +138,7 @@ You can do a lot of useful testing on your local development environment. But re
 
 #### Daemonizing
 
-When running your API on a remote server on production, it will likely be running as a background process or "daemon", such that it can run after the command-line terminal is closed and also so that process can be stopped and started by other developers on the server. 
+When running your API on a remote server on production, it will likely be running as a background process or "daemon", such that it can run after the command-line terminal is closed and also so that process can be stopped and started by other developers on the server.
 
 I found that when switching daemon mode on, that I got a strange error. The _TensorFlow Session_ could not find the model in memory. I worked out that this was because the model and the prediction Session were running on _different threads_ (read up on threading in Python or CherryPy if you're interested in this). I had to experiment and research the approach of other people on sites like StackOverflow. I found a way to ensure the resources were on the same thread and that I was managing the resources well. A drawback of the solution is that it means the prediction time became slightly slower, but, at least it now runs when in daemonize mode.
 
@@ -165,7 +168,7 @@ Create benchmarks based on actual values - make a note of the average duration t
 
 Ultimately, having a fast service means nothing if it doesn't give value for the user. Record the prediction results and accuracy of your predictions service, whether using an automated test, or at least tests by hand.
 
-Compare the accuracy of the model in different levels. Using the set of test images, perhaps the service's top 5 predicted themes are appropriate for 90% of cases and 75% of the time the top 1 item is appropriate. But when using real world images from users, you might discover that these values drop. Perhaps the labels in your system are two similar for a real user to choose between and should be combined into a single category. 
+Compare the accuracy of the model in different levels. Using the set of test images, perhaps the service's top 5 predicted themes are appropriate for 90% of cases and 75% of the time the top 1 item is appropriate. But when using real world images from users, you might discover that these values drop. Perhaps the labels in your system are two similar for a real user to choose between and should be combined into a single category.
 
 Perhaps the color service gets the top 5 items correct 92% of the time, but it performs much worse on certain colors. In this for example, the initial iteration of the color classifier performed poorly on obscure items like silver, rose gold, multi-colored or black & white. But the model was revised and it was retrained using more images with these hard to identify colors. Then performed much better on those items.
 
@@ -175,7 +178,7 @@ If the user overrides the suggestion by choosing something outside of the recomm
 
 ## TL;DR
 
-When you take your machine learning algorithm out of development and productionize it, I recommend integrating it as part of an web server API in order to make it accessible. 
+When you take your machine learning algorithm out of development and productionize it, I recommend integrating it as part of an web server API in order to make it accessible.
 
 Think about the approach from a few angles. Make sure you think about how your service can work alone as well as as part of a larger system. In both environments, ensure that you test the service thoroughly and that you record the accuracy and duration values as performance benchmarks. Set targets for those metrics and then research and experiment to help you reach them. And always ask yourself whether your service is actually meeting a real need for a user or customer and how you can do this better.
 
@@ -199,8 +202,8 @@ Think about the approach from a few angles. Make sure you think about how your s
 ## Attribution
 
 - TensorFlow logo
-    * By FlorianCassayre (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons
+    * By Florian Cassayre (Own work) [CC BY-SA 4.0 ([https://creativecommons.org/licenses/by-sa/4.0](https://creativecommons.org/licenses/by-sa/4.0))], via Wikimedia Commons
 - CherryPy logo
-    * http://docs.cherrypy.org/en/latest/_static/images/cherrypy_logo_big.png
+    * [http://docs.cherrypy.org/en/latest/_static/images/cherrypy_logo_big.png](http://docs.cherrypy.org/en/latest/_static/images/cherrypy_logo_big.png)
 - Python logo
-    * By www.python.org - www.python.org, GPL, https://commons.wikimedia.org/w/index.php?curid=34991651
+    * By www.python.org - www.python.org, GPL, [https://commons.wikimedia.org/w/index.php?curid=34991651](https://commons.wikimedia.org/w/index.php?curid=34991651)
