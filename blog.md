@@ -4,6 +4,8 @@ permalink: /blog/
 layout: page
 ---
 
+Blog posts on my experiences as a developer and advice to others. I am a Python developer so the focus is often on Python.
+
 <ul>
     {% for post in site.posts %}
     <li>
