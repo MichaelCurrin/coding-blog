@@ -13,34 +13,34 @@ One way to get it to add value in a production environment is to integrate your 
 
 This article aims to provide a case study on how to implement an image classification algorithm on a web server. I've added some advice to get you started and some opportunities and pitfalls to look out for. The content is targeted at Python developers who have an interest in machine learning and/or web APIs. However, the focus is on the principles rather than the code, to make the content accessible for a wider audience.
 
-_Contents_
+_Contents:_
 
 - [Context](#context)
 - [Business need](#business-need)
 - [Implementation](#implementation)
 - [Challenges and learnings](#challenges-and-learnings)
-- [TD;DR](#tldr)
+- [TL;DR](#tldr)
 - [Further reading](#further-reading)
 - [Attribution](#attribution)
 
 ![Sample code to load a model]({{ "/assets/images/tensorflow_api/tensorflow_code.png" | relative_url }})
 
 
-## Context
+## [Context](#context)
 
 While working as a Python developer at [Curately](https://curate.ly), I was given the opportunity to design and build what became known as the _Data Science API server_, or the _"DS API"_. I worked closely with my colleague from the Data Science department, Jaco du Toit. He provided me with the trained models and command-line prediction scripts to get me started.
 
 We built this project on open-source technology and resources, so we love to share our discoveries with others. After the _DS API_ was implemented, Jaco asked me to be a speaker at his [Deep Learning Workshops](https://deeplearningworkshops.com/) series (in Cape Town, South Africa). In the talk I gave there, I covered the principles we followed in building the _DS API_, while sharing some challenges and learnings which stood out to me. This article is based on that talk.
 
 
-## Business need
+## [Business need](#business-need)
 
 The requirement for the _DS API_ project was to enable users to upload images to the service, specify a pair of X and Y co-ordinates (representing a point on the image) and to then respond with the top 5 most relevant themes and top 5 most relevant colors as appropriate labels for that point.
 
 There were fixed sets of 42 themes (such as _"Women's Fashion"_, _"Gardening"_ or _"Architecture"_) and 18 colors (such as _"blue"_, _"silver"_ or _"multi-colored"_). The aim was to provide these predicted labels as accurately and quickly as possible, in order to improve the user's experience of creating and labeling content in the main application's service.
 
 
-## Implementation
+## [Implementation](#implementation)
 
 ### Model files
 
@@ -74,7 +74,7 @@ The _DS API_ appears as the _Predictions service_ in the system diagram below. T
 ![System structure]({{ "/assets/images/tensorflow_api/structure.png" | relative_url }})
 
 
-## Challenges and learnings
+## [Challenges and learnings](#challenges-and-learnings)
 
 Below are the most valuable lessons I learned in this project.
 
@@ -176,14 +176,14 @@ Your service might perform well on a set of test images you sourced, but does it
 
 If the user overrides the suggestion by choosing something outside of the recommended top 5 values, perhaps your model is not as accurate as you thought, or users are uploading images which are very different from the images you used in training. Or possibly the choice of labels on your training data is very different to how your real-world users assign labels, due to language, social or cultural differences.
 
-## TL;DR
+## [TL;DR](#tldr)
 
 When you take your machine learning algorithm out of development and productionize it, I recommend integrating it as part of an web server API in order to make it accessible.
 
 Think about the approach from a few angles. Make sure you think about how your service can work alone as well as as part of a larger system. In both environments, ensure that you test the service thoroughly and that you record the accuracy and duration values as performance benchmarks. Set targets for those metrics and then research and experiment to help you reach them. And always ask yourself whether your service is actually meeting a real need for a user or customer and how you can do this better.
 
 
-## Further reading
+## [Further reading](#further-reading)
 
 - CherryPy docs
     * [homepage](http://docs.cherrypy.org)
@@ -199,7 +199,7 @@ Think about the approach from a few angles. Make sure you think about how your s
     * ["Deploy TensorFlow models in Flask"](https://github.com/benman1/tensorflow_flask)
     * [TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) repo - in particular, see [inception.py](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/inception.py) and how `with` blocks are implemented, both in the main body and in the `Inception` class’s methods, such as  `.__init__`, `.classify` and `.close`.
 
-## Attribution
+## [Attribution](#attribution)
 
 - TensorFlow logo
     * By Florian Cassayre (Own work) [CC BY-SA 4.0 ([https://creativecommons.org/licenses/by-sa/4.0](https://creativecommons.org/licenses/by-sa/4.0))], via Wikimedia Commons
