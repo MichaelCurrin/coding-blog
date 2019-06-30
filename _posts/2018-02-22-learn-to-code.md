@@ -1,6 +1,6 @@
 ---
 title: Learn To Code Project
-description: About the purpose of and learnings around my [learn-to-code](https://github.com/MichaelCurrin/learn-to-code) repo.
+description: Learnings around my [Learn To Code](https://github.com/MichaelCurrin/learn-to-code) guide.
 ---
 
 I like to write tutorials when I learn to solve a problem with _Python_, _Bash_, _Git_, _Thunderbird mail_ or other areas. It is a useful reference when I need to solve the problem again.
