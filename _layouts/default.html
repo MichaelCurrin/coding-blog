@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-{% comment %}Based on midnight theme{% endcomment %}
+{% comment %} Based on midnight theme's default.html {% endcomment %}
 
 {% include head.html %}
 
@@ -10,8 +10,10 @@
     <div class="wrapper">
         <section>
             <div id="title">
-                {% comment %}This site title fortunately gets styled bigger than the page-specific title so they are
-                both fine as H1.{% endcomment %}
+                {% comment %}
+                This site title fortunately gets styled bigger than the page-specific title so
+                they are both fine as H1.
+                {% endcomment %}
                 <h1>{{ site.title | default: site.github.repository_name }}</h1>
                 <p>{{ site.description | default: site.github.project_tagline }}</p>
                 <hr>
@@ -21,7 +23,7 @@
                         href="https://twitter.com/mattgraham">mattgraham</a></span>
             </div>
 
-            {% comment %}Based on minima theme{% endcomment %}
+            {% comment %} Based on minima theme's default.html {% endcomment %}
             <main class="page-content" aria-label="Content">
                 <div class="wrapper">
                     {{ content }}
