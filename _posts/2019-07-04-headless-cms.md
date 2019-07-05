@@ -5,7 +5,7 @@ description: Repost of an article
 
 I found this it a good read and relevant to my recent research into choosing a CMS.
 
-https://scotch.io/bar-talk/the-future-of-websites-headless-cmss
+[https://scotch.io/bar-talk/the-future-of-websites-headless-cmss](https://scotch.io/bar-talk/the-future-of-websites-headless-cmss)
 
 The article discusses types of CMS platforms
 - headless 
