@@ -1,6 +1,5 @@
 # Gem installation.
 vendor/bundle
-Gemfile.lock
 
 # Output directory.
 _site
