@@ -5,6 +5,7 @@ plugins:
   - github-pages
   - jekyll-admin
 
+
 ### Site metadata ###
 
 title: Coding Blog
