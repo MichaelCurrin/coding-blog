@@ -1,11 +1,10 @@
 ### Build settings ###
 
-markdown: kramdown
 theme: jekyll-theme-midnight
-
 plugins:
   - github-pages
   - jekyll-admin
+
 
 ### Site metadata ###
 
