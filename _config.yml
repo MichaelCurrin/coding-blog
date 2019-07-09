@@ -16,7 +16,7 @@ title: Coding Blog
 baseurl: "/coding-blog"
 # TODO Add here, or use prod config (jekyll build path to two configs?) or Netlify config.
 url: ""
-repository: https://github.com/MichaelCurrin/coding-blog
+repository: MichaelCurrin/coding-blog
 
 short_date: "%b %-d, %Y"
 
