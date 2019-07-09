@@ -1,7 +1,9 @@
 # Coding Blog
 > My blog of experiences and advice around coding, focusing on Python development.
 
-This repo is viewable as a website at [michaelcurrin.github.io/coding-blog/](https://michaelcurrin.github.io/coding-blog/), built with _Jekyll_ and hosted with _Github Pages_.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d4ec3365-ab16-4053-a694-2adc9a1c9960/deploy-status)](https://app.netlify.com/sites/elastic-borg-56864d/deploys)
+
+This repo is viewable as a website at [michaelcurrin.github.io/coding-blog/](https://michaelcurrin.github.io/coding-blog/). It was built with _Jekyll_ and hosted with _Github Pages_.
 
 The site's theme is [Midnight](https://github.com/pages-themes/midnight).
 
