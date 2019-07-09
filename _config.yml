@@ -5,15 +5,17 @@ plugins:
   - github-pages
   - jekyll-admin
 
-
 ### Site metadata ###
 
 title: Coding Blog
 
 # Internal links must be made relative to this to this path for Github Pages compatibility. Usually
 # the name of the repo.
+# TODO: Check for Netlify
 baseurl: "/coding-blog"
+# TODO Add here, or use prod config (jekyll build path to two configs?) or Netlify config.
 url: ""
+repository: https://github.com/MichaelCurrin/coding-blog
 
 short_date: "%b %-d, %Y"
 
