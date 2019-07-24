@@ -10,10 +10,10 @@ layout: default
             <a href="#{{ page.title | slugify }}">{{ page.title | escape }}</a>
         </h1>
         <p class="post-meta">
+            <i>{{ page.description | markdownify }}</i>
             <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                 {{ page.date | date: site.short_date }}
             </time>
-            <blockquote>{{ page.description | markdownify }}</blockquote>
         </p>
     </header>
 
