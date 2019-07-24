@@ -44,8 +44,10 @@ Hello $NAME!
 
 This is similar in _PHP_.
 
-```php
+```
 $ php -a
+```
+```php
 php > $name = 'Michael';
 php > echo 'Hello ' . $name . '!';
 Hello Michael!
@@ -89,8 +91,10 @@ void main()
 
 ### Python
 
-```python
+```
 $ python
+```
+```python
 >>> greeting = "Hello"
 >>> number = 123
 >>> "string: %s. decimal: %d" % (greeting, number)
@@ -99,8 +103,10 @@ $ python
 
 Though, the newer Python standard (for versions 2.7+ and 3.2+) is to use the curly brackets as the [format method](https://pyformat.info/).
 
-```python
+```
 $ python
+```
+```python
 >>> string_value = "Hello"
 >>> decimal_value = 123
 >>> "string: {0}. decimal: {1}".format(string_value, decimal_value)
@@ -112,8 +118,11 @@ string: Hello. decimal: 123
 ```
 
 From _Python_ version 3.6, you can use the much cleaner [f strings](https://cito.github.io/blog/f-strings/), which implicitly substitutes in values which are in scope, provide the string has a `f` prefix.
-```python
+
+```
 $ python3.6
+```
+```python
 >>> greeting = "Hello"
 >>> number = 123
 >>> f"string: {greeting}. decimal: {number}"
@@ -124,8 +133,10 @@ string: Hello. decimal: 123
 
 _Ruby_ supports the implicit interpolation too, but some years before _Python_ did.
 
-```ruby
+```
 $ irb
+```
+```ruby
 irb> greeting = "Hello"
 irb> numbner = 123
 irb> puts "string: #{greeting}. decimal: #{number}"
@@ -142,20 +153,23 @@ Examples of printing
 
 ```bash
 # bash
-$ printf
-$ echo
+$ printf 'Foo'
+$ sprintf 'Foo'
+$ echo 'Foo'
 ```
 
-See [printf](https://linuxconfig.org/bash-printf-syntax-basics-with-examples) notes.
+See [printf](https://linuxconfig.org/bash-printf-syntax-basics-with-examples) notes and [
+What is the difference between printf, sprintf and fprintf?
+](https://www.geeksforgeeks.org/difference-printf-sprintf-fprintf/)
 
 
 ### PHP
 
 ```php
-print
-print()
-echo
-echo()
+print 'Foo';
+print('Foo');
+echo 'Foo';
+echo('Foo';)
 ```
 
 See also the [print_r](http://php.net/manual/en/function.print-r.php) function.
@@ -165,25 +179,32 @@ See also the [print_r](http://php.net/manual/en/function.print-r.php) function.
 
 ```python
 # python2
-print
+print 'Foo'
 # python3
-print()
+print('Foo')
 ```
 
 ### Ruby
 
 ```ruby
-puts
+puts 'Foo'
+print 'Foo'
 ```
 
 ### C
 
+Newline characters must be explicitly set.
+
 ```c
-puts
-putchar
+putchar('F');
+puts("\n");
+
+puts("Foo\n");
+
+printf("%s %d\n", "Foo", 100);
 ```
 
-See [puts](https://www.tutorialspoint.com/c_standard_library/c_function_puts.htm) for printa  string and [putchar](https://www.tutorialspoint.com/c_standard_library/c_function_putchar.htm) to print a character.
+See [puts](https://www.tutorialspoint.com/c_standard_library/c_function_puts.htm) for print a  string and [putchar](https://www.tutorialspoint.com/c_standard_library/c_function_putchar.htm) to print a character.
 
 
 ## Incrementing
@@ -195,7 +216,7 @@ The increment notation of `i++;` is in Java and JavaScript. It actually goes bac
 
 ### Bash
 
-A semi-colon is not required in general use, but it can be useful for executing multiple commands in one line.
+A semicolon is not required in general use, but it can be useful for executing multiple commands in one line.
 
 ```bash
 $ echo 'Line 1'
