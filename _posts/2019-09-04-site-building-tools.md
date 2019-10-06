@@ -27,8 +27,23 @@ Lists of tools for building websites, including static websites and docs sites.
 - [Link](https://github.com/ShailenNaidoo/hydrogen)
 - JavaScript
 
+### Next
 
-## Docs sites
+- [Link](https://nextjs.org/)
+- JavaScript - React
+
+### Nuxt
+
+- [Link](https://nuxtjs.org/)
+- JavaScript - VueJS
+
+### Hexo
+
+- [Link](https://hexo.io/)
+- JavaScript
+
+
+## Doc site builders
 
 ### VuePress
 
@@ -45,12 +60,15 @@ Lists of tools for building websites, including static websites and docs sites.
 ### Docute
 
 - [Link](https://docute.org/)
-
 - > "Docute is basically a JavaScript file that fetches Markdown files and renders them as a single-page application".
 
 ### Read The Docs
 
 - [Link](https://readthedocs.org/)
+- Built on Sphinx (a Python library).
+- Format with *reStructuredText* or *Markdown*.
+- Host on the Read the Docs site. This seems a like a common place for libraries to host their documentation, especially if they are Python libraries. Or self-host e.g. on Github Pages.
+- Build from `/docs` directory.
 - > "Read the Docs simplifies software documentation by automating building, versioning, and hosting of your docs for you."
 
 ### GitBook
