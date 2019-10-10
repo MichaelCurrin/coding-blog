@@ -1,5 +1,6 @@
 ### Build settings ###
 
+#TODO: Replace and resolve comments here then switch to GUI editor in admin (comments will be lost).
 theme: jekyll-theme-midnight
 plugins:
   - github-pages
