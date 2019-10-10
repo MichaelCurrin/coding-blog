@@ -1,16 +1,21 @@
-### Build settings ###
+# TODO: Replace and resolve comments here then switch to GUI editor in admin (comments will be lost). Remember server had to be restarted to get config changes.
+# TODO: Configure admin to no pick up static fonts.
 
-#TODO: Replace and resolve comments here then switch to GUI editor in admin (comments will be lost).
 theme: jekyll-theme-midnight
 plugins:
   - github-pages
   - jekyll-admin
 
 
-### Site metadata ###
+exclude:
+  - vendor/
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
 
 title: Coding Blog
-
 # Internal links must be made relative to this to this path for Github Pages compatibility. Usually
 # the name of the repo.
 # TODO: Check for Netlify
@@ -20,8 +25,5 @@ url: ""
 repository: MichaelCurrin/coding-blog
 
 short_date: "%b %-d, %Y"
-
-
-### Tracking ###
 
 google_analytics: UA-87705880-4
