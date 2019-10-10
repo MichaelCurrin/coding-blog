@@ -15,6 +15,6 @@ This article discusses types of CMS such as
 - hybrid
 <br>
 
-For more details of the CMS types, I recommend this article:
+For more details of the CMS types, I recommend this article: [coredna.com - Headless vs Decoupled CMS](https://www.coredna.com/blogs/headless-vs-decoupled-cms)
 
-[coredna.com - Headless vs Decoupled CMS](https://www.coredna.com/blogs/headless-vs-decoupled-cms)
+See also this site - [HeadlessCMS.org](https://headlesscms.org/). Use it to search for CMS tools within search parameters.
