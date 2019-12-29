@@ -4,42 +4,49 @@ title: Site building tools
 
 Lists of tools for building websites, including static websites and docs sites.
 
+<!-- This data could be refactored to exist in YAML data file or CSV and then call an includes file to build it up. 
+     A similar approach could work elsewhere on the site too. -->
 
 ## Static site generators
 
 ### Hugo
 
-- [Link](https://gohugo.io/)
+- [Official site](https://gohugo.io/)
 - Go
 
 ### Jekyll
 
-- [Link](https://jekyllrb.com/)
+- [Official site](https://jekyllrb.com/)
 - Ruby
+
+
+See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/static-sites-generator-resources/tree/master/Jekyll).
 
 ### Gatsby
 
-- [Link](https://www.gatsbyjs.org/)
+- [Official site](https://www.gatsbyjs.org/)
 - JavaScript
+- [Gatsby First steps](https://alligator.io/gatsbyjs/gatsby-first-steps/) tutorial
 
 ### Hydrogen
 
-- [Link](https://github.com/ShailenNaidoo/hydrogen)
+- [Official site](https://hydrogenjs.org/)
+- [Github repo](https://github.com/ShailenNaidoo/hydrogen)
 - JavaScript
 
 ### Next
 
-- [Link](https://nextjs.org/)
+- [Official site](https://nextjs.org/)
 - JavaScript - React
 
 ### Nuxt
 
-- [Link](https://nuxtjs.org/)
+- [Official site](https://nuxtjs.org/)
 - JavaScript - VueJS
 
 ### Hexo
 
-- [Link](https://hexo.io/)
+- [Official site](https://hexo.io/)
 - JavaScript
 
 
@@ -47,24 +54,26 @@ Lists of tools for building websites, including static websites and docs sites.
 
 ### VuePress
 
-- [Link](https://vuepress.vuejs.org/)
+- [Official site](https://vuepress.vuejs.org/)
 - Built on VueJS.
 - This works well for docs of existing Vue sites.
+- [Vuepress examples](https://vuepress-examples.netlify.com/)
+- [Vuepress introduction](https://alligator.io/vuejs/vuepress-introduction/)
 
 ### Docsify
 
-- [Link](https://docsify.js.org/)
+- [Official site](https://docsify.js.org/)
 - Built on VueJS.
 - Turn your existing *docs* folder into a docs site. I wrote a tutorial for this [here](https://michaelcurrin.github.io/docsify-template/#/).
 
 ### Docute
 
-- [Link](https://docute.org/)
+- [Official site](https://docute.org/)
 - > "Docute is basically a JavaScript file that fetches Markdown files and renders them as a single-page application".
 
 ### Read The Docs
 
-- [Link](https://readthedocs.org/)
+- [LOfficial siteink](https://readthedocs.org/)
 - Built on Sphinx (a Python library).
 - Format with *reStructuredText* or *Markdown*.
 - Host on the Read the Docs site. This seems a like a common place for libraries to host their documentation, especially if they are Python libraries. Or self-host e.g. on Github Pages.
@@ -73,5 +82,5 @@ Lists of tools for building websites, including static websites and docs sites.
 
 ### GitBook
 
-- [Link](https://www.gitbook.com/)
+- [Official site](https://www.gitbook.com/)
 - Great if you don't want to write any code, but limited on number of public and private sites on the free plan.
