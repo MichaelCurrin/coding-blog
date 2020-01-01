@@ -50,20 +50,27 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 - JavaScript
 
 
-## Doc site builders
+## Documentation site builders
 
 ### VuePress
 
 - [Official site](https://vuepress.vuejs.org/)
-- Built on VueJS.
-- This works well for docs of existing Vue sites.
+- SPA (Single Page Application). Therefore movement between pages is seamless. But this is still a static site - "During the build, we create a server-rendered version of the app and render the corresponding HTML by virtually visiting each route". That was inspired by _Nuxt_ and _Gatsby_ which do something similar.
+- Built on _VueJS_.
+- Ideal for documentation sites.
+    - It has a "default theme optimized for writing technical documentation".
+    - This works well for docs of existing Vue sites.
+    - Format with markdown.
+    - Great for mixing in dynamic content with the statically-rendered content.
 - [Vuepress examples](https://vuepress-examples.netlify.com/)
 - [Vuepress introduction](https://alligator.io/vuejs/vuepress-introduction/)
 
 ### Docsify
 
 - [Official site](https://docsify.js.org/)
-- Built on VueJS.
+- SPA (Single Page Application) - uses a single HTML file (`index.html`) and uses markdown files to add content to virtual paths.
+- Built on _VueJS_.
+- Format with markdown.
 - Turn your existing *docs* folder into a docs site. I wrote a tutorial for this [here](https://michaelcurrin.github.io/docsify-template/#/).
 
 ### Docute
@@ -73,7 +80,7 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 
 ### Read The Docs
 
-- [LOfficial siteink](https://readthedocs.org/)
+- [Official siteink](https://readthedocs.org/)
 - Built on Sphinx (a Python library).
 - Format with *reStructuredText* or *Markdown*.
 - Host on the Read the Docs site. This seems a like a common place for libraries to host their documentation, especially if they are Python libraries. Or self-host e.g. on Github Pages.
@@ -83,4 +90,6 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 ### GitBook
 
 - [Official site](https://www.gitbook.com/)
+- Format with markdown.
 - Great if you don't want to write any code, but limited on number of public and private sites on the free plan.
+- Can sync to Github repo.
