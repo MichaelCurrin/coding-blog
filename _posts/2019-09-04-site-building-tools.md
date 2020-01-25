@@ -42,6 +42,7 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 
 - [Official site](https://nuxtjs.org/)
 - JavaScript - VueJS
+- Github - [https://github.com/nuxt]
 - Tutorials
      - [Netlify deployment](https://nuxtjs.org/faq/netlify-deployment/) guide
      - Tutorial - [Create a static site in 15 minutes or less using Vue/Nuxt and Netlify](https://codeburst.io/create-a-static-site-in-15-minutes-or-less-using-vue-js-e4e2a9945ee6)
