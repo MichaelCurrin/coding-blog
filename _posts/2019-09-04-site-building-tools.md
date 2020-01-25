@@ -19,7 +19,6 @@ Lists of tools for building websites, including static websites and docs sites.
 - [Official site](https://jekyllrb.com/)
 - Ruby
 
-
 See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/static-sites-generator-resources/tree/master/Jekyll).
 
 ### Gatsby
@@ -43,6 +42,7 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 
 - [Official site](https://nuxtjs.org/)
 - JavaScript - VueJS
+- [Netlify deployment](https://nuxtjs.org/faq/netlify-deployment/) guide
 
 ### Hexo
 
