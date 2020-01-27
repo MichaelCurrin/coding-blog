@@ -5,6 +5,15 @@ description: Some ideas on how to find projects
 
 Use these projects to sharpen your tech skills and problem-solving abilities by pushing yourself into using new tools or ways of thinking or solving a problem you hadn't thought of or didn't even know was a thing.
 
+Finding projects and challenges to solve can help you to 
+- Find what you are weak or strong at
+- Give you a sense of accomplishment when you solve them
+- Solve tech problems in your own projects or work projects
+- Answer challenges for job interviews. This can help to
+    - Open your mind to different ways of thinking and multiple ways to solve a problem
+    - Focus on the logic rather than the syntax
+    - Get your confident to submit an answer online, on paper, on a white board or just verbally.
+
 ## Code challenges
 
 If you get bored and can't think of anything original to build, try finding a list of code challenges to solve. 
@@ -16,9 +25,10 @@ Some places to start:
 - Solve a code challenge daily. 
     - You don't even to code it - even just thinking about it or talking to a friend about is great for pushing your logical problem solving abilities. You might have to investigate something about your choice programming language or research some libraries. Or maybe choose to solve the problem in a language in which you are less familiar, forcing yourself to lookup the syntax and think about a logical sequence in that language.
     - Places to start:
-        - [Daily Coding Problem](https://www.dailycodingproblem.com/) website - This service will email you everyday for at least a year and will indicate the difficulty level.
+        - [Daily Coding Problem](https://www.dailycodingproblem.com/) website - This service will email you everyday for at least a year and will indicate the difficulty level
         - [30 days of code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) challenge
-        - [100 days of code](https://www.100daysofcode.com/) website.
+        - [100 days of code](https://www.100daysofcode.com/) website
+        - [5 day coding challenge](https://codeinstitute.net/5-day-coding-challenge/) - 60-minute challenges
 - See recent code challenges post and see solutions from others in various languages. 
     - See [SoloLearn](https://www.sololearn.com/). I like the code challenges view on the mobile app though actually coding on a mobile device is not so nice so you might switch to the website on a desktop.
 - Find mathematical and algorithmic challenges if you are interested in that.
