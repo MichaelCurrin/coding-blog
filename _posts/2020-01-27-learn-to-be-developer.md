@@ -21,9 +21,9 @@ I wrote this list of Python [Resources](https://github.com/MichaelCurrin/learn-t
 
 ## Data Science path
 
-If you are interested getting into Data Science with Python as your main tool, I can recommend this article - [How I went from zero coding skills to data scientist in 6 months](https://towardsdatascience.com/how-i-went-from-zero-coding-skills-to-data-scientist-in-6-months-c2207b65f2f3). 
+If you are interested getting into Data Science with Python as your main tool, I can recommend this article which I came across on _towardsdatascience.com_ - [How I went from zero coding skills to data scientist in 6 months](https://towardsdatascience.com/how-i-went-from-zero-coding-skills-to-data-scientist-in-6-months-c2207b65f2f3). 
 
-It recommends:
+It suggests that you:
 
 - Learn coding skills through tools like Codecademy and Edx.
 - Learn data analysis skills including how to do database queries.
