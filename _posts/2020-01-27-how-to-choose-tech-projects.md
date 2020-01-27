@@ -1,18 +1,23 @@
 ---
-title: Find tech projects
+title: How to choose tech projects
 description: Some ideas on how to find projects
 ---
 
-Use these projects to sharpen your tech skills and problem-solving abilities by pushing yourself into using new tools or ways of thinking or solving a problem you hadn't thought of or didn't even know was a thing.
+This blog post won't tell you _what_ to build, but will help with _how_ to find projects relevant to your interests, skills or aims. 
 
-Finding projects and challenges to solve can help you to 
+## Benefits
+
+Some projects or challenges in this post are just for the sake of solving a problem and growing, then you might never use look or look at that code again. Some will be projects you can actually continue to run or reference after you've finished writing it. Either way, these projects will help to sharpen your tech skills and problem-solving abilities by pushing yourself into using new tools or ways of thinking or solving a problem you hadn't thought of or didn't even know was a thing.
+
+Why find new projects or code challenges?
+
+They can help you to:
 - Find what you are weak or strong at
 - Give you a sense of accomplishment when you solve them
+- Open your mind to different ways of thinking and multiple ways to solve a problem
+- Focus on the logic rather than the syntax
 - Solve tech problems in your own projects or work projects
-- Answer challenges for job interviews. This can help to
-    - Open your mind to different ways of thinking and multiple ways to solve a problem
-    - Focus on the logic rather than the syntax
-    - Get your confident to submit an answer online, on paper, on a white board or just verbally.
+- Improve skill and confidence when answering code challenges / technical assessments for job interviews. These come up often - I've been through typed, written and verbal challenges in interviews.
 
 ## Code challenges
 
