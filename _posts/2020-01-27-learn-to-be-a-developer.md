@@ -7,15 +7,13 @@ Getting into programming as a first career or change of career may seem daunting
 
 This post is focused on the Python language but can be applied to other languages.
 
-## My story
+## Free online resources
 
 I got into Python programming through a combination of free online resources which did not cost anything.
 
 - An online course (Codecademy)
 - Community support through Stack Overflow answers, blog sites and tutorials
 - Open-source code and libraries, including good documentation for how to use those or examples of using them 
-
-My goal initially was just to learn to Python because I was asked to by manager. I lost interest becaues I could complete exercises on the online course but didn't have anything worth building or a reason to learn and apply my skills. A few months later I found an opportunity to automate fetching and processing of data and sending myself e-mail alerts. I looked up the pieces that I need to solve the immediate problem and then eventually went back to the online course to round off my knowledge with some structured learning to fill some gaps in basics I maybe didn't realize.
 
 I wrote this list of Python [Resources](https://github.com/MichaelCurrin/learn-to-code/tree/master/Scripting%20languages/Python#resources) which includes links to some online courses.
 
