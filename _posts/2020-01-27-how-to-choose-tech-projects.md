@@ -7,7 +7,7 @@ This blog post won't tell you _what_ to build, but will help with _how_ to find 
 
 ## Benefits
 
-Some projects or challenges in this post are just for the sake of solving a problem and growing, then you might never use look or look at that code again. Some will be projects you can actually continue to run or reference after you've finished writing it. Either way, these projects will help to sharpen your tech skills and problem-solving abilities by pushing yourself into using new tools or ways of thinking or solving a problem you hadn't thought of or didn't even know was a thing.
+Some projects or challenges in this post are just for the sake of solving a problem and growing, then you might never use look or look at that code again. Some will be projects you can actually continue to run or reference after you've finished writing them. Either way, these projects will help to sharpen your tech skills and problem-solving abilities by pushing yourself into using new tools or ways of thinking or solving a problem you hadn't thought of or didn't even know was a thing.
 
 Why find new projects or code challenges?
 
