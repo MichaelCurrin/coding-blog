@@ -19,9 +19,21 @@ My goal initially was just to learn to Python because I was asked to by manager.
 
 I wrote this list of Python [Resources](https://github.com/MichaelCurrin/learn-to-code/tree/master/Scripting%20languages/Python#resources) which includes links to some online courses.
 
-## Data Science path
+## Recommended blog posts
 
-If you are interested getting into Data Science with Python as your main tool, I can recommend this article which I came across on _towardsdatascience.com_ - [How I went from zero coding skills to data scientist in 6 months](https://towardsdatascience.com/how-i-went-from-zero-coding-skills-to-data-scientist-in-6-months-c2207b65f2f3). 
+Posts by other people which I can suggest.
+
+### How to learn Python
+
+[Learn Python the right way](https://www.dataquest.io/blog/learn-python-the-right-way/) on _dataquest.io_
+
+That post is a guide on _how_ to learn Python in such a way you don't get bored with tutorials that cover a lot of basics before they get to part you really want and in a way that don't get overwhelmed by the advanced tutorials which don't give much context.
+
+### Data Science path
+
+[How I went from zero coding skills to data scientist in 6 months](https://towardsdatascience.com/how-i-went-from-zero-coding-skills-to-data-scientist-in-6-months-c2207b65f2f3) on _towardsdatascience.com_.
+
+If you are interested getting into Data Science with Python as your main tool, I can recommend this article which I came across.
 
 It suggests that you:
 
