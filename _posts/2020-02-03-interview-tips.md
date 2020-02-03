@@ -20,6 +20,9 @@ You provide the candidate with a laptop and they can call on their partner when 
 - Reverse the letters in each word of a sentence.
 - Check if a word is a palindrome.
 - Fibonacci sequence - either a series of numbers or a given number at a position (the Nth number).
+- Check whether an IP address is valid.
+
+As an extra part, you can require the challenge include reading input from or writing output to a file.
 
 ## Rating
 
