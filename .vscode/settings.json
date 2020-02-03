@@ -2,5 +2,5 @@
     "files.associations": {
         "*.md": "jekyll"
     },
-	"markdown.extension.toc.updateOnSave": false,
+    "markdown.extension.toc.updateOnSave": false,
 }
