@@ -19,10 +19,10 @@ The Jekyll Admin plugin adds a CSM view for editing content. Any changes saved a
 
 Once the site is running as per section above, you can access the admin URL. Note that no username or password is needed.
 
-http://localhost:5000/admin
+- http://localhost:5000/admin
 
 Note that the URL paths is fixed, even if the main site is configured to serve on a subpath.
 
 ## Notes
 
-The [github-pages](https://github.com/github/pages-gem) gem is set in the Gemfile so that `site.github` can be used in templates. The site still builds to Github Pages without it set in the config. But it is added for consistency and in case it is needed for Netlify (running outside of Github).
+The [github-pages](https://github.com/github/pages-gem) gem is set in the Gemfile so that a Github Pages theme can be used and so that `site.github` can be used in templates. The site still builds to Github Pages without it set in the config. But it is added for consistency and in case it is needed for Netlify (running outside of Github).
