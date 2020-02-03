@@ -1,9 +1,9 @@
 ---
 title: Interview questions
-description: 10 questions to ask an interview candidate to reveal more than just their technical skills.
+description: Interview questions to reveal more than just technical skills.
 ---
 
-The follow questions are summarised from a blog post - read the full one [here](https://yashints.dev/blog/2019/07/17/interview-questions).
+The follow questions are summarised from a blog post - [10 questions to ask in a technical interview](https://yashints.dev/blog/2019/07/17/interview-questions).
 
 1. What challenging problem have you had in the last couple of months?
 2. What resources do you use to learn or sharpen your skills?
