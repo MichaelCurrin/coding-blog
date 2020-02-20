@@ -6,14 +6,12 @@ plugins:
   - github-pages
   - jekyll-admin
 
-
 exclude:
   - vendor/
   - LICENSE
   - README.md
   - Gemfile
   - Gemfile.lock
-
 
 title: Coding Blog
 # Internal links must be made relative to this to this path for Github Pages compatibility. Usually
