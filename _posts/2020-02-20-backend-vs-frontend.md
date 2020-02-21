@@ -13,6 +13,6 @@ The user's browser receives the HTML response that it requested and then builds 
 
 Often a user can continue interacting on the browser (the frontend) without an internet connection, but some actions (like visiting another page, submitting a form or fetching more photos as you scroll) will fail without a connection.
 
-Some applications use server-side rendering. Such as using PHP, _Ruby on Rails_ or Python frameworks like _Flask_ or _Django_. These act like a baker who bakes the ingredients and then serves the finished caked to the customer. This would be the HTML with all the text, image links and menus.
+Some applications use server-side rendering. Such as using PHP, _Ruby on Rails_ or Python frameworks like _Flask_ or _Django_. These act like a baker who bakes the ingredients and then serves the finished cake to the customer. This would be the HTML with all the text, image links and menus.
 
 In contrast, some application use client-sider rendering. Such as some JavaScript frameworks like _React_ or _VueJS_. These act like someone who the customer a recipe and the the customer has to bake the cake.
