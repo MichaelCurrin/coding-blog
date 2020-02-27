@@ -9,7 +9,7 @@ sections:
   label: Layouts
   create: documents
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: directory
   path: _includes
   label: Includes
