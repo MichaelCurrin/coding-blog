@@ -10,3 +10,5 @@ fields:
 - type: text
   name: description
   label: Description
+pages:
+- _posts/this-blog-moves-to-forestry.md
