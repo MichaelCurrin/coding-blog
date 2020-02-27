@@ -1,6 +1,6 @@
 ---
 title: Home
 layout: home
----
 
-![Me](https://github.com/MichaelCurrin.png)
+---
+![My Github avatar](https://github.com/MichaelCurrin.png "My Github avatar")
