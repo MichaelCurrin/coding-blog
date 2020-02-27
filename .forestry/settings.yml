@@ -4,24 +4,26 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: _layouts
-  label: Layouts
-  create: documents
-  match: "**/*"
-  new_doc_ext: html
-- type: directory
-  path: _includes
-  label: Includes
-  create: all
-  match: "**/*"
-  new_doc_ext: html
 - type: jekyll-pages
   label: Pages
   create: all
 - type: jekyll-posts
   label: Posts
   create: all
+- type: heading
+  label: Dev
+- type: directory
+  path: _includes
+  label: Includes
+  create: all
+  match: "**/*"
+  new_doc_ext: html
+- type: directory
+  path: _layouts
+  label: Layouts
+  create: documents
+  match: "**/*"
+  new_doc_ext: html
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
