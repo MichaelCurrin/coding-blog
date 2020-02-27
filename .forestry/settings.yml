@@ -6,8 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: _config.yml
-  label: Config file
-  match: "**/*"
+  label: Site config
 - type: heading
   label: Content
 - type: jekyll-pages
