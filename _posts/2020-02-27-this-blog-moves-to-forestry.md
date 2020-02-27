@@ -1,6 +1,6 @@
 ---
 title: This blog moves to Forestry
-description: ''
+description: What I learnt when moving this project to a CMS
 
 ---
 I am pleased to announce that I have moved this Jekyll blog to be managed using the [Forestry.io](https://forestry.io) CMS platform.
@@ -24,6 +24,7 @@ Some things I discovered while exploring the service with this Jekyll site:
   * When editing a page, you can use the WYSIWYG Editor by default using the menu at the bottom and keyboard shortcuts (such as for bold and italics). You can switch between the Raw Editor and WYSIWYG Editor using the menu in the top right. I find there is way to reduce indentation for bullet points, but this is easy in raw mode.
   * You can even change the template, you need different fields and validation.
 * You can manage assets such as images through Forestry. By default these go to the _uploads_ directory, but for Jekyll you might use the _assets_ directory. If you click _Media_ in the sidebar, you can see files in that directory.
+* You don't have to worry about managing filenames of pages or blog posts - these are based on the title you use. And the date, in case of blog posts, which need a date.
 * You can leave pages and posts in draft form and then come back to them later. Change _Draft_ from _ON_ to _OFF_, then the _Save Draft_ button becomes _Save_.
 * Saving and rebuilding
   * When adding a site to Forestry, it by default only it only looks at public repos. You can add access as well for private repos, but you might avoid this if you have permissions for a work-related org of private repos.
