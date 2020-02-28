@@ -13,11 +13,29 @@ Website: [forestry.io](https://forestry.io)
 > 
 > Invite your team to create content in a rich UI. Their updates get committed back without merge conflicts.
 
-This come with a few templates and allows you to choose a language. Forestry does not actually build or host your website - it just a pretty CMS view which controls users and editing of content. It does have a preview mode for fast building on a private randomized URL.
+Forestry does not actually build or host your website - it just a pretty CMS view which controls users and editing of content. It does have a preview mode for fast building on a private randomized URL.
 
-I like this and ound this experience similar to the Jekyll Admin view but with more functionality.
+I like this and found this experience similar to the Jekyll Admin view, but with more functionality.
 
-Free for use with one user.
+Their is a free tier - [pricing](https://forestry.io/pricing/).
+
+Foresty supports a few site generators ([list](https://forestry.io/docs/faqs/glossary/static-site-generators/)), summarized here below and grouped by language. 
+
+- JavaScript
+    - Next JS
+    - Vue-based
+        - Vue JS
+        - Nuxt JS
+        - VuePress  
+    - Gatsby
+    - Eleventy
+- Ruby
+    - Jekyll
+- Go
+    - Hugo
+
+Forestry has some great quickstart options, covering a couple of the languages.
+
 
 ## Siteleaf
 
@@ -30,15 +48,23 @@ Changes through Siteleaf create commits in Github. When you have YAML metadata i
 
 ## Netlify CMS
 
-This section covers approaches which use Netlify to control user access for the application's admin view.
+- [netlifycms.org](https://www.netlifycms.org/)
+    > Open source content management for your Git workflow
+    >
+    > Use Netlify CMS with any static site generator for a faster and more flexible web project
+Netlify supports functionality control user access for the application's admin view which works for a CMS. Netlify itself does not have a CMS view, but you can provide your own admin index page and config for your Jekyll or Hugo site. I don't know what else Netlify supports.
+
+Netlify CMS supports user management and inviting users by email.
 
 The limitation on number of users is based on your Netlify account and the Netlify site's details. You'll be the admin user and you can invite other users, up to a limit of about 5 I think on the free tier. There is also a way to have 100 users, but that makes that any person who views the site can register, which you may not want.
 
-### Hugo
+## Hugo
 
-I used a Netlify CMS quickstart for Hugo. Unfortunately, you cannot run the admin view locally (the admin page points to Netlify) which means content is updated on the remote and not locally. Also, the admin view's content rules and preview ability needs to be maintained and kept in sync with your main application. I found this tedious and too much effort, so I went with another solution. Perhaps there are other ways to use Hugo CMS which are easier.
+I used a Netlify CMS quickstart for Hugo. Unfortunately, you cannot run the admin view locally (the admin page points to Netlify) which means content is updated on the remote and not locally. Also, the admin view's content rules and preview ability needs to be maintained and kept in sync with your main application. 
 
-### Jekyl Admin
+I found this tedious and too much effort, so I went with another solution. Perhaps there are other ways to use a Hugo CMS which are easier.
+
+## Jekyl Admin
 
 Homepage: [jekyll.github.io/jekyll-admin/](https://jekyll.github.io/jekyll-admin/)
 Repo: [jekyll-admin](https://github.com/jekyll/jekyll-admin)
@@ -66,7 +92,7 @@ Limitations:
 
 ### Remote
 
-You cannot get the admin accessible on a Github Pages site. 
+Unfortunately you cannot setup an admin view for a CMS on a Github Pages site, as Github Pages does not support user login.
 
 With some customization (config file and HTML), you can access this admin view in Netlify through their Netlify CMS integration for managing user access.
 
@@ -76,7 +102,7 @@ This CMS is probably targeted at developers. It unfortunately requires a lot of 
 
 From my little spend spent on Foresty, I found that better as a no-code solution.
 
-### Jekyl Manager
+## Jekyl Manager
 
 Homepage: [ashmaroli.github.io/jekyll-manager/](https://ashmaroli.github.io/jekyll-manager/)
 Repo: [jekyll-admin](https://github.com/jekyll/jekyll-manager)
