@@ -15,10 +15,12 @@ App dashboard with a list of sites in your account.
 
 Some things I discovered while exploring the service with this Jekyll site:
 
-### Limits (from the [pricing](https://forestry.io/pricing/ "pricing") page)
+### Limits
 
-* On the free tier you can invite up to 3 users to a Forestry site.
-* Also on the free tier, you can only manage 3 sites with Forestry.
+* See the Forestry [pricing](https://forestry.io/pricing/ "pricing") page.
+* On the free tier you can:
+  * Manage up to 3 sites.
+  * Invite up to 3 users per site.
 
 ### Configuration
 
@@ -49,11 +51,12 @@ Configuration is managed in a [_.forestry_](https://github.com/MichaelCurrin/cod
 * You can leave pages and posts in draft form and then come back to them later. Change _Draft_ from _ON_ to _OFF_, then the _Save Draft_ button becomes _Save_.
 
 ### Media
-  
+
 * You can manage assets such as images through Forestry. By default these go to the _uploads_ directory, but for Jekyll you might use the _assets_ directory. If you click _Media_ in the sidebar, you can see files in that directory.
 * You can preview images in the CMS editor when laying them out. But if you use a Github Pages _Jekyll_ site on a subpath, then the images will give errors on the finished site when published. So then you have to use the `relative_url` Jekyll filter, which only shows as text in the editor but looks fine in the rendered site. If you use _Netlify_ (on a subdomain rather than a subpath) then you won't have this issue.
 
 ### Saving and rebuilding
+
 * When adding a site to Forestry, it by default only it only looks at public repos. You can add access as well for private repos, but you might avoid this if you have permissions for a work-related org of private repos.
 * When you add a Github repo to Forestry, you get to choose the branch. When you've confirmed, you'll get an email from Github saying that a public key was added to the repo. This means you have authorized Forestry to edit that repo.
 * A commit is made whenever you click save in Forestry. These appear in Github as authored by your user and a Forestry user.
