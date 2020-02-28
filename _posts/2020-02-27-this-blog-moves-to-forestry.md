@@ -10,12 +10,13 @@ I am pleased to announce that I have moved this Jekyll blog to be managed using 
 
 Their homepage:
 
-![Forestry homepage]({{ "/assets/Forestry homepage.png" | relative_url }} "Forestry homepage")
+- ![Forestry homepage]({{ "/assets/Forestry homepage.png" | relative_url }} "Forestry homepage")
 
 App dashboard with a list of sites in your account.
 
-![Forestry dashboard]({{ "/assets/Forestry dashboard.png" | relative_url }} "Forestry dashboard")
+- ![Forestry dashboard]({{ "/assets/Forestry dashboard.png" | relative_url }} "Forestry dashboard")
 
+Continue below for some screenshots when editing content in Forestry.
 
 ## Functionality
 
@@ -51,7 +52,7 @@ Configuration is managed in a [_.forestry_](https://github.com/MichaelCurrin/cod
 * On the _Front matter_ section of the sidebar, you can create templates based on existing files. For example you might create a Blog post template and a Page template. When you create a new page or blog post, you can choose which template you want. A template is great for adding frontmatter fields like title or description and setting validation on the length of a field or whether it is required or not.
 * When editing a page, you can use the WYSIWYG Editor by default using the menu at the bottom and keyboard shortcuts (such as for bold and italics). You can switch between the Raw Editor and WYSIWYG Editor using the menu in the top right. I find there is way to reduce indentation for bullet points, but this is easy in raw mode.
 * You can even change the template, you need different fields and validation.
-* Example of options when editing a page
+* Example of options when editing a page:
   * ![Page options menu]({{ "/assets/Page options menu.png" | relative_url }})
 * You don't have to worry about managing filenames of pages or blog posts - these are based on the title you use. And the date, in case of blog posts, which need a date.
 * You can leave pages and posts in draft form and then come back to them later. Change _Draft_ from _ON_ to _OFF_, then the _Save Draft_ button becomes _Save_.
