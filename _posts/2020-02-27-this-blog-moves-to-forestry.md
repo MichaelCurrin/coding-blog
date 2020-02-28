@@ -5,6 +5,9 @@ description: What I learnt when moving this project to a CMS
 ---
 I am pleased to announce that I have moved this Jekyll blog to be managed using the [Forestry.io](https://forestry.io) CMS platform.
 
+
+## Overview
+
 Their homepage:
 
 ![Forestry homepage]({{ "/assets/Forestry homepage.png" | relative_url }} "Forestry homepage")
@@ -12,6 +15,9 @@ Their homepage:
 App dashboard with a list of sites in your account.
 
 ![Forestry dashboard]({{ "/assets/Forestry dashboard.png" | relative_url }} "Forestry dashboard")
+
+
+## Functionality
 
 Some things I discovered while exploring the service with this Jekyll site:
 
