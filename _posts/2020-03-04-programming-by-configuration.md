@@ -15,8 +15,8 @@ Below is a list of systems I have worked with or read about which use config fil
   * Docker containers - `Dockerfile`, `docker-compose.yml`.
   * Kubernetes (for deploying containers) - YAML file. See [declarative config](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/declarative-config/ "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/declarative-config/") on the Kubernetes docs.
 * Websites
-  * Github Pages - `_config.yml`. You don't even need a `Gemfile`.
-  * Netlify - `netlify.toml.`
+  * Github Pages - `_config.yml`. This describes attributes like the title, URL, theme, Jekyll plugins. Locally you might use a `Gemfile`, but the config itself is sufficient for deploying remotely.  See [Github Pages](https://pages.github.com/).
+  * Netlify - `netlify.toml`. Netlify is similar to Github Pages but allows more fine-grained control. You can use the config to set similar details but also custom build commands (such as using _npm_, _Hugo_ or _Gatsby_). While you can set details through the Netlify UI, having it in a config file makes it easier to manage, especially when setting the website up a second time using the same details as before. See [Netlify](https://netlify.com).
 * Github actions (such as for running automated tests and publishing a package or deploying) - `.github/workflows/action-name.yml`.
 * Managing servers
   * Puppet - `puppet.conf`. See [puppet docs](https://puppet.com/docs/puppet/latest/config_file_main.html).
