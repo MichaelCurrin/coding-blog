@@ -27,7 +27,4 @@ Below is a list of systems I have worked with or read about which use config fil
 
 * [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming) on Wikipedia.
 * [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/ "https://tylermcginnis.com/imperative-vs-declarative-programming/") blog post.
-
   > “Imperative programming is like **how** you do something, and declarative programming is more like **what** you do.”
-
-### 
