@@ -7,6 +7,19 @@ Lists of tools for building websites, including static websites and docs sites.
 <!-- This data could be refactored to exist in YAML data file or CSV and then call an includes file to build it up. 
      A similar approach could work elsewhere on the site too. -->
 
+
+## Resources
+
+- [StaticGen.com](https://www.staticgen.com/) - list of static site generators.
+- JAMStack - JavaScript, API and Mark-up.
+     - [jamstack.org](https://jamstack.org)
+          - [Homepage for ](https://jamstack.org/)
+          - [Examples](https://jamstack.org/examples/)
+          - [Resources](https://jamstack.org/resources/)
+          - [Best Practices](https://jamstack.org/best-practices/)
+     - [JamStack.wtf](https://jamstack.wtf/)
+     - [JAMStack templates](https://templates.netlify.com/) on Netlify.
+     
 ## Static site generators
 
 ### Hugo
