@@ -41,7 +41,7 @@ Forestry has some great quickstart options, covering a couple of the languages.
 
 Website: [siteleaf.com](https://siteleaf.com)
 
-This acts as a CMS for Jekyll sites hosted on Github. I found this difficult to setup the way I wanted and get my head around and it had a few limitations compared with Foresty, so after trying out a few Siteleaf projects I stopped using it.
+This acts as a CMS for **Jekyll** sites hosted on Github. I found this difficult to setup the way I wanted and get my head around and it had a few limitations compared with Foresty, so after trying out a few Siteleaf projects I stopped using it.
 
 Changes through Siteleaf create commits in Github. When you have YAML metadata in the frontmatter of your sites, these will be formatted according to Siteleaf's styling, removing any comments. Also, any files without extensions become `.md` files. I didn't what it did to my project.
 
@@ -57,6 +57,21 @@ Netlify supports functionality control user access for the application's admin v
 Netlify CMS supports user management and inviting users by email.
 
 The limitation on number of users is based on your Netlify account and the Netlify site's details. You'll be the admin user and you can invite other users, up to a limit of about 5 I think on the free tier. There is also a way to have 100 users, but that makes that any person who views the site can register, which you may not want.
+
+This integrates with a few static site generators. So far I have encountered these used with Netlify:
+
+- [Jekyll Admin](#jekyll-admin) or [Jekyll Manager](#jekyll-manager)
+- [Hugo](#hugo)
+- [Middleman](#middleman)
+
+## Middleman
+
+Ruby-based static site generator.
+
+- [Middleman](https://www.netlifycms.org/docs/middleman/) on Netlify CMS.
+- [Creating a blog with Middleman and Netlify CMS ](https://www.netlify.com/blog/2017/04/20/creating-a-blog-with-middleman-and-netlify-cms/)
+- [A Step-by-Step Guide: Middleman on Netlify](https://www.netlify.com/blog/2015/10/01/a-step-by-step-guide-middleman-on-netlify/)
+- [JAMStack templates](https://templates.netlify.com/template/middleman-starter/)
 
 ## Hugo
 
