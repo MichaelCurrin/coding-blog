@@ -14,6 +14,7 @@ Below is a list of systems I have worked with or read about which use config fil
 * Containers
   * Docker containers - `Dockerfile`, `docker-compose.yml`.
   * Kubernetes (for deploying containers) - YAML file. See [declarative config](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/declarative-config/ "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/declarative-config/") on the Kubernetes docs.
+  * Helm - YAML file. This config is known as a "Helm chart". See [Getting started](https://helm.sh/docs/chart_template_guide/getting_started/) for example files and layout. See also [helm.sh](https://helm.sh/) homepage.
 * Websites
   * Github Pages - `_config.yml`. This describes attributes like the title, URL, theme, Jekyll plugins. Locally you might use a `Gemfile`, but the config itself is sufficient for deploying remotely.  See [Github Pages](https://pages.github.com/).
   * Netlify - `netlify.toml`. Netlify is similar to Github Pages but allows more fine-grained control. You can use the config to set similar details but also custom build commands (such as using _npm_, _Hugo_ or _Gatsby_). While you can set details through the Netlify UI, having it in a config file makes it easier to manage, especially when setting the website up a second time using the same details as before. See [Netlify](https://netlify.com).
@@ -36,5 +37,4 @@ Here are some other forms of programming which are not config-based but still us
 
 * [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming) on Wikipedia.
 * [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/ "https://tylermcginnis.com/imperative-vs-declarative-programming/") blog post.
-
   > “Imperative programming is like **how** you do something, and declarative programming is more like **what** you do.”
