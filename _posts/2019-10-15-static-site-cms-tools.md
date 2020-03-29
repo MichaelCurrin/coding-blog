@@ -134,3 +134,24 @@ Website: [storyblok.com/](https://www.storyblok.com/)
 I've not used this before but came across it through a Storybok Nuxt quickstart repo for Netlify. [storyblok/nuxtwebsite](https://github.com/storyblok/nuxtwebsite)
 
 Free for use with one user.
+
+
+## CloudCannon
+
+- Homepage: [cloudcannon.com](https://cloudcannon.com/)
+    > CloudCannon has everything you need to build, host and update Jekyll websites
+- Features: cloudcannon.com/features/files/](https://cloudcannon.com/features/files/)
+- Pricing: [cloudcannon.com/pricing/](https://cloudcannon.com/pricing/)
+
+
+## Gitbook
+
+- Homepage: [gitbook.com/](https://www.gitbook.com/)
+- Repo: [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
+- Pricing: [gitbook.com/pricing](https://www.gitbook.com/pricing)
+    - Free tier gives you 10 spaces.
+    
+Targeted at building a documentation site, Gitbook allows you to use their CMS view to build and host a site which is synced to Github. The code synced to your repo is minimal though but becomes a full site when viewed through their editor / user-facing view.
+
+I've also seen Gitbook built standalone using an NPM package but don't know how much is involved there and what it does.
+
