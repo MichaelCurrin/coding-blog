@@ -14,12 +14,8 @@ exclude:
   - Gemfile.lock
 
 title: Coding Blog
-# Internal links must be made relative to this to this path for Github Pages compatibility. Usually
-# the name of the repo.
-# TODO: Check for Netlify
 baseurl: "/coding-blog"
-# TODO Add here, or use prod config (jekyll build path to two configs?) or Netlify config.
-url: ""
+url: https://michaelcurrin.github.io/coding-blog/
 repository: MichaelCurrin/coding-blog
 
 short_date: "%b %-d, %Y"
