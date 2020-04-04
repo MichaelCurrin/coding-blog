@@ -1,5 +1,5 @@
 # TODO: Replace and resolve comments here then switch to GUI editor in admin (comments will be lost). Remember server had to be restarted to get config changes.
-# TODO: Configure admin to no pick up static fonts.
+# TODO: Configure admin to not pick up static fonts.
 
 theme: jekyll-theme-midnight
 plugins:
