@@ -23,7 +23,7 @@ I came across this philosophy:
 
 > Write tests unless you have a really good reason not too.
 
-That attitude starts with a fresh perspective - test everything. And be deliberate if you want to not have tests.
+That attitude starts with a fresh perspective - test everything. Be deliberate if you want to not have tests and reassess that later on. Whether you have tests or not, at the very least test your application locally and on production. Even if you are pretty sure you change worked, there is a risk that something you did was wrong or had an incorrect or impleid assumption or something else changed that you did not know about.
 
 ## Story of no tests
 
