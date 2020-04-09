@@ -15,7 +15,7 @@ Below is a list of systems I have worked with or read about which use config fil
 * DataDog synthetic tests
   - Cloud monitoring as a service.
   - Configuration is managed by a directory Terraform files.
-  - See [datadoghq.com/](https://www.datadoghq.com/).
+  - See [datadoghq.com](https://www.datadoghq.com/).
 * Containers
   * Docker containers 
     - `Dockerfile`, `docker-compose.yml`.
@@ -29,14 +29,14 @@ Below is a list of systems I have worked with or read about which use config fil
   * CircleCI
     - `config.yml` file.
     - For Continuous Integration / Continuous Deplomyments (CI/CD).
-    - See [circleci.com/](https://circleci.com/).
+    - See [circleci.com](https://circleci.com/).
   * BuildKite
     - YAML file configs.
     - See [buildkite.com](https://buildkite.com)
     - Deploy applications including running tests and building containers.
   * Github Pages 
     - `_config.yml`. 
-    - This describes attributes like the title, URL, theme, Jekyll plugins. Locally you might use a `Gemfile`, but the config itself is sufficient for deploying remotely.  See [Github Pages](https://pages.github.com/).
+    - This describes attributes like the title, URL, theme, Jekyll plugins. Locally you might use a `Gemfile`, but the config itself is sufficient for deploying remotely.  See [Github Pages](https://pages.github.com/) website.
   * Netlify 
     - `netlify.toml`. 
     - Netlify is similar to Github Pages but allows more fine-grained control. You can use the config to set similar details but also custom build commands (such as using _npm_, _Hugo_ or _Gatsby_). While you can set details through the Netlify UI, having it in a config file makes it easier to manage, especially when setting the website up a second time using the same details as before. See [Netlify](https://netlify.com).
