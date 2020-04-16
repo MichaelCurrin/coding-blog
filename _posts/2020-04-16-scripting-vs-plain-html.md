@@ -1,6 +1,6 @@
 ---
-title: Why use Python/PHP over plain HTML?
-description: Advantages of build a website using a scripting language?
+title: Why use a scripting language over plain HTML?
+description: Advantages of build a website using Python/PHP/NodeJS
 ---
 
 A colleague was looking to build a website using a Python framework and asked this question:
@@ -12,7 +12,7 @@ Here was my response, with some updates:
 
 ## Dynamic content
 
-HTML is static. So you typically need some scripting language (PHP/Python/JavaScript) if you want it to change based on user input - such as allowing users or an admin user to upload content (posts, photos) which is stored in a database and then show that to users. Or you can fetch content from another external source (e.g. weather API) before returning the HTML page.
+HTML is static. So you typically need some scripting language (Python/PHP/NodeJS) if you want it to change based on user input - such as allowing users or an admin user to upload content (posts, photos) which is stored in a database and then show that to users. Or you can fetch content from another external source (e.g. weather API) before returning the HTML page.
 
 
 ## Templating
