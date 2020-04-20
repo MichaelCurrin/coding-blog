@@ -21,9 +21,9 @@ Below are some points in the talk which stood out for me.
 * Add **features** that people want, don't check off a list of things you think they want.
 * [NPM](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node_packages.md) has a **security vulnerability** through the pre- and post-install script commands - [disable this in your config](#npm-security-vulnerability).
 * Predictions
-  * [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript) will take over the JS world
+  * [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript) will take over the JS world.
   * [Web Assembly](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Web%20Assembly) will continue to grow and expand the Web App pie.
-  * [NPM](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node_packages.md) will last, surviving further problems
+  * [NPM](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node_packages.md) will last, surviving further problems.
   * [JavaScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/JavaScript) alternatives (e.g. [Elm](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elm)) will stay niche and age well.
 
 I elaborate on the talk in the rest of this post.
