@@ -8,10 +8,10 @@ description: What the programming landscapes look like in the next few years
 If you are into frontend development or just choosing a language or framework, I'd highly recommended watching this Youtube video:
 
 * Title: [Predicting the Future of the Web Development (2020 and 2025)](https://www.youtube.com/watch?v=24tQRwIRP_w)
-* YT channel: Coding Tech
-* Speaker: Richard Feldman
-* Event: ReactiveConf 2019
-* Length: 29 minutes
+* YT channel: _Coding Tech_
+* Speaker: _Richard Feldman_
+* Event: [_ReactiveConf_](https://reactiveconf.com/) _2019 in Prague_
+* Length: _29 minutes_
 
 ## Key takeaways
 
@@ -19,18 +19,16 @@ Below are some points in the talk which stood out for me.
 
 * Make a **prediction** rather than following blindly (such as choosing most-used popular solution).
 * Add **features** that people want, don't check off a list of things you think they want.
-* NPM has a **security vulnerability** through the pre- and post-install script commands - [disable](#npm-security-vulnerability) this in your config. 
+* NPM has a **security vulnerability** through the pre- and post-install script commands - [disable](#npm-security-vulnerability) this in your config.
 * Predictions
   * **TypeScript** will take over the JS world (see [Resources](#resources))
   * **WASM** will continue to grow and expand the Web App pie (see [Resources](#resources))
   * **NPM** will last, surving further problems
   * **JS** **alternatives** (e.g. Elm) will stay niche and age well.
 
-## More details
+I elaborate on the talk in the rest of this post.
 
-Here I elaborate on the talk.
-
-### Choosing a technology
+## Choosing a technology
 
 * Make a prediction rather than following blindly.
 * In 2006, the [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) was all the rage. The P stood for PHP/Perl/Python. **Perl** was super popular, so the speaker's team went for that.
@@ -42,7 +40,7 @@ Here I elaborate on the talk.
   * How your teams likes working with it and
   * How easy it is to hire people for that.
 
-### Competitors to JavaScript
+## Competitors to JavaScript
 
 * JavaScript has **community momentum**. People are already using it and adding to it and learning it.
 * Anything that is not JS-related won't dominate.
@@ -51,7 +49,7 @@ Here I elaborate on the talk.
 * Any technology must be significantly **different** from JavaScript to make it worth using. Like **Elm**, which has its great ecosystem, reduced errors, better performance and smaller output sizes - it also just feels lighter and easier to work with compared with JavaScript. Watch the talk for more motivations around these.
 * But if it is different enough from JavaScript, it will be a **barrier** to learn for those already preferring JavaScript, so it won't overtake JavaScript. And that's okay.
 
-#### JS dialects
+### JS dialects
 
 These were described as all "really just JavaScript" when compiled. TypeScript and CoffeeScript have both used that tagline.
 
@@ -61,13 +59,13 @@ These were described as all "really just JavaScript" when compiled. TypeScript a
 * TypeScript (see [Resources](#resources))
 * Svelt
 
-#### Alternatives to JavaScript
+### Alternatives to JavaScript
 
 * Closure script - [closurescript.org ](https://closurescript.org)
 * Reason ML - [reasonml.github.io](https://reasonml.github.io)
 * Elm (see [Resources](#resources))
 
-### NPM security vulnerability
+## NPM security vulnerability
 
 If you take _one thing_ away from the talk:
 
@@ -81,16 +79,16 @@ Or just disable on an install:
 
     npm install --ignore-scripts
 
-### Adding to your product
+## Adding to your product
 
 * Go for solving use-cases and understanding people's problems.
-* Rather thank checking of a a list of features which the developers want t add but no one cares about. Such as when the speaker say that when Elm's output size and performance was better than JavaScript and was further improved, people weren't impressed because they are already used to the drawbacks of JavaScript.
+* Rather thank checking of a a list of features which the developers want t add but no one cares about. Such as when the speaker say that when Elm's output size and performance was _better_ than JavaScript and was further improved, people _weren't impressed_ because they are already used to the drawbacks of JavaScript.
 
-### Other predictions
+## Other predictions
 
-* Web Assembly gives low-level control of the browser behavior and is already used by Elm, Dart and Rust. Web Assembly is going to boost performance on browser UI, including for games.
-* Machine Learning and AI are over-hyped - yes there are great use-cases for them, but the kind of applications for those are not going to be so ground-breaking as people think.
-* GitHub packages might be a good alternative to NPM packages repository. Yarn or something else might replace NPM. But the ecosystem will remain because it has support. The NPM site has prevented unpublishing packages, to avoid unexpected errors.
+* **Web Assembly** gives low-level control of the browser behavior and is already used by Elm, Dart and Rust. Web Assembly is going to boost performance on browser UI, including for games.
+* **Machine Learning** and **AI** are over-hyped - yes there are great use-cases for them, but the kind of applications for those are not going to be so ground-breaking as people think.
+* **GitHub packages** might be a good alternative to the NPM packages repository. Yarn or something else might replace NPM. But the ecosystem will remain because it has support. The NPM site has prevented unpublishing packages, to avoid unexpected errors.
 
 ## Resources
 
