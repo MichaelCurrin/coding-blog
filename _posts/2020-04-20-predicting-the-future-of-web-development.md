@@ -93,8 +93,8 @@ npm install --ignore-scripts
 
 * [Web Assembly](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Web%20Assembly) gives low-level control of the browser behavior and is already used by Elm, Dart and Rust. Web Assembly is going to boost performance on browser UI, including for games.
 * **Machine Learning** and **AI** are over-hyped - yes there are great use-cases for them, but the kind of applications for those are not going to be so ground-breaking as people think.
-* NPM ecosystem
+* **NPM ecosystem**
   * **GitHub packages** might be a good alternative to the NPM packages repository. You can already specify it as a source when installing.
   * **Yarn** or something similar could replace NPM as a tool.
-  * But the ecosystem will remain, because it has support. 
-  * The NPM site has prevented unpublishing packages, to avoid unexpected errors.
+  * But the **ecosystem will remain,** because it has support. 
+  * The NPM site has **prevented unpublishing packages**, to avoid unexpected errors.
