@@ -19,12 +19,12 @@ Below are some points in the talk which stood out for me.
 
 * Make a **prediction** rather than following blindly (such as choosing most-used popular solution).
 * Add **features** that people want, don't check off a list of things you think they want.
-* [NPM] has a **security vulnerability** through the pre- and post-install script commands - [disable this in your config](#npm-security-vulnerability).
+* [NPM](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node_packages.md) has a **security vulnerability** through the pre- and post-install script commands - [disable this in your config](#npm-security-vulnerability).
 * Predictions
-  * [TypeScript] will take over the JS world (see [Resources](#resources))
-  * [Web Assembly] will continue to grow and expand the Web App pie (see [Resources](#resources))
-  * [NPM] will last, surving further problems
-  * [JavaScript] alternatives (e.g. [Elm]) will stay niche and age well.
+  * [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript) will take over the JS world
+  * [Web Assembly](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Web%20Assembly) will continue to grow and expand the Web App pie.
+  * [NPM](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node_packages.md) will last, surviving further problems
+  * [JavaScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/JavaScript) alternatives (e.g. [Elm](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elm)) will stay niche and age well.
 
 I elaborate on the talk in the rest of this post.
 
@@ -42,12 +42,12 @@ I elaborate on the talk in the rest of this post.
 
 ## Competitors to JavaScript
 
-* [JavaScript] has **community momentum**. People are already using it and adding to it and learning it.
+* [JavaScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/JavaScript) has **community momentum**. People are already using it and adding to it and learning it.
 * Anything that is not JS-related won't dominate.
-* [TypeScript]
+* [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript)
   * This will likely dominate and in 2025 more people will be writing TypeScript than plain JavaScript. The reason why Perl didn't make it and TypeScript will, is that TypeScript has already grown more popular than Perl and has many adopted or is busy being adopted by most JS frameworks.
   * It does promise safety with **type checking** at compile time, however the speaker makes a point that this can be a false promise if not used well - such as when using a complex nested type which uses `any`. (Or using type checking as a substitute for tests).
-* Any technology must be significantly **different** from JavaScript to make it worth using. Like [Elm], which has its great ecosystem, reduced errors, better performance and smaller output sizes - it also just feels lighter and easier to work with compared with JavaScript. Watch the talk for more motivations around these.
+* Any technology must be significantly **different** from JavaScript to make it worth using. Like [Elm](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elm), which has its great ecosystem, reduced errors, better performance and smaller output sizes - it also just feels lighter and easier to work with compared with JavaScript. Watch the talk for more motivations around these.
 * But if it is different enough from JavaScript, it will be a **barrier** to learn for those already preferring JavaScript, so it won't overtake JavaScript. And that's okay.
 
 ### JS dialects
@@ -55,17 +55,16 @@ I elaborate on the talk in the rest of this post.
 These were described as all "really just JavaScript" when compiled. TypeScript and CoffeeScript have both used that tagline.
 
 * CoffeScript
-* [Dart]
+* [Dart](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Dart)
 * Babel
-* [TypeScript]
+* [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript)
 * Svelt
 
 ### Alternatives to JavaScript
 
 * Closure script - [closurescript.org ](https://closurescript.org)
 * Reason ML - [reasonml.github.io](https://reasonml.github.io)
-* Elm (see [Resources](#resources))
-
+* [Elm](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elm)
 
 ## NPM security vulnerability
 
@@ -92,13 +91,10 @@ npm install --ignore-scripts
 
 ## Other predictions
 
-* [Web Assembly] gives low-level control of the browser behavior and is already used by Elm, Dart and Rust. Web Assembly is going to boost performance on browser UI, including for games.
+* [Web Assembly](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Web%20Assembly) gives low-level control of the browser behavior and is already used by Elm, Dart and Rust. Web Assembly is going to boost performance on browser UI, including for games.
 * **Machine Learning** and **AI** are over-hyped - yes there are great use-cases for them, but the kind of applications for those are not going to be so ground-breaking as people think.
-* **GitHub packages** might be a good alternative to the NPM packages repository. Yarn or something else might replace NPM. But the ecosystem will remain because it has support. The NPM site has prevented unpublishing packages, to avoid unexpected errors.
-
-[NPM]: https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node_packages.md
-[JavaScript]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/JavaScript
-[Dart]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Dart
-[Elm]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elm
-[Web Assembly]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Web%20Assembly
-[TypeScript]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript
+* NPM ecosystem
+  * **GitHub packages** might be a good alternative to the NPM packages repository. You can already specify it as a source when installing.
+  * **Yarn** or something similar could replace NPM as a tool.
+  * But the ecosystem will remain, because it has support. 
+  * The NPM site has prevented unpublishing packages, to avoid unexpected errors.
