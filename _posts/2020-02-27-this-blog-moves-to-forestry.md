@@ -28,10 +28,14 @@ Some things I discovered while exploring the service with this Jekyll site:
 * On the free tier you can:
   * Manage up to 3 sites.
   * Invite up to 3 users per site.
+* Foresty is not aware of Jekyll Liquid paths or base path value, so creating paths and image paths may take extra work or not display well in the editor even though the built site is fine. Using a site without a base path (such as Netlify rather then Github Pages) makes this easier.
+* Forestry has its own markdown preference. 
+    - Bullet points are all asterisks.
+    - If you try and insert links which are linked later in the page, Forestry will bring the link up to where it is used. e.g. `[foo]` and `[foo]: http://example.com` becomes `[foo](http://example.com)` only, which can be annoying if you want to use the link multiple times.
 
 ### Configuration
 
-Configuration is managed in a [_.forestry_](https://github.com/MichaelCurrin/coding-blog/tree/master/.forestry) directory in Github. Including site settings and front matter templates. This means that
+Configuration is managed in a [.forestry](https://github.com/MichaelCurrin/coding-blog/tree/master/.forestry) directory in Github. Including site settings and front matter templates. This means that
 
 * Configuration is version-controlled, so you can view the history for rolling back changes.
 * You can remove and import a site without having to set it up manually again.
@@ -43,7 +47,7 @@ Configuration is managed in a [_.forestry_](https://github.com/MichaelCurrin/cod
 * Such as the `_includes` or `_layouts` directories (you'll need to change the configuration to pickup `.html` files rather than the default `.md`). Directories like won't matter to non-technical users, but it means a developer can edit them without leaving Forestry. You can even make these "Read only".
 * Example of sidebar setup, with Posts as the current tab.
   * ![Sidebar and posts]({{ "/assets/Sidebar and posts.png" | relative_url }})
-* Add your __config.yml_ file to manage site config from in Forestry.
+* Add your _\_config.yml_ file to manage site config from in Forestry.
 
 ### Editing content and using templates
 
@@ -64,7 +68,9 @@ Configuration is managed in a [_.forestry_](https://github.com/MichaelCurrin/cod
 
 ### Saving and rebuilding
 
-* When adding a site to Forestry, it by default only it only looks at public repos. You can add access as well for private repos, but you might avoid this if you have permissions for a work-related org of private repos.
-* When you add a Github repo to Forestry, you get to choose the branch. When you've confirmed, you'll get an email from Github saying that a public key was added to the repo. This means you have authorized Forestry to edit that repo.
+* The default is to save a page as a **draft**.
+* Forestry will **autosave** content for you and if you return to a file it will ask you if you want to discard changes or use the work in progress unsaved changes.
+* When adding a site to Forestry, it by default only it only looks at **public** repos. You can add access as well for **private** repos, but you might avoid this if you have permissions for a work-related org of private repos.
+* When you add a Github repo to Forestry, you get to choose the **branch**. When you've confirmed, you'll get an email from Github saying that a public key was added to the repo. This means you have authorized Forestry to edit that repo.
 * A commit is made whenever you click save in Forestry. These appear in Github as authored by your user and a Forestry user.
-* If your site is slow to rebuild, you can use the preview mode in Settings as that only rebuilds the contents that changed.
+* If your site is slow to rebuild, you can use the preview mode in Settings as that only rebuilds the contents that changed. This can be useful if you have a large site that take a minute to rebuild normally and simulates using `--incremental` flag for Jekyll locally.
