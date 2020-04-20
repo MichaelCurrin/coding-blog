@@ -8,7 +8,7 @@ description: What the programming landscapes look like in the next few years
 If you are into frontend development or just choosing a language or framework, I'd highly recommended watching this Youtube video:
 
 * Title: [Predicting the Future of the Web Development (2020 and 2025)](https://www.youtube.com/watch?v=24tQRwIRP_w)
-* YT channel: _Coding Tech_
+* Youtube channel: _Coding Tech_
 * Speaker: _Richard Feldman_
 * Event: [_ReactiveConf_](https://reactiveconf.com/) _2019 in Prague_
 * Length: _29 minutes_
@@ -19,12 +19,12 @@ Below are some points in the talk which stood out for me.
 
 * Make a **prediction** rather than following blindly (such as choosing most-used popular solution).
 * Add **features** that people want, don't check off a list of things you think they want.
-* NPM has a **security vulnerability** through the pre- and post-install script commands - [disable](#npm-security-vulnerability) this in your config.
+* [NPM] has a **security vulnerability** through the pre- and post-install script commands - [disable this in your config](#npm-security-vulnerability).
 * Predictions
-  * **TypeScript** will take over the JS world (see [Resources](#resources))
-  * **WASM** will continue to grow and expand the Web App pie (see [Resources](#resources))
-  * **NPM** will last, surving further problems
-  * **JS** **alternatives** (e.g. Elm) will stay niche and age well.
+  * [TypeScript] will take over the JS world (see [Resources](#resources))
+  * [Web Assembly] will continue to grow and expand the Web App pie (see [Resources](#resources))
+  * [NPM] will last, surving further problems
+  * [JavaScript] alternatives (e.g. [Elm]) will stay niche and age well.
 
 I elaborate on the talk in the rest of this post.
 
@@ -42,11 +42,12 @@ I elaborate on the talk in the rest of this post.
 
 ## Competitors to JavaScript
 
-* JavaScript has **community momentum**. People are already using it and adding to it and learning it.
+* [JavaScript] has **community momentum**. People are already using it and adding to it and learning it.
 * Anything that is not JS-related won't dominate.
-* **TypeScript** will likely dominate and in 2025 more people will be writing TypeScript than plain JavaScript. The reason why Perl didn't make it and TypeScript will, is that TypeScript has already grown more popular than Perl and has many adopted or is busy being adopted by most JS frameworks.
-* TypeScript does promise safety with **type checking** at compile time, however the speaker makes a point that this can be a false promise if not used well - such as when using a complex nested type which uses `any`. (Or using type checking as a substitute for tests).
-* Any technology must be significantly **different** from JavaScript to make it worth using. Like **Elm**, which has its great ecosystem, reduced errors, better performance and smaller output sizes - it also just feels lighter and easier to work with compared with JavaScript. Watch the talk for more motivations around these.
+* [TypeScript]
+  * This will likely dominate and in 2025 more people will be writing TypeScript than plain JavaScript. The reason why Perl didn't make it and TypeScript will, is that TypeScript has already grown more popular than Perl and has many adopted or is busy being adopted by most JS frameworks.
+  * It does promise safety with **type checking** at compile time, however the speaker makes a point that this can be a false promise if not used well - such as when using a complex nested type which uses `any`. (Or using type checking as a substitute for tests).
+* Any technology must be significantly **different** from JavaScript to make it worth using. Like [Elm], which has its great ecosystem, reduced errors, better performance and smaller output sizes - it also just feels lighter and easier to work with compared with JavaScript. Watch the talk for more motivations around these.
 * But if it is different enough from JavaScript, it will be a **barrier** to learn for those already preferring JavaScript, so it won't overtake JavaScript. And that's okay.
 
 ### JS dialects
@@ -54,9 +55,9 @@ I elaborate on the talk in the rest of this post.
 These were described as all "really just JavaScript" when compiled. TypeScript and CoffeeScript have both used that tagline.
 
 * CoffeScript
-* Dart
+* [Dart]
 * Babel
-* TypeScript (see [Resources](#resources))
+* [TypeScript]
 * Svelt
 
 ### Alternatives to JavaScript
@@ -64,6 +65,7 @@ These were described as all "really just JavaScript" when compiled. TypeScript a
 * Closure script - [closurescript.org ](https://closurescript.org)
 * Reason ML - [reasonml.github.io](https://reasonml.github.io)
 * Elm (see [Resources](#resources))
+
 
 ## NPM security vulnerability
 
@@ -73,11 +75,15 @@ The speakers said that NPM has a vulnerability in executing **arbitrary code** o
 
 How **disable** that and leave it set:
 
-    npm config set ignore-scripts true
+```sh
+npm config set ignore-scripts true
+```
 
 Or just disable on an install:
 
-    npm install --ignore-scripts
+```sh
+npm install --ignore-scripts
+```
 
 ## Adding to your product
 
@@ -86,31 +92,13 @@ Or just disable on an install:
 
 ## Other predictions
 
-* **Web Assembly** gives low-level control of the browser behavior and is already used by Elm, Dart and Rust. Web Assembly is going to boost performance on browser UI, including for games.
+* [Web Assembly] gives low-level control of the browser behavior and is already used by Elm, Dart and Rust. Web Assembly is going to boost performance on browser UI, including for games.
 * **Machine Learning** and **AI** are over-hyped - yes there are great use-cases for them, but the kind of applications for those are not going to be so ground-breaking as people think.
 * **GitHub packages** might be a good alternative to the NPM packages repository. Yarn or something else might replace NPM. But the ecosystem will remain because it has support. The NPM site has prevented unpublishing packages, to avoid unexpected errors.
 
-## Resources
-
-### TypeScript
-
-* Homepage [typescriptlang.org](https://www.typescriptlang.org/ "https://www.typescriptlang.org/")
-* [Wikipedia](https://en.wikipedia.org/wiki/TypeScript) page
-
-  > TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for development of large applications and transcompiles to JavaScript.
-
-### Elm
-
-* Homepage[ elm-lang.org](https://elm-lang.org/ "https://elm-lang.org/")
-* [Wikipedia](https://en.wikipedia.org/wiki/Elm_(programming_language)) page
-
-  > Elm is a domain-specific programming language for declaratively creating web browser-based graphical user interfaces. Elm is purely functional, and is developed with emphasis on usability, performance, and robustness.
-
-### Web Assembly
-
-aka "WASM"
-
-* Homepage [webassembly.org](https://webassembly.org/ "https://webassembly.org/")
-* [Wikipedia](https://en.wikipedia.org/wiki/WebAssembly) page
-
-  > WebAssembly is an open standard that defines a portable binary-code format for executable programs, and a corresponding textual assembly language, as well as interfaces for facilitating interactions between such programs and their host environment.
+[NPM]: https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/JavaScript/node_packages.md
+[JavaScript]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/JavaScript
+[Dart]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Dart
+[Elm]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Elm
+[Web Assembly]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Web%20Assembly
+[TypeScript]: https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript
