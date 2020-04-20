@@ -76,7 +76,7 @@ If you take _one thing_ away from the talk:
 
 The speakers said that NPM has a vulnerability in executing **arbitrary code** on install, using **pre**- and **post-install** commands. This can be used for **malicious** behavior, especially with nested dependencies.
 
-How **disable** that and leave it set:
+How **disable** that as a config item and leave it set:
 
 ```sh
 npm config set ignore-scripts true
@@ -90,15 +90,19 @@ npm install --ignore-scripts
 
 ## Adding to your product
 
-* Go for solving use-cases and understanding people's problems.
-* Rather than checking of a a list of features which the developers want to add but no one cares about. Such as when the speaker say that when Elm's output size and performance was _better_ than JavaScript and was further improved, people _weren't impressed_ because they are already used to the drawbacks of JavaScript.
+* Go for **solving use-cases** and understanding people's problems.
+* Don't just check off a list of features which the developers want to add but no one cares about. Such as when the speaker said that Elm's output size and performance was _better_ than JavaScript and was further improved, but people _weren't impressed_ because they are already okay with the drawbacks of JavaScript.
 
 ## Other predictions
 
-* [Web Assembly](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Web%20Assembly) gives low-level control of the browser behavior and is already used by Elm, Dart and Rust. Web Assembly is going to boost performance on browser UI, including for games.
-* **Machine Learning** and **AI** are over-hyped - yes there are great use-cases for them, but the kind of applications for those are not going to be so ground-breaking as people think.
-* **NPM ecosystem**
-  * **GitHub packages** might be a good alternative to the NPM packages repository. You can already specify it as a source when installing.
+* [Web Assembly](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Web%20Assembly) growth.
+  * This gives low-level control of the browser behavior for achieving high performance. This is an alternative to JavaScript.
+  * This is already used by Elm, Dart and Rust as part of the code they output.
+  * Web Assembly is going to boost performance on browser UI, including for **games**. The speaker shared an example of a site which is like **Photoshop** which is built on C++ and renders in the browser (possibly in Web Assembly too but this wasn't clear).
+* **Machine Learning** and **AI** are over-hyped
+  * Yes there are great use-cases for them, but the kind of applications for those are not going to be so ground-breaking as people think.
+* **NPM ecosystem growth**
+  * The **GitHub packages** **repository** might be a good alternative to the NPM packages repository. You can already specify it as a source when installing.
   * **Yarn** or something similar could replace NPM as a tool.
   * But the **ecosystem will remain,** because it has support. 
   * The NPM site has **prevented unpublishing packages**, to avoid unexpected errors.
