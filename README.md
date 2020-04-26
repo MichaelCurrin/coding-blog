@@ -1,8 +1,6 @@
 # Coding Blog
 > My blog of experiences and advice around coding, focusing on Python development.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d4ec3365-ab16-4053-a694-2adc9a1c9960/deploy-status)](https://app.netlify.com/sites/elastic-borg-56864d/deploys)
-
 This repo is viewable as a website at [michaelcurrin.github.io/coding-blog/](https://michaelcurrin.github.io/coding-blog/). It was built with _Jekyll_ and hosted with _Github Pages_.
 
 The site's theme is [Midnight](https://github.com/pages-themes/midnight).
@@ -24,6 +22,7 @@ Once the site is running as per section above, you can access the admin URL. Not
 - http://localhost:5000/admin
 
 Note that the URL paths is fixed, even if the main site is configured to serve on a subpath.
+
 
 ## Notes
 
