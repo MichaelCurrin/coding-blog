@@ -7,6 +7,7 @@ Getting into programming as a first career or change of career may seem daunting
 
 This post is focused on the Python language but can be applied to other languages.
 
+
 ## Free online resources
 
 I got into Python programming through a combination of free online resources which did not cost anything.
@@ -15,7 +16,8 @@ I got into Python programming through a combination of free online resources whi
 - Community support through Stack Overflow answers, blog sites and tutorials
 - Open-source code and libraries, including good documentation for how to use those or examples of using them 
 
-I wrote this list of Python [Resources](https://github.com/MichaelCurrin/learn-to-code/tree/master/Scripting%20languages/Python#resources) which includes links to some online courses.
+I wrote this list of Python [Resources](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Python#resources) which includes links to some online courses.
+
 
 ## Recommended blog posts
 
