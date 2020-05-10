@@ -14,9 +14,18 @@ fields:
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
+    config:
+      required: true
   - type: text
     name: url
-    label: url
+    label: URL
+    config:
+      required: true
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
 pages:
 - _posts/links.md
