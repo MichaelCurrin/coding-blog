@@ -13,13 +13,13 @@ fields:
   label: links
   fields:
   - type: text
-    name: title
-    label: Title
+    name: url
+    label: URL
     config:
       required: true
   - type: text
-    name: url
-    label: URL
+    name: title
+    label: Title
     config:
       required: true
   - name: description
