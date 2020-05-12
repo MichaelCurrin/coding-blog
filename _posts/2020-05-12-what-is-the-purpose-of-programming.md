@@ -7,15 +7,16 @@ The point of writing code is so that a computer can do what you tell it to.
 
 And it usually some side effects - changes makes outside itself.
 
-Output is printed, data is stored, a light turns on or a sound plays.
+Output is printed, data is stored, a light turns on or a sound plays. You can even add sound to a debugger to help tell you when certain good or bad events are hit. This gives a fast feedback loop.
 
-This gives a fast feedback loop.
 
-Using code makes a sandcastle in the clouds, which otherwise never would have been and it can disappear if you wish. Or you can use it and share it.
+Programming is the magic and wizardry of our time. Using code we maks a sandcastle in the clouds, which otherwise never would have been and it can disappear if you wish. Or you can use it and share it.
 
-You can build the sandcastle to change it. And you interact with the finished sandcastle - which is never really finished as it is not fixed.
+> Finally there is the delight of working in such a tractable medium. The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures. [quotes](http://pages.cs.wisc.edu/~param/quotes/man-month.html) page or [Google book](https://books.google.co.za/books?id=Yq35BY5Fk3gC&pg=PT24#v=onepage&q&f=false)
 
-Lyrics from the band aKING:
+You can change a part of your recipe to build your sandcastle then rebuild it in an instant.
+
+You can interact with the finished sandcastle - which is never really finished as it is not fixed. That reminds me of lyrics from the band aKING:
 
 > A song is never finished, only abandoned.
 
