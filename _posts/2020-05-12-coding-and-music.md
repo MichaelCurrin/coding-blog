@@ -5,13 +5,13 @@ description: ''
 ---
 ## How to write music with code
 
-### Live coding
+### Live coding topic
 
 * [Live coding](https://en.wikipedia.org/wiki/Live_coding "https://en.wikipedia.org/wiki/Live_coding") on Wikipedia
 
 That includes impromptu musical performances with code.
 
-### Sonic Pi - write music with code
+### Sonic Pi for writing music with code
 
 Try out Sonic Pi - a Ruby-based programming language that plays notes and music based on the code you write.
 
@@ -23,11 +23,25 @@ It can be used for a live performance, as it constantly loops and responds to th
 
 Download for Window, macOS or Raspberry Pi.
 
-### Jack Audio
+### ChucK
 
-A tool for mixing sound and recordings.
+* [chuck.cs.princeton.edu](https://chuck.cs.princeton.edu/ "https://chuck.cs.princeton.edu/")
+
+  > ChucK : Strongly-timed, Concurrent, and On-the-fly
+* Blog post as an intro to ChuckD
+  * [Live coding with ChucK on Ubuntu](http://giovanni.curlybrackets.it/2013/02/20/live-coding-with-chuck-on-ubuntu.html )
+
+This is relies on the JACK, covered below.
+
+### Jack Audio Connection Kit
+
+A tool for mixing sound and recordings. Also known as _JACK._
 
 * [jackaudio.org](https://jackaudio.org/ "https://jackaudio.org/")
+
+It can be installed on Ubuntu as:
+
+    sudo apt-get install jackd
 
 There are plenty of resources listed here including live programming:
 
