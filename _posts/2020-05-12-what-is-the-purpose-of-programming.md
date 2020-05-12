@@ -20,7 +20,7 @@ You can interact with the finished sandcastle - which is never really finished a
 
 > "Art is never finished, only abandoned."
 > 
-> - Leonardo da Vinci
+> \- Leonardo da Vinci
 
 Or lyrics from a band named aKING:
 
