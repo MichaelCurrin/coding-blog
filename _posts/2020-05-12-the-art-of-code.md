@@ -1,6 +1,6 @@
 ---
 title: The Art of Code
-description: ''
+description: 'Thoughts and highlights about a thought-provoking video'
 
 ---
 I enjoyed this video on YouTube:
