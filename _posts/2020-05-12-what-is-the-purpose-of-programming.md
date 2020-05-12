@@ -15,7 +15,7 @@ Using code makes a sandcastle in the clouds, which otherwise never would have be
 
 You can build the sandcastle to change it. And you interact with the finished sandcastle - which is never really finished as it is not fixed.
 
-From the band aKING:
+Lyrics from the band aKING:
 
 > A song is never finished, only abandoned.
 
