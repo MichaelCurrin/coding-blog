@@ -13,4 +13,4 @@ He covers [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_
 
 He talks about the [Mandelbrot Set](https://mathworld.wolfram.com/MandelbrotSet.html) - an area of math dealing with an infinitely repeating pattern which as you zoom it looks similar to itself but never repeats.
 
-He speaks about Google's Deep Dreams experiment in machine learning. For example, the algorithm used to recognize dogs in a picture is inverted so that it amplifies dogs in a picture which has no dogs. You can do the same without any coding by uploading and image on [Deep Dream Generator](deepdreamgenerator.com/) and choosing the dream dream option and some parameters.
+He speaks about Google's Deep Dreams experiment in machine learning. For example, the algorithm used to recognize dogs in a picture is inverted so that it amplifies dogs in a picture which has no dogs. You can do the same without any coding by uploading and image on [Deep Dream Generator](https://deepdreamgenerator.com/) and choosing the dream dream option and some parameters. It's a social media platform similar to Instagram.
