@@ -9,7 +9,7 @@ I enjoyed this video on YouTube:
 
 The speaker asks - is coding art, science, engineering?
 
-He covers Conway's Game of Life - an algorithm transferred from paper to screen which makes intriguing patterns.
+He covers [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) - an algorithm transferred from paper to screen which makes intriguing patterns.
 
 He talks about the [Mandelbrot Set](https://mathworld.wolfram.com/MandelbrotSet.html) - an area of math dealing with an infinitely repeating pattern which as you zoom it looks similar to itself but never repeats.
 
