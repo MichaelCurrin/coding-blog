@@ -33,9 +33,9 @@ Download for Window, macOS or Raspberry Pi.
 
 This is relies on the JACK, covered below.
 
-### Jack Audio Connection Kit
+### JACK - Jack Audio Connection Kit
 
-A tool for mixing sound and recordings. Also known as _JACK._
+A tool for mixing sound and recordings.
 
 * [jackaudio.org](https://jackaudio.org/ "https://jackaudio.org/")
 
