@@ -27,3 +27,9 @@ Or lyrics from a band named aKING:
 > A song is never finished, only abandoned.
 
 Programming can be used to automate tasks, to process input and output, or to do your work. Or writing the code can be the work. Or it can be to make art, graphs, games or book. Or it can let you make things as a canvas, dashboard builder, game maker or content manager. It can make a game without a point or predictable score or outcome but that you can play with - a digital toy of sorts.
+
+Coding takes creativity in problem solving and applying tech to the real world. There's a leap of imagination and vision to see something in your mind and then make it, whether using keystrokes, button clicks or glueing together code and tech by other people.
+
+> No great artist ever sees things as they really are. If he did, he would cease to be an artist. 
+>
+> - Oscar Wilde
