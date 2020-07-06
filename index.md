@@ -79,7 +79,7 @@ See my [Scriping languages](https://github.com/MichaelCurrin/learn-to-code/tree/
 
 1. I did Java in high school then forgot most of it over the years.
 1. I studied and started working in Marketing with a focus on digital marketing. So I got a good idea of advertising, social media, digital marketing, Google Anaytics and Google Adwords and building dashboards for analyizing brand performance.
-1. While working in the field of marketing, I started learning Python for free on [codecademy.com/](https://www.codecademy.com/).
+1. While working in the field of marketing, I started learning Python for free on [codecademy.com](https://www.codecademy.com/).
 1. I got bored with completing exercises. 
 Then I found opportunities to automate parts of my jobs - pull social media and Google Ads data from APIs, building reports to aggregate data and sending out emails. So I went back to learn more Python using the course and other free online resources.
 1. In 2017, I started my first tech job as Backend Developer.
