@@ -23,11 +23,13 @@ This is my developer blog - I write about tech topics that interest me. Here is 
 
 ## Programming languages and tools used
 
+See my [Scriping languages](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages) resources to learn more about these.
+
 ### Experienced
 
 - Python
-- HTML and CSS
 - JavaScript / NodeJS
+- HTML and CSS
 - Jekyll (static site generator)
 - GitHub Actions (CI on GitHub)
 - Shell scripting (Linux and macOS)
