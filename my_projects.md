@@ -8,6 +8,9 @@ This page highlights some of my Github repos which I would like to share. Either
 
 I cover the reasons I created the repos and a summary of learnings and challenges I found while working on them.
 
+See also this [gist](https://gist.github.com/MichaelCurrin/bbe1db28e42eca63dcb9f8728758259d).
+
+
 ## [My Github Projects](https://github.com/MichaelCurrin/my-github-projects)
 
 A dev portfolio site using my Github repo data, fetched from the Github GraphQL API.
