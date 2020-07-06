@@ -8,6 +8,69 @@ layout: home
 
 This is my developer blog - I write about tech topics that interest me. Here is some info about me:
 
+## Skills
+
+- Website design
+- Databases and ORMs
+- Web servers - building or querying REST APIs or GraphQL
+- Data visualization
+- Continuous deployment pipelines
+- Shell scripting
+- Automation (web scraping, job scheduling)
+- Machine learning
+- Test-driven development
+
+## Programming languages and tools used
+
+### Experienced
+
+- Python
+- HTML and CSS
+- JavaScript / NodeJS
+- Jekyll (static site generator)
+- GitHub Actions (CI on GitHub)
+- Shell scripting (Linux and macOS)
+
+### Somewhat experienced
+
+- Java
+- Groovy
+- Ruby
+- C
+
+### I want to learn more about
+
+- TypeScript
+- Go
+- Doc site generators
+    - MkDocs
+    - DocsifyJS
+    - VuePress
+- CSS frameworks
+- SCSS and SASS
+- Vue, React and Preact
+
+### I am curious about
+
+- Rust
+- Dart
+- Deno
+- Hugo
+- Elixir
+- Crystal
+- WebAssembly
+
+
+### Tools I like using
+
+- VS Code and PyCharm
+- Jenkins and BuildKite
+- Jira
+- Netlify and GitHub Pages
+- Vercel / Now.sh
+- AWS S3 / EC2 / Lambda / CloudFront
+
+
 ## How I started coding
 
 1. I did Java in high school then forgot most of it over the years.
@@ -19,14 +82,16 @@ Then I found opportunities to automate parts of my jobs - pull social media and 
 - I have since picked up a lot of experience in work projects as a Fullstack Software Engineer. i.e. I work in the database, the server logic and running the HTML, CSS and JavaScript on the browser side.
 I continue to keep my skills sharp with personal projects and community projects and learning new languages, libraries and concepts.
 
+<!--
 ## Some of my favorite topics
 
 - Web scraping - Mostly using Python
 - Social media data analysis (Using social media APIs and Python
-- Browser automation - Using Selenium in Node or Python.
+- Browser automation - Using Selenium in NodeJS or Python.
 - Data viz - With Google Data Studio, D3 and Python libraries
 - Static sites - Using mostly Jekyll and a bit of Hugo
 - Web applications - I've worked with Flask, CherryPy and Django
 - Databases - I've worked with MySQL, Postgres, SQLite and MongoDB
 - GraphQL - Fetching data from APIs like Github V4 API and a bit of setting up my own API.
 - DevOps areas - I've work with deploy and backup pipelines and containerizing an application
+-->
