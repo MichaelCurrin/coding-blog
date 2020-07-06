@@ -18,7 +18,8 @@ This is my developer blog - I write about tech topics that interest me. Here is 
 - Shell scripting
 - Automation (web scraping, job scheduling)
 - Machine learning
-- Test-driven development
+- Test-Driven Development and Domain-Driven Design
+
 
 ## Programming languages and tools used
 
@@ -36,6 +37,7 @@ This is my developer blog - I write about tech topics that interest me. Here is 
 - Java
 - Groovy
 - Ruby
+- PHP
 - C
 
 ### I want to learn more about
