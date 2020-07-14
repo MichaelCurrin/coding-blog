@@ -1,9 +1,18 @@
 # Coding Blog
 > My blog of experiences and advice around coding, focusing on Python development.
 
-This repo is viewable as a website at [michaelcurrin.github.io/coding-blog/](https://michaelcurrin.github.io/coding-blog/). It was built with _Jekyll_ and hosted with _Github Pages_.
+[![Hosted with Github Pages](https://img.shields.io/badge/Hosted_with-Github_Pages-blue.svg)](https://pages.github.com/)
+[![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue.svg)](https://jekyllrb.com)
+[![Theme minima](https://img.shields.io/badge/theme-minima-blue.svg)](https://github.com/jekyll/minina)
 
-The site's theme is [Midnight](https://github.com/pages-themes/midnight).
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/coding-blog)](https://github.com/MichaelCurrin/coding-blog/tags/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+
+## Go to website
+
+[![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-green?style=for-the-badge)](https://MichaelCurrin.github.io/coding-blog/)
+
 
 ## Local development
 
@@ -15,7 +24,7 @@ To setup and run this repo locally, follow this instructions in this [gist](http
 
 ### Admin view
 
-The Jekyll Admin plugin adds a CSM view for editing content. Any changes saved are done as local uncommitted changes in the repo.
+The Jekyll Admin plugin adds a CMS view for editing content. Any changes saved are done as local uncommitted changes in the repo.
 
 Once the site is running as per section above, you can access the admin URL. Note that no username or password is needed.
 
@@ -23,9 +32,20 @@ Once the site is running as per section above, you can access the admin URL. Not
 
 Note that the URL paths is fixed, even if the main site is configured to serve on a subpath.
 
+The [forestry.io](http://forestry.io/) service is also used a convenient remote CMS.
+
 
 ## Notes
 
 The [github-pages](https://github.com/github/pages-gem) gem is set in the Gemfile so that a Github Pages theme can be used and so that `site.github` can be used in templates. The site still builds to Github Pages without it set in the config. But it is added for consistency and in case it is needed for Netlify (running outside of Github).
 
 That plugin also includes the `jekyll-sitemap` and `jekyll-feed` plugins.
+
+
+## License
+
+Licensed under [MIT](/LICENSE).
+
+You can reuse any **code** in this project for your own project but you must include a copy of the original license.
+
+For pages and blog posts, **copyright** on the **content** belongs to the author only - [MichaelCurrin](https://github.com/MichaelCurrin/).
