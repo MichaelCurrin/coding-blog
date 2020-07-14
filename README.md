@@ -1,7 +1,7 @@
 # Coding Blog
 > My blog of experiences and advice around coding, focusing on Python development.
 
-[![Hosted with Github Pages](https://img.shields.io/badge/Hosted_with-Github_Pages-blue.svg)](https://pages.github.com/)
+[![Hosted with GitHub Pages](https://img.shields.io/badge/Hosted_with-GH_Pages-blue.svg)](https://pages.github.com/)
 [![Made with Jekyll](https://img.shields.io/badge/Made_with-Jekyll-blue.svg)](https://jekyllrb.com)
 [![Theme minima](https://img.shields.io/badge/theme-minima-blue.svg)](https://github.com/jekyll/minina)
 
