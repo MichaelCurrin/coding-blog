@@ -1,14 +1,18 @@
 ---
 title: My Projects
 layout: page
-permalink: /my-projects/
 ---
 
-This page highlights some of my Github repos which I would like to share. Either for other developers to use or learn from, or for anyone interested in using the service provided by the project (in some cases, freely available online).
-
-I cover the reasons I created the repos and a summary of learnings and challenges I found while working on them.
+Highlights of my GitHub repos.
 
 See also this [gist](https://gist.github.com/MichaelCurrin/bbe1db28e42eca63dcb9f8728758259d).
+
+
+## Dev portfolio
+
+- [michaelcurrin.github.io](https://michaelcurrin.github.io/)
+
+My dev homepage, showcasing just my most popular repos
 
 
 ## My Github Projects
@@ -18,6 +22,7 @@ See also this [gist](https://gist.github.com/MichaelCurrin/bbe1db28e42eca63dcb9f
 A dev portfolio site using my Github repo data, fetched from the Github GraphQL API.
 
 See also my projects on Github itself - [github.com/MichaelCurrin](https://github.com/MichaelCurrin?tab=repositories).
+
 
 ## Learn to code
 
