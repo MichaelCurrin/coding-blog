@@ -1,9 +1,7 @@
 ---
-title: About
+title: About me
 layout: page
 ---
-
-- [{{ site.github.owner_name }}]({{ site.github.owner_url }}) - my profile on GitHub
 
 Here is some info about me:
 
