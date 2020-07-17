@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#header nav {
+    /* The default is blue. */
+    background: none;
+}
+
+/* Prevent the theme's mobile overrides from making the menu hidden or pushed off the page. */
+@media print, screen and (max-width: 480px) {
+    #header {
+        margin-top: 0px;
+    }
+
+    nav {
+        display: inherit;
+    }
+
+}
