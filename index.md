@@ -4,7 +4,11 @@ layout: home
 
 ---
 
+<div align="center"
+
 ![My Github avatar](https://github.com/MichaelCurrin.png "My Github avatar")
+
+</div>
 
 This is my developer blog - I write about tech topics that interest me. Here is some info about me:
 
