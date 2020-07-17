@@ -4,12 +4,20 @@ layout: home
 ---
 
 <div align="center">
-
-{{ '![My Github avatar](https://github.com/MichaelCurrin.png "My Github avatar")' | markdownify }}
-
+    <a href="{{ site.github.owner_url }}">
+        <img src="{{ site.github.owner_url }}.png" alt="My GitHub avatar" title="My GitHub avatar" />
+    </a>
 </div>
+<br>
 
-This is my developer blog - I write about tech topics that interest me. Here is some info about me:
+This is my developer blog - I write about tech topics that interest me.
+
+## Links
+
+- [michaelcurrin.github.io](https://michaelcurrin.github.io/) - my dev homepage, showcasing my most popular repos
+- [{{ site.github.owner_name }}]({{ site.github.owner_url }}) - my profile on GitHub
+
+Here is some info about me:
 
 ## Skills
 
