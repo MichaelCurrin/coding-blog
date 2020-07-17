@@ -4,8 +4,6 @@ title: Coding Blog
 url: https://michaelcurrin.github.io
 baseurl: /coding-blog
 
-repository: MichaelCurrin/coding-blog
-
 theme: jekyll-theme-midnight
 plugins:
   - github-pages
