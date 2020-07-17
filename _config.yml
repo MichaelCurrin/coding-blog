@@ -1,5 +1,10 @@
-# TODO: Replace and resolve comments here then switch to GUI editor in admin (comments will be lost). Remember server had to be restarted to get config changes.
 # TODO: Configure admin to not pick up static fonts.
+
+title: Coding Blog
+url: https://michaelcurrin.github.io
+baseurl: /coding-blog
+
+repository: MichaelCurrin/coding-blog
 
 theme: jekyll-theme-midnight
 plugins:
@@ -12,11 +17,6 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-
-title: Coding Blog
-baseurl: "/coding-blog"
-url: https://michaelcurrin.github.io/coding-blog/
-repository: MichaelCurrin/coding-blog
 
 short_date: "%b %-d, %Y"
 
