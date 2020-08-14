@@ -109,4 +109,4 @@ This arcticle is more beginner-friendly. It also goes into some specific example
 
 There are some gotchas for advanced scripting for vars and conditionals, like `$VARIABLE` needs to be `$$VARIABLE`. But for basic uses you can do plenty without getting into that.
 
-I wrote a [cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/shell/make.html) for some of the more advanced syntax.
+I wrote a [Make cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/make/) for some of the more advanced syntax.
