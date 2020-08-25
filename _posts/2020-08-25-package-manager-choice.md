@@ -54,7 +54,6 @@ It is **easy** to remember just the name of a package like `rustc` or `golang` w
 
 Once the package is installed, you won't even have to remember or use the name again.
 
-
 ### Manage yourself
 
 The downside is that when you install you have to have exact syntax (which can also change as the package evolves).
@@ -63,7 +62,6 @@ Furthermore, you don't get the benefit of managing updates through `apt` or your
 
 This might be okay if you prefer to manage versions more conservatively, but my preference is to have the latest versions of multiple packages without having to think about each package. And if they are non-essential dev tools (my machine will still run without them) then I am happy to have a bit of risk to upgrade to the latest automatically. Also the APT package repositories are generally well-vetted by the community (and especially risk-averse on the Debian side) so you're unlikely to get any buggy updates. And if there are any buggy versions, you'll _also_ get the benefit of the next good version installed for you. 
 
-Also need to have `curl` installed.
 
 ## Manual
 
@@ -73,7 +71,7 @@ How to install packages the "recommended" way, without a package manager. Note t
 
 #### Rust
 
-Rust docs recommend using `curl` and `sh. 
+The Rust docs recommend using `curl` and `sh. 
 
 [Install Rust](https://www.rust-lang.org/tools/install)
 
@@ -83,7 +81,9 @@ $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 #### Go
 
-While the Go docs recommend download a target binay first (you have to choose one for your OS and a version such as latest - there is no easy `curl` option. Then unzip it to `/usr/local`.
+The Go docs recommend choosing and downloading a binary from their website. You have to choose one for your OS and a version number. There is no easy `curl` option. 
+
+Then unzip it to `/usr/local`.
 
 [Install the Go Tools](https://golang.org/doc/install)
 
@@ -93,12 +93,11 @@ $ tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 
 The docs also cover how to install multiple versions of Go side by side.
 
-
 ### How to update directly
 
 #### Rust
 
-Once installed, you'll update from within the package:
+Once installed, you'll update from within this package:
 
 ```sh
 $ rustup update
@@ -158,7 +157,6 @@ $ sudo apt-get install golang
 ```
 
 ### Update
-
 
 Run a global update as below to upgrade both Rust and Go.
 
