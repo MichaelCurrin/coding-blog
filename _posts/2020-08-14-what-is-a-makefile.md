@@ -6,9 +6,11 @@ title: What is a Makefile?
 
 A Makefile comes from a C progamming origin for compile C files in to binaries. You’ll still see it in modern C programs. If you ever used a Rakefile or NPM scripts, its a lot like that.
 
-You need the `make` command installed. This comes by default on my Linux installs and work Mac.
+You need the `make` command installed. This comes by default when I use Linux and Mac systems.
 
-In a project root where a `Makefile` exists, run `make` and a `TARGET` (a command defined in Makefile).
+In a project root you need a `Makefile` to exist. For Windows, this will be `make.bat` and has different syntax.
+
+Run `make` and a `TARGET` (a command defined in Makefile).
 
 
 ## Make and Jekyll
@@ -17,22 +19,23 @@ See my [jekyll-blog-demo](https://github.com/MichaelCurrin/jekyll-blog-demo) rep
 
 This is what the [Makefile](https://github.com/MichaelCurrin/jekyll-blog-demo/blob/master/Makefile) looks like there:
 
-```make
-default: install
+- `Makefile`
+    ```make
+    default: install
 
-help:
-	@egrep '^\S|^$$' Makefile
+    help:
+        @egrep '^\S|^$$' Makefile
 
-install:
-	bundle config set --local path vendor/bundle
-	bundle install
+    install:
+        bundle config set --local path vendor/bundle
+        bundle install
 
-upgrade:
-	bundle update
+    upgrade:
+        bundle update
 
-s serve:
-	bundle exec jekyll serve --trace --livereload
-```
+    s serve:
+        bundle exec jekyll serve --trace --livereload
+    ```
 
 And this is how to use it in the shell:
 
