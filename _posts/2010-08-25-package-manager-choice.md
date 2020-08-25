@@ -28,16 +28,19 @@ Strangely enough, the `curl` approach is usually recommended for Linux even when
 In this post, I explain two flows, summarized here with pros and cons.
 
 - Use **package manager** like `brew` or `apt`
-    - :heavy_plus_sign: - This is very convenient.
-    - :heavy_plus_sign: - It's easy to apply across systems (using `brew install foo` and `apt install foo`
-    - :heavy_minus_sign: - You won't get the latest version as the package manager can be behind.
-    - :heavy_plus_sign - But... that can be a _pro_ since you'll get delayed updates but which are more secure as they have already been around a while before you use it 
+    - :heavy_plus_sign: This is very convenient.
+    - :heavy_plus_sign: It's easy to apply across systems (using `brew install foo` and `apt install foo`
+    - :heavy_minus_sign: You won't get the latest version as the package manager can be behind.
+    - :heavy_plus_sign: But... that can be a _pro_ since you'll get delayed updates but which are more **secure** as they have already been around a while before you use it 
 - Use a manual approach which might involve steps in the browser and command-line 
-    - :heavy_plus_sign: - more controlled (isolated from `apt-get`) 
-    - :heavy_plus_sign: - more up to date.
-    - :heavy_minus_sign: - inconsistent across packages (each has their own way to install and update which you have to learn)
-    - :heavy_minus_sign: - far more tedious to remember and run
-    - :heavy_minus_sign: - hard to automate for installs and updates and this adds friction for the user (especially when you need to open up the browser to pick and download a file)
+    - :heavy_plus_sign: More controlled
+        - Isolated from `apt-get`)
+    - :heavy_plus_sign: More up to date.
+    - :heavy_minus_sign: Inconsistent across packages 
+        - Each has their own way to install and update, which you have to learn
+    - :heavy_minus_sign: Far more tedious to remember and run
+    - :heavy_minus_sign: Hard to automate for installs and updates and this adds friction for the user
+        - Especially when you need to open up the browser to pick and download a file
 
 
 ## Discussions of approaches
@@ -46,20 +49,8 @@ In this post, I explain two flows, summarized here with pros and cons.
 
 It is **easy** to remember just the name of a package like `rustc` or `golang` when it comes to installing with `apt-get` or `brew`.
 
-Once the package is installed, you won't have to even use the name again.
+Once the package is installed, you won't even have to remember or use the name again.
 
-Just run a global update as below.
-
-```sh
-$ sudo apt-get update
-$ sudo apt-get upgrade -y
-```
-
-From [Brew FAQs](https://docs.brew.sh/FAQ)
-
-```sh
-$ brew upgrade
-```
 
 ### Manage yourself
 
@@ -97,6 +88,8 @@ While the Go docs recommend download a target binay first (you have to choose on
 $ tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 ```
 
+The docs also cover how to install multiple versions of Go side by side.
+
 
 ### How to update directly
 
@@ -121,13 +114,14 @@ See [gist](https://gist.github.com/nikhita/432436d570b89cab172dcf2894465753).
 Also, here is entire repo [udhos/update-golang](https://github.com/udhos/update-golang) that exists to make the process of update Go smoother, indicating that the current experience is far from ideal.
 
 
-## How to install and manage using a package manager
+## How to manage using a package manager
 
+### Install
 While it is not covered on their websites, I have stumbled across these packages in my system's package manager GUI, which makes it easy to find packages to install, mark them for updates and do system-wide updates.
 
 Here is how to install with `apt` or `apt-get`.
 
-### Rust
+#### Rust
 
 ```sh
 $ sudo apt-get install rustc -y
@@ -144,7 +138,7 @@ $ # Red Hat
 $ sudo dnf install cmake gcc -y
 ```
 
-### Go
+#### Go
 
 The `golang` package is already available in APT repositories.
 
@@ -158,4 +152,20 @@ If you find that is behind the newest version, you can use a different repositor
 $ sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
 $ sudo apt-get update
 $ sudo apt-get install golang
+```
+
+### Update
+
+
+Run a global update as below to upgrade both Rust and Go.
+
+```sh
+$ sudo apt-get update
+$ sudo apt-get upgrade -y
+```
+
+From [Brew FAQs](https://docs.brew.sh/FAQ)
+
+```sh
+$ brew upgrade
 ```
