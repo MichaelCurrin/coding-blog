@@ -28,16 +28,16 @@ Strangely enough, the `curl` approach is usually recommended for Linux even when
 In this post, I explain two flows, summarized here with pros and cons.
 
 - Use **package manager** like `brew` or `apt`
-    - `+` - This is very convenient.
-    - `+` - It's easy to apply across systems (using `brew install foo` and `apt install foo`
-    - `-` - You won't get the latest version as the package manager can be behind.
-    - `+` - Though that can be a _pro_ since you'll get delayed updates but which are more secure as they have already been around a while before you use it 
+    - :heavy_plus_sign: - This is very convenient.
+    - :heavy_plus_sign: - It's easy to apply across systems (using `brew install foo` and `apt install foo`
+    - :heavy_minus_sign: - You won't get the latest version as the package manager can be behind.
+    - :heavy_plus_sign - But... that can be a _pro_ since you'll get delayed updates but which are more secure as they have already been around a while before you use it 
 - Use a manual approach which might involve steps in the browser and command-line 
-    - `+` - more controlled (isolated from `apt-get`) 
-    - `+` - more up to date.
-    - `-` - inconsistent across packages (each has their own way to install and update which you have to learn)
-    - `-` - far more tedious to remember and run
-    - `-` - hard to automate for installs and updates and this adds friction for the user (especially when you need to open up the browser to pick and download a file)
+    - :heavy_plus_sign: - more controlled (isolated from `apt-get`) 
+    - :heavy_plus_sign: - more up to date.
+    - :heavy_minus_sign: - inconsistent across packages (each has their own way to install and update which you have to learn)
+    - :heavy_minus_sign: - far more tedious to remember and run
+    - :heavy_minus_sign: - hard to automate for installs and updates and this adds friction for the user (especially when you need to open up the browser to pick and download a file)
 
 
 ## Discussions of approaches
