@@ -27,19 +27,22 @@ Strangely enough, the `curl` approach is usually recommended for Linux even when
 
 In this post, I explain two flows, summarized here with pros and cons.
 
+<!-- TODO use :heavy_plus_sign: :heavy_minus_sign: but currently not supported -->
+
 - Use **package manager** like `brew` or `apt`
-    - :heavy_plus_sign: This is very convenient.
-    - :heavy_plus_sign: It's easy to apply across systems (using `brew install foo` and `apt install foo`
-    - :heavy_minus_sign: You won't get the latest version as the package manager can be behind.
-    - :heavy_plus_sign: But... that can be a _pro_ since you'll get delayed updates but which are more **secure** as they have already been around a while before you use it 
+    - PRO This is very convenient.
+    - PRO It's easy to apply across systems
+        - using `brew install foo` and `apt install foo`
+    - CON You won't get the latest version as the package manager can be behind.
+    - PRO But... that can be a _pro_ since you'll get delayed updates but which are more **secure** as they have already been around a while before you use it 
 - Use a manual approach which might involve steps in the browser and command-line 
-    - :heavy_plus_sign: More controlled
+    - PRO More controlled
         - Isolated from `apt-get`
-    - :heavy_plus_sign: More up to date.
-    - :heavy_minus_sign: Inconsistent across packages 
+    - PRO More up to date.
+    - CON Inconsistent across packages 
         - Each has their own way to install and update, which you have to learn
-    - :heavy_minus_sign: Far more tedious to remember and run
-    - :heavy_minus_sign: Hard to automate for installs and updates and this adds friction for the user
+    - CON Far more tedious to remember and run
+    - CON Hard to automate for installs and updates and this adds friction for the user
         - Especially when you need to open up the browser to pick and download a file
 
 
