@@ -34,7 +34,7 @@ In this post, I explain two flows, summarized here with pros and cons.
     - :heavy_plus_sign: But... that can be a _pro_ since you'll get delayed updates but which are more **secure** as they have already been around a while before you use it 
 - Use a manual approach which might involve steps in the browser and command-line 
     - :heavy_plus_sign: More controlled
-        - Isolated from `apt-get`)
+        - Isolated from `apt-get`
     - :heavy_plus_sign: More up to date.
     - :heavy_minus_sign: Inconsistent across packages 
         - Each has their own way to install and update, which you have to learn
