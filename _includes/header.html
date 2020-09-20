@@ -7,13 +7,14 @@
 
     <nav>
         {% assign index = site.pages | where: "path", "index.md" | first %}
+
         <!-- The fork button class from midnight is aligned to the left so use it here as a hack. -->
         <li class="site-title fork">
             <a href="{{ index.url | relative_url }}">{{ index.title }}</a>
         </li>
 
         <li class="title">
-            <a href="{{ site.github.repository_url }}">GitHub</a>
+            <a href="{{ site.github.owner_url }}">GitHub</a>
         </li>
 
         {%- for path in page_paths -%}
