@@ -6,7 +6,8 @@ baseurl: /coding-blog
 
 theme: jekyll-theme-midnight
 plugins:
-  - github-pages
+  - jekyll-sitemap
+  - jekyll-github-metadata
   - jekyll-admin
 
 exclude:
