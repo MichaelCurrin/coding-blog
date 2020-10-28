@@ -1,5 +1,4 @@
-# Gem installation.
-vendor/bundle
+vendor/
+.bundle/
 
-# Output directory.
-_site
+_site/
