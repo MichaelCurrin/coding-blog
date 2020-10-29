@@ -5,9 +5,7 @@ description: How to get into development and build something
 
 ## Learn
 
-I love the W3 Schools site.
-
-https://www.w3schools.com/
+I love the [W3 Schools](https://www.w3schools.com/) site. It often comes up in Google results and I want to spend more time browsing the site.
 
 It covers:
 
@@ -18,7 +16,7 @@ It covers:
 
 Mostly around HTML/CSS/JavaScript, but they also handle JS frameworks, Python, Java and more.
 
-For the frontend side, the tutorials often have editable examples to demo HTML/JS/CSS behavior in your browser.
+For the frontend side, the tutorials often have editable examples to demo HTML/JS/CSS behavior in your browser. For example, how to make an accordion, a menu sidebar or animate an image gallery.
 
 
 ## Code challenges
