@@ -42,6 +42,8 @@ You can find something to test your skills in a language and build something fun
 
 Limiting yourself to a well-defined or well-known problem can let you focus more on the logic and writing code than on figuring out the real-world behavior. But of course if you like an application that you make, you can take it further to make it public and production-ready.
 
+Write down a couple of ideas from the app. Make some notes in Trello or a notebook so when you are itching to build something, you have a list ideas to draw on.
+
 For a focus on more real-world applications, see [Most common applications to build with Ruby](https://clutch.co/app-developers/resources/most-common-applications-ruby). If you build with JavaScript or Python, you'll find these are common projects to build too.
 
 - Web application
