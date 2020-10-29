@@ -4,9 +4,11 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/coding-blog)](https://github.com/MichaelCurrin/coding-blog/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![Hosted with GitHub Pages](https://img.shields.io/badge/Hosted_with-GH_Pages-blue.svg)](https://pages.github.com/)
+[![Hosted with GitHub Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue.svg)](https://pages.github.com/)
 [![Made with Jekyll](https://img.shields.io/badge/jekyll-3.9-blue?logo=jekyll)](https://jekyllrb.com)
 [![Theme minima](https://img.shields.io/badge/theme-minima-blue)](https://github.com/jekyll/minina)
+
+[Deploy status](https://github.com/MichaelCurrin/coding-blog/deployments)
 
 
 ## View site
