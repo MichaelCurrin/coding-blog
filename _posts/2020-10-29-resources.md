@@ -3,6 +3,9 @@ title: Resources
 description: How to get into development and build something
 ---
 
+Coding takes time and practice. Here I recommend some online sources to find help and ideas. 
+
+
 ## Learn
 
 I love the [W3 Schools](https://www.w3schools.com/) site. It often comes up in Google results and I want to spend more time browsing the site.
