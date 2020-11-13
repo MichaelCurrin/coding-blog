@@ -1,6 +1,6 @@
 ---
 title: How to choose tech projects
-description: Some ideas on how to find projects
+description: Some suggestions on how to find project ideas worth building
 ---
 
 This blog post won't tell you _what_ to build, but will help with _how_ to find projects relevant to your interests, skills or aims. 
