@@ -1,10 +1,9 @@
 ---
 title: Resources
-description: How to get into development and build something
+description: Links to tutorials, code challenges and an app that gives you project ideas
 ---
 
-Coding takes time and practice. Here I recommend some online sources to find help and ideas. 
-
+Coding takes time and practice. Here I recommend some online sources aimed at helping a beginner get better at software development.
 
 ## Learn
 
