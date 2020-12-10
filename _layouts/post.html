@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-{% comment %} Based on minima theme's post.html {% endcomment %}
+{% comment %} Based on minima {% endcomment %}
+
+
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -9,11 +11,29 @@ layout: default
         <h1 id="{{ page.title | slugify }}" class="post-title p-name" itemprop="name headline">
             <a href="#{{ page.title | slugify }}">{{ page.title | escape }}</a>
         </h1>
+
         <p class="post-meta">
             <i>{{ page.description | markdownify }}</i>
-            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                {{ page.date | date: site.short_date }}
-            </time>
+
+            <div>
+                <span>
+                    <b>Posted on:</b>
+                </span>
+
+                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ page.date | date: site.short_date }}
+                </time>
+            </div>
+
+            {% if page.tags %}
+            <div>
+                <span>
+                    <b>Tags:</b>
+                </span>
+
+                {% include post-tags.html tags=page.tags %}
+            </div>
+            {% endif %}
         </p>
     </header>
 
