@@ -1,7 +1,7 @@
 ---
 title: What is the purpose of programming?
 description: ''
-
+tags: reflection
 ---
 The point of writing code is so that a computer can do what you tell it to.
 
@@ -15,10 +15,10 @@ Programming is the magic and wizardry of our time. Using code we maks a sandcast
 
 You can change a part of your recipe to build your sandcastle then rebuild it in an instant.
 
-You can interact with the finished sandcastle - which is never really finished as it is not fixed. 
+You can interact with the finished sandcastle - which is never really finished as it is not fixed.
 
 > "Art is never finished, only abandoned."
-> 
+>
 > \- Leonardo da Vinci
 
 Or lyrics from a band named aKING:
@@ -29,7 +29,7 @@ Programming can be used to automate tasks, to process input and output, or to do
 
 Coding is an art - it takes creativity in problem solving and applying tech to the real world. There's a leap of imagination and vision to see something in your mind and then make it, whether using keystrokes, button clicks or glueing together code and tech by other people.
 
-> No great artist ever sees things as they really are. If he did, he would cease to be an artist. 
+> No great artist ever sees things as they really are. If he did, he would cease to be an artist.
 >
 > - Oscar Wilde
 
@@ -37,4 +37,4 @@ From an TED talk I watched - [Why tech needs the humanities](https://www.ted.com
 
 > We are scratching the surface in our ability as humans to communicate and invent together, and while the sciences teach us **how** to build things, it's the humanities that teach us **what** to build and **why** to build them.
 >
-> And they're equally as important, and they're just as hard. 
+> And they're equally as important, and they're just as hard.

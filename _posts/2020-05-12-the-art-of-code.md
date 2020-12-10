@@ -1,7 +1,7 @@
 ---
 title: The Art of Code
 description: 'Thoughts and highlights about a thought-provoking video'
-
+tags: art
 ---
 I enjoyed this video on YouTube:
 

@@ -1,6 +1,7 @@
 ---
 title: Code Playgrounds
 description: A list of online environments for running code for various languages
+tags: javascript
 ---
 
 - [CodePen](https://codepen.io/pen/) - HTML/CSS/JS. Choose from preprocessors e.g. pug and markdown and HTML, Less and SCSS for CSS and TypeScript or Babel for JS.

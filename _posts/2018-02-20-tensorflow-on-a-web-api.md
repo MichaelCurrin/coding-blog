@@ -1,6 +1,7 @@
 ---
 title: TensorFlow on a Web API
 description: How to integrate a machine learning (image recognition) service available on a Python web server.
+tags: python machine-learning api
 ---
 
 ![Python logo]({{ "/assets/images/logos/Python-logo-notext.svg" | relative_url }})

@@ -1,10 +1,11 @@
 ---
 title: Site building tools
+tags: static-site-generator tools
 ---
 
 Lists of tools for building websites, including static websites and docs sites.
 
-<!-- This data could be refactored to exist in YAML data file or CSV and then call an includes file to build it up. 
+<!-- This data could be refactored to exist in YAML data file or CSV and then call an includes file to build it up.
      A similar approach could work elsewhere on the site too. -->
 
 
@@ -19,7 +20,7 @@ Lists of tools for building websites, including static websites and docs sites.
           - [Best Practices](https://jamstack.org/best-practices/)
      - [JamStack.wtf](https://jamstack.wtf/)
      - [JAMStack templates](https://templates.netlify.com/) on Netlify.
-     
+
 ## Static site generators
 
 ### Hugo

@@ -1,6 +1,7 @@
 ---
 title: Interview questions
 description: Interview questions to reveal more than just technical skills.
+tags: interviews
 ---
 
 The follow questions are summarised from a blog post - [10 questions to ask in a technical interview](https://yashints.dev/blog/2019/07/17/interview-questions).

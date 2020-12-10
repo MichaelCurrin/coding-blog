@@ -1,6 +1,7 @@
 ---
 title: Who needs tests anyway?
 description: The cost of writing tests compared with the cost of NOT writing tests
+tags: tdd tests
 ---
 
 This article is about writing automated tests in a project, such as unit tests or integration tests.
@@ -11,7 +12,7 @@ Who needs tests? You do, probably. Not always if they impractical, but when it m
 
 Sometimes when prototyping you just need something that works and to reach point to decide if the application is worth adding to. So you might keep tests early on but add them later, to check the functionality is what you expect.
 
-Writing tests upfront even for a simple project can be beneficial. Tests tell you what the application and its pieces should do, so it gives you a checklist of functionality to build - this gives you a higher-level view of your application and means you avoid functionality is not worth coding e.g. If you need to add up all items in an array, maybe don't write a function if you can use a library or even use a builtin function like `sum`. 
+Writing tests upfront even for a simple project can be beneficial. Tests tell you what the application and its pieces should do, so it gives you a checklist of functionality to build - this gives you a higher-level view of your application and means you avoid functionality is not worth coding e.g. If you need to add up all items in an array, maybe don't write a function if you can use a library or even use a builtin function like `sum`.
 
 Look up Test-Driven Development - the tests can guide the developers to make good design choices.
 
@@ -27,7 +28,7 @@ That attitude starts with a fresh perspective - test everything. Be deliberate i
 
 ## Story of no tests
 
-I had an experience recently on a simple project with no tests. I made a change in Github directly and did not test the code locally because it looked right to me. In fact the syntax was right, but the logic was wrong - referencing a field in SQL that doesn't exist. I didn't even deploy the change straight away. 
+I had an experience recently on a simple project with no tests. I made a change in Github directly and did not test the code locally because it looked right to me. In fact the syntax was right, but the logic was wrong - referencing a field in SQL that doesn't exist. I didn't even deploy the change straight away.
 
 Then some weeks later I made another change, also not testing locally. I deploy the code and restarted the server and it came up.
 

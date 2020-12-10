@@ -1,6 +1,7 @@
 ---
 title: Use a package manager - or not?
 description: Using manual and automated flows to install/update packages like Rust and Go
+tags: rust go
 ---
 
 ## TL;DR
@@ -10,7 +11,7 @@ Here are the languages I cover in this post:
 - [Rust](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Rust)
 - [Go](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Go)
 
-You _can_ manage them directly using the approaches covered on the homepage sites (and later in this post). 
+You _can_ manage them directly using the approaches covered on the homepage sites (and later in this post).
 
 But I think that is very inconvenient compared to using a package manager to install them, such as `apt-get`, `brew`, `yum` or `dnf`. And while Rust is easy to update without a package manager, the Go update flow remains tedious.
 
@@ -34,12 +35,12 @@ In this post, I explain two flows, summarized here with pros and cons.
     - PRO It's easy to apply across systems
         - using `brew install foo` and `apt install foo`
     - CON You won't get the latest version as the package manager can be behind.
-    - PRO But... that can be a _pro_ since you'll get delayed updates but which are more **secure** as they have already been around a while before you use it 
-- Use a manual approach which might involve steps in the browser and command-line 
+    - PRO But... that can be a _pro_ since you'll get delayed updates but which are more **secure** as they have already been around a while before you use it
+- Use a manual approach which might involve steps in the browser and command-line
     - PRO More controlled
         - Isolated from `apt-get`
     - PRO More up to date.
-    - CON Inconsistent across packages 
+    - CON Inconsistent across packages
         - Each has their own way to install and update, which you have to learn
     - CON Far more tedious to remember and run
     - CON Hard to automate for installs and updates and this adds friction for the user
@@ -60,7 +61,7 @@ The downside is that when you install you have to have exact syntax (which can a
 
 Furthermore, you don't get the benefit of managing updates through `apt` or your system package manager GUI. So instead of using `apt upgrade` or letting your system be configured to check for updates on schedule, you have to manage each package individually. Such as running an update command from within the tool, or sometimes even having to use curl or download a zip from the website. This can be annoying for regular updates especially of IDEs - I've had this issue wih Sublime and VS Code.
 
-This might be okay if you prefer to manage versions more conservatively, but my preference is to have the latest versions of multiple packages without having to think about each package. And if they are non-essential dev tools (my machine will still run without them) then I am happy to have a bit of risk to upgrade to the latest automatically. Also the APT package repositories are generally well-vetted by the community (and especially risk-averse on the Debian side) so you're unlikely to get any buggy updates. And if there are any buggy versions, you'll _also_ get the benefit of the next good version installed for you. 
+This might be okay if you prefer to manage versions more conservatively, but my preference is to have the latest versions of multiple packages without having to think about each package. And if they are non-essential dev tools (my machine will still run without them) then I am happy to have a bit of risk to upgrade to the latest automatically. Also the APT package repositories are generally well-vetted by the community (and especially risk-averse on the Debian side) so you're unlikely to get any buggy updates. And if there are any buggy versions, you'll _also_ get the benefit of the next good version installed for you.
 
 
 ## Manual
@@ -71,7 +72,7 @@ How to install packages the "recommended" way, without a package manager. Note t
 
 #### Rust
 
-The Rust docs recommend using `curl` and `sh. 
+The Rust docs recommend using `curl` and `sh.
 
 [Install Rust](https://www.rust-lang.org/tools/install)
 
@@ -81,7 +82,7 @@ $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 #### Go
 
-The Go docs recommend choosing and downloading a binary from their website. You have to choose one for your OS and a version number. There is no easy `curl` option. 
+The Go docs recommend choosing and downloading a binary from their website. You have to choose one for your OS and a version number. There is no easy `curl` option.
 
 Then unzip it to `/usr/local`.
 

@@ -1,5 +1,6 @@
 ---
 title: What is a Makefile?
+tags: make
 ---
 
 ## Intro
@@ -53,7 +54,7 @@ $ make s
 
 You can also run just `make` and not arguments that will run the default target, which in this case is `install`. This is a C programming convention. Note that if you don't set a default, then the target would be used. So I removed the `default: ` line then `make` would run `make help`.
 
-You can create a command with any "target" defintion and a multiple steps (see my `install` command). 
+You can create a command with any "target" defintion and a multiple steps (see my `install` command).
 
 I like to also set build commands.
 

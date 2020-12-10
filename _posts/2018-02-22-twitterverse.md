@@ -1,6 +1,7 @@
 ---
 title: Twitterverse project
 description: Purpose, background and highlights of my [Twitterverse](https://github.com/MichaelCurrin/twitterverse) project, which is built around the Twitter API.
+tags: python
 ---
 
 I created my _twitterverse_ repo because I was interested in fetching, storing and reporting on data in the [Twitter API](https://developer.twitter.com/en/docs). Such as [trending topics](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place) at locations, or using the [Search API](https://developer.twitter.com/en/docs/tweets/search/overview) to get individual tweets in the past 7 days which match a search query.

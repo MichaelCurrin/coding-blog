@@ -1,6 +1,7 @@
 ---
 title: Shiny Happy Developers
 description: What makes software developers happy?
+tags: inspiration motivation reflection
 ---
 
 Here are some recommendations for how to make your software developers happy.

@@ -1,7 +1,7 @@
 ---
 title: Predicting the future of web development
 description: What the programming landscapes look like in the next few years
-
+tags: future predictions
 ---
 ## Watch the video
 
@@ -33,7 +33,7 @@ I'll elaborate on the talk in the rest of this post.
 * Make a prediction rather than following blindly. The speaker shares his experience on this lesson.
 * In 2006, the [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) was all the rage. The _P_ of _LAMP_ stood for PHP, Perl and Python. **Perl** was super popular, so the speaker's team went for that.
 * Perl's support has **declined** **constantly** since then, making it harder to build and to hire people.
-* So is not about choosing a technology (language, framework) only because everybody is using it (**popularity**). You might overlook a declining trend at the moment or coming up. 
+* So is not about choosing a technology (language, framework) only because everybody is using it (**popularity**). You might overlook a declining trend at the moment or coming up.
 * Rather **make a** **prediction** on its future for the next 5 or 10 years and then choose it.
 * And choose it because it will make you **happy**. Consider these factors:
   * Maturity
@@ -104,5 +104,5 @@ npm install --ignore-scripts
 * **NPM ecosystem growth**
   * The **GitHub packages** **repository** might be a good alternative to the NPM packages repository. You can already specify it as a source when installing.
   * **Yarn** or something similar could replace NPM as a tool.
-  * But the **ecosystem will remain,** because it has support. 
+  * But the **ecosystem will remain,** because it has support.
   * The NPM site has **prevented unpublishing packages**, to avoid unexpected errors.

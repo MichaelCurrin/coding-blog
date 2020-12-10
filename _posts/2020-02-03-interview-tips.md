@@ -1,6 +1,7 @@
 ---
 title: Technical interview tips
 description:
+tags: interviews
 ---
 
 ## Approaches for technical challenges

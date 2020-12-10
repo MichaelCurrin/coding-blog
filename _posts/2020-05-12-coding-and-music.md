@@ -1,7 +1,7 @@
 ---
 title: Coding and music
 description: ''
-
+tags: music
 ---
 ## How to write music with code
 

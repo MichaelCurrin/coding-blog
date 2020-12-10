@@ -1,9 +1,10 @@
 ---
 title: How to choose tech projects
 description: Some suggestions on how to find project ideas worth building
+tags: motivation projects
 ---
 
-This blog post won't tell you _what_ to build, but will help with _how_ to find projects relevant to your interests, skills or aims. 
+This blog post won't tell you _what_ to build, but will help with _how_ to find projects relevant to your interests, skills or aims.
 
 ## Benefits
 
@@ -21,20 +22,20 @@ They can help you to:
 
 ## Code challenges
 
-If you get bored and can't think of anything original to build, try finding a list of code challenges to solve. 
+If you get bored and can't think of anything original to build, try finding a list of code challenges to solve.
 
 Some places to start:
 
-- List of programming ideas, grouped by topic or difficulty. 
-    - See the Idea Bag [website](https://ideabag2.netlify.com/) and [mobile app](https://play.google.com/store/apps/details?id=com.alansa.ideabag2&hl=en). 
-- Solve a code challenge daily. 
+- List of programming ideas, grouped by topic or difficulty.
+    - See the Idea Bag [website](https://ideabag2.netlify.com/) and [mobile app](https://play.google.com/store/apps/details?id=com.alansa.ideabag2&hl=en).
+- Solve a code challenge daily.
     - You don't even to code it - even just thinking about it or talking to a friend about is great for pushing your logical problem solving abilities. You might have to investigate something about your choice programming language or research some libraries. Or maybe choose to solve the problem in a language in which you are less familiar, forcing yourself to lookup the syntax and think about a logical sequence in that language.
     - Places to start:
         - [Daily Coding Problem](https://www.dailycodingproblem.com/) website - This service will email you everyday for at least a year and will indicate the difficulty level
         - [30 days of code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) challenge
         - [100 days of code](https://www.100daysofcode.com/) website
         - [5 day coding challenge](https://codeinstitute.net/5-day-coding-challenge/) - 60-minute challenges
-- See recent code challenges post and see solutions from others in various languages. 
+- See recent code challenges post and see solutions from others in various languages.
     - See [SoloLearn](https://www.sololearn.com/). I like the code challenges view on the mobile app though actually coding on a mobile device is not so nice so you might switch to the website on a desktop.
 - Find mathematical and algorithmic challenges if you are interested in that.
     - Great for thinking about scalable solutions in tech services with large infracture, such as a high volume website with millions of requests or database records to search.
@@ -50,7 +51,7 @@ I sometimes get challenges from friends to make a game or website. Sometimes the
 
 ## On originality
 
-Also, don't get stuck on being creative and original. Everything come from something before. A lot of programming is often just gluing existing tools together. Whether they are different Python libraries, or using a webserver and database service to serve data you scraped. You have a unique background and community. 
+Also, don't get stuck on being creative and original. Everything come from something before. A lot of programming is often just gluing existing tools together. Whether they are different Python libraries, or using a webserver and database service to serve data you scraped. You have a unique background and community.
 
 Maybe you can take the idea of Instagram but tailor it to dog owners or hikers. Or create a meetup and networking platform for tech people in your city. Or maybe just make a pointless and fun game or script which force you to learn some new skills and maybe you'll use those pieces of code or skills in a later project.
 

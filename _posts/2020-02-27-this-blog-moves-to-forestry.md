@@ -1,7 +1,7 @@
 ---
 title: This blog moves to Forestry
 description: What I learnt when moving this project to a CMS
-
+tags: static-site-generator
 ---
 I am pleased to announce that I have moved this Jekyll blog to be managed using the [Forestry.io](https://forestry.io) CMS platform.
 
@@ -29,7 +29,7 @@ Some things I discovered while exploring the service with this Jekyll site:
   * Manage up to 3 sites.
   * Invite up to 3 users per site.
 * Foresty is not aware of Jekyll Liquid paths or base path value, so creating paths and image paths may take extra work or not display well in the editor even though the built site is fine. Using a site without a base path (such as Netlify rather then Github Pages) makes this easier.
-* Forestry has its own markdown preference. 
+* Forestry has its own markdown preference.
     - Bullet points are all asterisks.
     - If you try and insert links which are linked later in the page, Forestry will bring the link up to where it is used. e.g. `[foo]` and `[foo]: http://example.com` becomes `[foo](http://example.com)` only, which can be annoying if you want to use the link multiple times.
 

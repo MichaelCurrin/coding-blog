@@ -1,5 +1,6 @@
 ---
 title: Static Site CMS tools
+tags: cms
 ---
 
 Websites, libraries or plugins to create content through a CMS and compile to static HTML pages.
@@ -10,7 +11,7 @@ Websites, libraries or plugins to create content through a CMS and compile to st
 Website: [forestry.io](https://forestry.io)
 
 > Write front-end code with Gatsby, Hugo, Jekyll or Vuepress and push to your Git repo. Forestry will pull in your commits and update the CMS.
-> 
+>
 > Invite your team to create content in a rich UI. Their updates get committed back without merge conflicts.
 
 Forestry does not actually build or host your website - it just a pretty CMS view which controls users and editing of content. It does have a preview mode for fast building on a private randomized URL.
@@ -19,14 +20,14 @@ I like this and found this experience similar to the Jekyll Admin view, but with
 
 Their is a free tier - [pricing](https://forestry.io/pricing/).
 
-Foresty supports a few site generators ([list](https://forestry.io/docs/faqs/glossary/static-site-generators/)), summarized here below and grouped by language. 
+Foresty supports a few site generators ([list](https://forestry.io/docs/faqs/glossary/static-site-generators/)), summarized here below and grouped by language.
 
 - JavaScript
     - Next JS
     - Vue-based
         - Vue JS
         - Nuxt JS
-        - VuePress  
+        - VuePress
     - Gatsby
     - Eleventy
 - Ruby
@@ -75,7 +76,7 @@ Ruby-based static site generator.
 
 ## Hugo
 
-I used a Netlify CMS quickstart for Hugo. Unfortunately, you cannot run the admin view locally (the admin page points to Netlify) which means content is updated on the remote and not locally. Also, the admin view's content rules and preview ability needs to be maintained and kept in sync with your main application. 
+I used a Netlify CMS quickstart for Hugo. Unfortunately, you cannot run the admin view locally (the admin page points to Netlify) which means content is updated on the remote and not locally. Also, the admin view's content rules and preview ability needs to be maintained and kept in sync with your main application.
 
 I found this tedious and too much effort, so I went with another solution. Perhaps there are other ways to use a Hugo CMS which are easier.
 
@@ -93,16 +94,16 @@ Basic steps to get this working locally:
 1. Add the gem to your Gemfile.
 2. Install gems.
 3. Serve Jekyll.
-4. Go to `/admin/` URL. This always from the root, so ignore any base URL. 
+4. Go to `/admin/` URL. This always from the root, so ignore any base URL.
 
 Benefits:
 - You do not have to login, as there are no users. This is simple and easy.
-- You can get up and running without code - you do not need to add any config file or HTML file specific to the admin view. The admin view immediately allows you to edit the files in your project easily. 
+- You can get up and running without code - you do not need to add any config file or HTML file specific to the admin view. The admin view immediately allows you to edit the files in your project easily.
 - YAML files can be edited as text or in a more structured way (though comments will be removed when you save).
 - When you save a change in admin view, the files will be updated locally and the site will rebuild.
 
 Limitations:
-- Note that the livereload flag will be applied automatically when starting the Jekyll server with this plugin enabled. 
+- Note that the livereload flag will be applied automatically when starting the Jekyll server with this plugin enabled.
 - It will *prevent* rebuilding on changes on files made through the IDE and will only rebuild on changes made through admin UI. This can be inconvenient if you are switching between the admin view and your IDE for editing, but it not too annoying. And I suppose it encourages you to stick to the admin view, although some things are more appropriate or only possible in the IDE view.
 
 ### Remote
@@ -150,8 +151,7 @@ Free for use with one user.
 - Repo: [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
 - Pricing: [gitbook.com/pricing](https://www.gitbook.com/pricing)
     - Free tier gives you 10 spaces.
-    
+
 Targeted at building a documentation site, Gitbook allows you to use their CMS view to build and host a site which is synced to Github. The code synced to your repo is minimal though but becomes a full site when viewed through their editor / user-facing view.
 
 I've also seen Gitbook built standalone using an NPM package but don't know how much is involved there and what it does.
-

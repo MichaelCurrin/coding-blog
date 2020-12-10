@@ -1,6 +1,7 @@
 ---
 title: The future of websites - headless CMS
 description: Repost of an article
+tags: cms
 ---
 
 I found this article a good read and relevant to my recent research into choosing a CMS.
@@ -10,7 +11,7 @@ I found this article a good read and relevant to my recent research into choosin
 And it mentions some specific sites to try out. It's news to me that Wordpress can go headless now - it has an API so you can build your frontend but use their CMS editor.
 
 This article discusses types of CMS such as
-- headless 
+- headless
 - decoupled
 - hybrid
 <br>

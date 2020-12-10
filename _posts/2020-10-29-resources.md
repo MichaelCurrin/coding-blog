@@ -1,6 +1,7 @@
 ---
 title: Resources
 description: Links to tutorials, code challenges and an app that gives you project ideas
+tags: links learning
 ---
 
 Coding takes time and practice. Here I recommend some online sources aimed at helping a beginner get better at software development.
@@ -30,7 +31,7 @@ You can find code challenges as algorithms to solve here - I liked [Leetcode](ht
 
 ## What to build
 
-I recommend that you install and use the [Programming Ideas 2](https://play.google.com/store/apps/details?id=com.alansa.ideabag2&hl=en&gl=US) app on PlayStore. 
+I recommend that you install and use the [Programming Ideas 2](https://play.google.com/store/apps/details?id=com.alansa.ideabag2&hl=en&gl=US) app on PlayStore.
 
 Regardless of your choice of scriping language, you can enjoy this app as it is outlines the concepts and you figured out how to code it. Even if you just think through it or write it down on paper, this is a great exercise in exercising your creativity and logic.
 
