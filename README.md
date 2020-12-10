@@ -8,7 +8,7 @@
 [![Made with Jekyll](https://img.shields.io/badge/jekyll-3.9-blue?logo=jekyll)](https://jekyllrb.com)
 [![Theme minima](https://img.shields.io/badge/theme-minima-blue)](https://github.com/jekyll/minina)
 
-[Deploy status](https://github.com/MichaelCurrin/coding-blog/deployments)
+View [Deploy status](https://github.com/MichaelCurrin/coding-blog/deployments)
 
 
 ## View site
