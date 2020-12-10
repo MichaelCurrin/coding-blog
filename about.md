@@ -24,7 +24,7 @@ See my [Scriping languages](https://github.com/MichaelCurrin/learn-to-code/tree/
 ### Experienced
 
 - Python
-- JavaScript / NodeJS
+- JavaScript / Node.js
 - HTML and CSS
 - Jekyll (static site generator)
 - GitHub Actions (CI on GitHub)
@@ -87,7 +87,7 @@ I continue to keep my skills sharp with personal projects and community projects
 
 - Web scraping - Mostly using Python
 - Social media data analysis (Using social media APIs and Python
-- Browser automation - Using Selenium in NodeJS or Python.
+- Browser automation - Using Selenium in Node.js or Python.
 - Data viz - With Google Data Studio, D3 and Python libraries
 - Static sites - Using mostly Jekyll and a bit of Hugo
 - Web applications - I've worked with Flask, CherryPy and Django
