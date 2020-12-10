@@ -1,6 +1,5 @@
 ---
 title: My Projects
-layout: page
 ---
 
 Highlights of my GitHub repos.

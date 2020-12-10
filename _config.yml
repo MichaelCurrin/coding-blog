@@ -20,6 +20,10 @@ google_analytics: UA-87705880-4
 
 defaults:
   - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+  - scope:
       path: ""
     values:
       layout: "page"

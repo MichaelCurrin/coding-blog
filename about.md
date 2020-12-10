@@ -1,6 +1,5 @@
 ---
 title: About me
-layout: page
 ---
 
 Here is some info about me:
