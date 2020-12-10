@@ -18,6 +18,12 @@ google_analytics: UA-87705880-4
 # TODO: Configure admin to not pick up static fonts.
 # ...
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
 exclude:
   - vendor/
   - LICENSE
