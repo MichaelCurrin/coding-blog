@@ -1,5 +1,5 @@
 # Coding Blog
-> My blog of experiences and advice around coding, focusing on Python development.
+> My blog of experiences and advice around coding
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/coding-blog)](https://github.com/MichaelCurrin/coding-blog/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
