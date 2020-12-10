@@ -1,14 +1,22 @@
-# TODO: Configure admin to not pick up static fonts.
+### Site metadata ###
 
 title: Coding Blog
+description: "My blog of experiences and advice around coding"
+
+### Build settings ###
+
 url: https://michaelcurrin.github.io
 baseurl: /coding-blog
+repository: michaelcurrin/coding-blog
 
 theme: jekyll-theme-midnight
-plugins:
-  - jekyll-sitemap
-  - jekyll-github-metadata
-  - jekyll-admin
+
+short_date: "%b %-d, %Y"
+
+google_analytics: UA-87705880-4
+
+# TODO: Configure admin to not pick up static fonts.
+# ...
 
 exclude:
   - vendor/
@@ -17,7 +25,3 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-
-short_date: "%b %-d, %Y"
-
-google_analytics: UA-87705880-4
