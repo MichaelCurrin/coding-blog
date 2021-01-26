@@ -65,6 +65,7 @@ This integrates with a few static site generators. So far I have encountered the
 - [Hugo](#hugo)
 - [Middleman](#middleman)
 
+
 ## Middleman
 
 Ruby-based static site generator.
@@ -74,13 +75,14 @@ Ruby-based static site generator.
 - [A Step-by-Step Guide: Middleman on Netlify](https://www.netlify.com/blog/2015/10/01/a-step-by-step-guide-middleman-on-netlify/)
 - [JAMStack templates](https://templates.netlify.com/template/middleman-starter/)
 
+
 ## Hugo
 
 I used a Netlify CMS quickstart for Hugo. Unfortunately, you cannot run the admin view locally (the admin page points to Netlify) which means content is updated on the remote and not locally. Also, the admin view's content rules and preview ability needs to be maintained and kept in sync with your main application.
 
 I found this tedious and too much effort, so I went with another solution. Perhaps there are other ways to use a Hugo CMS which are easier.
 
-## Jekyl Admin
+## Jekyll Admin
 
 Homepage: [jekyll.github.io/jekyll-admin/](https://jekyll.github.io/jekyll-admin/)
 Repo: [jekyll-admin](https://github.com/jekyll/jekyll-admin)
@@ -91,18 +93,20 @@ Repo: [jekyll-admin](https://github.com/jekyll/jekyll-admin)
 
 Basic steps to get this working locally:
 
-1. Add the gem to your Gemfile.
+1. Add the gem to your Gemfile under `:jekyll_plugins`.
 2. Install gems.
-3. Serve Jekyll.
-4. Go to `/admin/` URL. This always from the root, so ignore any base URL.
+3. Start Jekyll server.
+4. Go to `http://localhost:4000/admin/`. This is always from the root, so ignore any base URL.
 
 Benefits:
+
 - You do not have to login, as there are no users. This is simple and easy.
 - You can get up and running without code - you do not need to add any config file or HTML file specific to the admin view. The admin view immediately allows you to edit the files in your project easily.
 - YAML files can be edited as text or in a more structured way (though comments will be removed when you save).
 - When you save a change in admin view, the files will be updated locally and the site will rebuild.
 
 Limitations:
+
 - Note that the livereload flag will be applied automatically when starting the Jekyll server with this plugin enabled.
 - It will *prevent* rebuilding on changes on files made through the IDE and will only rebuild on changes made through admin UI. This can be inconvenient if you are switching between the admin view and your IDE for editing, but it not too annoying. And I suppose it encourages you to stick to the admin view, although some things are more appropriate or only possible in the IDE view.
 
@@ -117,6 +121,7 @@ With some customization (config file and HTML), you can access this admin view i
 This CMS is probably targeted at developers. It unfortunately requires a lot of knowledge about the Jekyll ecosystem of liquid/markdown, functions, layouts and so on. So you might have to write code in your CMS and edit YAML. But this can still make you more productive as a developer using a CMS rather than an IDE.
 
 From my little spend spent on Foresty, I found that better as a no-code solution.
+
 
 ## Jekyl Manager
 
@@ -145,7 +150,7 @@ Free for use with one user.
 - Pricing: [cloudcannon.com/pricing/](https://cloudcannon.com/pricing/)
 
 
-## Gitbook
+## GitBook
 
 - Homepage: [gitbook.com/](https://www.gitbook.com/)
 - Repo: [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
