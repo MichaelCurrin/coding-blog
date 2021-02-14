@@ -52,4 +52,5 @@ Licensed under [MIT](/LICENSE).
 
 You can reuse any **code** in this project for your own project but you must include a copy of the original license.
 
-For pages and blog posts, **copyright** on the **content** belongs to the author only - [MichaelCurrin](https://github.com/MichaelCurrin/).
+For pages and blog posts, **copyright** on the **content** belongs to the author only - [MichaelCurrin](https://github.com/MichaelCurrin/). You may **not** reuse any of the content on this site without prior permission.
+
