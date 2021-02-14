@@ -48,9 +48,9 @@ That plugin also includes the `jekyll-sitemap` and `jekyll-feed` plugins.
 
 ## License
 
-Licensed under [MIT](/LICENSE).
+Licensed under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin/).
 
 You can reuse any **code** in this project for your own project but you must include a copy of the original license.
 
-For pages and blog posts, **copyright** on the **content** belongs to the author only - [MichaelCurrin](https://github.com/MichaelCurrin/). You may **not** reuse any of the content on this site without prior permission.
+For pages and blog posts, **copyright** on the **content** belongs to the author only. You may **not** reuse any of the content on this site without prior permission.
 
