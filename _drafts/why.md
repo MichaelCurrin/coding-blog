@@ -1,8 +1,14 @@
 ---
-title: Why
+title: Why you should code your own blog
 description: An overview of building a blog without a lot of coding experience
 
 ---
+This post is for you if you are thinking about building your own blog, but aren't sure if its a good idea or don't know what options are available.
+
+The modern tools available require you to write less code - focus on writing in markdown, add a theme on a top and choose your own CMS. Don't worry so much about the coding.
+
+But you will be able to get a lot more of your site with by using coding skills to customize your site.
+
 ## Platforms available
 
 ### Externally hosted - less control
@@ -16,16 +22,21 @@ For example:
 * [wordpress.com](https://wordpress.com)
 * [wix.com](https://wix.com)
 
-[https://dev.to/MichaelCurrin](https://dev.to/MichaelCurrin "https://dev.to/MichaelCurrin")
-
 ### Self-hosted - more control
 
-If you want to own your own content and write a little or a lot of code, then consider these tools:
+I like building a site using a self-hosted approach. Before self-hosted meant getting a Linux machine in the cloud and manually taking care of deployments, your database and software (like PHP and WordPress versions).
+
+The modern tools available let you push code to GitHub to publish your site. The tools will build and deploy your static site (Jekyll, Gatsby, Hugo, MkDocs) or Single-Page Application (Node app built on React or Vue) and provide the hosting.
+
+There are many tools and programming languages out there to support this. Consider these tools.
 
 * Hosting
   * [GitHub Pages](https://michaelcurrin.github.io/dev-resources/resources/web/github-pages.html)
+    * Traditionally built using plain HTML or Jekyll.
+    * You can add a more custom flow to use _any_ static site or Single-Page Application that you want.
   * [Netlify](https://netlify.com)
-    * Many templates are available as GitHub repos with a one-click-deploy button (assuming you have a Netlify account already)
+    * Many templates are available as GitHub repos with a one-click-deploy button (assuming you have a Netlify account already).
+    * Support statics sites in Node, Python, Hugo, Jekyll, PHP and maybe others.
   * [CloudFare Pages](https://pages.cloudflare.com/)
     * CloudFare was just a CDN before but now provides static site hosting.
   * Google Cloud
@@ -34,7 +45,9 @@ If you want to own your own content and write a little or a lot of code, then co
     * AWS Amplify - good for Single-Page Applications, static sites and serverless backends
 * CMS
   * [Forestry](https://forestry.io/)
+    * This comes with a bunch of templates across programming languages
   * [Netlify CMS](https://www.netlifycms.org/)
+  * Jekyll Admin
 
 ## Why build your own
 
@@ -46,11 +59,12 @@ There are some advantages to making your own site.
 * Choose your own theme or build your own from scratch.
 * Write your own code - markdown, HTML, YAML, Ruby... For example, change the look of your site, add a list of posts to your homepage or build a tag cloud.
 * You can find existing themes and plugins, or write your own and even share with the open source community. Or as a paid theme.
-* No advertising (Wix and WordPress have their own branding unless you go for premium)
+* No advertising (Wix and WordPress have their own branding unless you go for premium).
 * No paywall to block your fans (like Medium) - I suppose you could add one later if you want.
 * Control your own build and deploy flow. Such as with GitHub Actions or Netlify. Typically you build on a commit to your main branch. You can also build on a schedule - I use GH Actions to deploy my Netlify site nightly - [MichaelCurrin/my-github-projects](https://github.com/MichaelCurrin/my-github-projects).
 * Netlify and GitHub Pages give you free hosting and great performance for most use-cases.
 * Control your own domain. More details below.
+* It will take some time, but you can copy and paste your source content in other tools into your self-hosted blog. You can set canonical URLs in either platform to tell crawlers which one is the main one.
 
 ## More on domains
 
@@ -63,7 +77,7 @@ With a self-hosted option, you have more control.
 Use a subdomain on a platform like:
 
 * Netlify
-  * _my-app.netlify.app_ 
+  * _my-app.netlify.app_
 * GitHub Pages
   * [_MichaelCurrin.github.io/coding-blog/_](https://MichaelCurrin.github.io/coding-blog/)
   * [MichaelCurrin.github.io](https://MichaelCurrin.github.io)
@@ -74,19 +88,18 @@ Having a custom domain means all the content going there is for you only and sta
 
 ## Hashnode
 
-A short word on HashNode, a newcomer to the blogging space. 
+A short word on HashNode, a newcomer to the blogging space.
 
 * [hashnode.com](https://hashnode.com/)
 
-They give you the ability to write in their community and interact with other users, like on dev.to site. 
+They give you the ability to write in their community and interact with other users, like on dev.to site.
 
 But the difference is:
 
 * You can put your own custom domain if you want.
 * You can sync all your content with GitHub, so you own all your content as code. This makes it easy to switch to another a platform later, like building your own markdown-based static site.
+* It lets you import content from another site like [dev.to](https://dev.to).
 
 I'm no so active on Hashnode, but anyway here is my profile:
 
 * [hashnode.com/@MichaelCurrin](https://hashnode.com/@MichaelCurrin)
-
- 
