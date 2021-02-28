@@ -16,7 +16,7 @@ You can setup a live session on YouTube for free. There is just some verificatio
 5. You'll have to go through the _Verify_ flow. You'll be prompted for your country and phone number and will get a text message or call to verify that you are not a robot.
 6. The dashboard will tell you to wait - _"Ready in 24 hours"_. Come back again and then click _Go live_.
 
-## Setup screen-sharing
+## Setup screen-sharing software
 
 You can do this while you wait for the verification step.
 
@@ -47,6 +47,19 @@ To stream with a service like Youtube, you need to supply a secret key.
 3. You'll get taken to the YouTube Studio dashboard. Get your key from there and paste it in the broadcaster app.
 
 You can also click _Cancel_ if you want to look around the app without streaming yet.
+
+## Setup webcam software
+
+I don't know yet how to setup a webcam.
+
+But this was recommended on _Using a webcam_ section of YouTube's [Streaming tips](https://support.google.com/youtube/answer/2853856?hl=en&ref_topic=9257984#zippy=%2Cusing-a-webcam).
+
+> * You can stream with a laptop and webcam but better equipment results in a better live stream quality.
+> * You can use a software encoding program like [Wirecast](http://www.telestream.net/wirecastforyoutube/cb-landing.htm) or [Flash Media Live Encoder](http://www.adobe.com/products/flashmediaserver/flashmediaencoder/) (FMLE), or [www.youtube.com/webcam](https://www.youtube.com/webcam)
+
+There's also some tips on that page to follow on to be **safe** when live-streaming.
+
+My guess is that the YouTube webcam option uses the browser and no extra software, as the link goes to the studio.
 
 ## Resources
 
