@@ -3,7 +3,7 @@ default: install
 h help:
 	@grep '^[a-z]' Makefile
 
-all: install build
+all: hooks install build
 
 
 install:
