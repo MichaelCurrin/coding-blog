@@ -52,9 +52,9 @@ $ # Same as above as I set `s` and `serve` to be equivalent
 $ make s
 ```
 
-You can also run just `make` and not arguments that will run the default target, which in this case is `install`. This is a C programming convention. Note that if you don't set a default, then the target would be used. So I removed the `default: ` line then `make` would run `make help`.
+You can also just run `make` and not arguments that will run the default target, which in this case is `install`. This is a C programming convention. Note that if you don't set a default, then the target would be used. So I removed the `default: ` line then `make` would run `make help`.
 
-You can create a command with any "target" defintion and a multiple steps (see my `install` command).
+You can create a command with any "target" definition and multiple steps (see my `install` command).
 
 I like to also set build commands.
 
@@ -70,7 +70,7 @@ JEKYLL_ENVIRONMENT=prod bundle exec jekyll build --trace
 
 ## Make and Python
 
-You can also chain then together such that make fix effectively runs make format and then make lint. In this case, lint also calls pylint and flint targets defined higher up.
+You can also chain them together such that make fix effectively runs make format and then `make lint`. In this case, `lint` also calls linting targets defined higher up.
 
 [PyProject Template - Makefile](https://github.com/MichaelCurrin/py-project-template/blob/master/Makefile#L37)
 
