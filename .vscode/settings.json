@@ -1,6 +1,6 @@
 {
-    "files.associations": {
-        "*.md": "jekyll"
-    },
-    "markdown.extension.toc.updateOnSave": false,
+  "files.associations": {
+    "*.md": "liquid"
+  },
+  "markdown.extension.toc.updateOnSave": false,
 }
