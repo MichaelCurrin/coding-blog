@@ -15,7 +15,7 @@ You _can_ manage them directly using the approaches covered on the homepage site
 
 But I think that is very inconvenient compared to using a package manager to install them, such as `apt-get`, `brew`, `yum` or `dnf`. And while Rust is easy to update without a package manager, the Go update flow remains tedious.
 
-However, the main benefit of _not_ using a package manager, is that you get the latest packages sooner, if that is important to you. Though latest can also mean more risk.
+However, the main benefit of _not_ using a package manager, is that you get the latest packages sooner, if that is important to you. Though, latest can also mean more risk.
 
 I cover steps for both in this article toward the end, so you can easily compare them for yourself and run them if you like.
 
@@ -68,7 +68,7 @@ This might be okay if you prefer to manage versions more conservatively, but my 
 
 ### How to manage directly
 
-How to install packages the "recommended" way, without a package manager. Note that these instructions are incomplete - the docs cover how to update `PATH` so you can use the packages properly.
+How to install packages the "recommended" way - without a package manager. Note that these instructions are incomplete - the docs cover how to update `PATH` so you can use the packages properly.
 
 #### Rust
 
@@ -84,7 +84,7 @@ $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 The Go docs recommend choosing and downloading a binary from their website. You have to choose one for your OS and a version number. There is no easy `curl` option.
 
-Then unzip it to `/usr/local`.
+Then unzip it to `/usr/local` directory.
 
 [Install the Go Tools](https://golang.org/doc/install)
 
