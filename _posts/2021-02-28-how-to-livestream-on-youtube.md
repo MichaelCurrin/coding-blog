@@ -8,7 +8,7 @@ I am only getting into live-streaming for the time but want to share the steps I
 You can set up a live session on YouTube for free. There is just some verification to get through and some optional software depending on what you want to stream. I go through these here.
 
 
-## Signup for live-streaming
+## Sign up for live-streaming
 
 1. Login to YouTube - [youtube.com](https://youtube.com/ "youtube.com").
 2. Open YouTube Studio - [studio.youtube.com](https://studio.youtube.com/ "https://studio.youtube.com/").
@@ -40,7 +40,7 @@ I like the look of the first one on the list, as it works on macOS, Windows, and
 2. Install it.
 3. When you launch the software, you'll have to give it permissions.
 
-I enabled use of mic. But denied use of keystrokes across applications (I prefer to be more cautious and secure and opt-in only if I need this - maybe to display the keys on the screen as I press them).
+I enabled th use of the mic. But denied use of keystrokes across applications (I prefer to be more cautious and secure and opt-in only if I need this - maybe to display the keys on the screen as I press them).
 
 To stream with a service like Youtube, you need to supply a secret key.
 
@@ -50,18 +50,19 @@ To stream with a service like Youtube, you need to supply a secret key.
 
 You can also click _Cancel_ if you want to look around the app without streaming yet.
 
-## Setup webcam software
+## Set up webcam software
 
-I don't know yet how to setup a webcam.
+I don't know yet how to set up a webcam.
 
 But this was recommended on _Using a webcam_ section of YouTube's [Streaming tips](https://support.google.com/youtube/answer/2853856?hl=en&ref_topic=9257984#zippy=%2Cusing-a-webcam).
 
-> * You can stream with a laptop and webcam but better equipment results in a better live stream quality.
+> * You can stream with a laptop and webcam but better equipment results in better live stream quality.
 > * You can use a software encoding program like [Wirecast](http://www.telestream.net/wirecastforyoutube/cb-landing.htm) or [Flash Media Live Encoder](http://www.adobe.com/products/flashmediaserver/flashmediaencoder/) (FMLE), or [www.youtube.com/webcam](https://www.youtube.com/webcam)
 
-There's also some tips on that page to follow on to be **safe** when live-streaming.
+There are also some tips on that page to follow on to be **safe** when live-streaming.
 
 My guess is that the YouTube webcam option uses the browser and no extra software, as the link goes to the studio.
+
 
 ## Resources
 
