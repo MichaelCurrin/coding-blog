@@ -5,7 +5,8 @@ description: Stream your webcam or coding session to the world
 ---
 I am only getting into live-streaming for the time but want to share the steps I learn as I go.
 
-You can setup a live session on YouTube for free. There is just some verification to get through and some optional software depending on what you want to stream. I go through these here.
+You can set up a live session on YouTube for free. There is just some verification to get through and some optional software depending on what you want to stream. I go through these here.
+
 
 ## Signup for live-streaming
 
@@ -15,6 +16,7 @@ You can setup a live session on YouTube for free. There is just some verificatio
 4. Click _Go live_.
 5. You'll have to go through the _Verify_ flow. You'll be prompted for your country and phone number and will get a text message or call to verify that you are not a robot.
 6. The dashboard will tell you to wait - _"Ready in 24 hours"_. Come back again and then click _Go live_.
+
 
 ## Setup screen-sharing software
 
@@ -30,7 +32,7 @@ Look through the list of _YouTube Live verified encoders_ on this guide:
 
 Find one appropriate for your device and operating system. Stick to the _software encoders_ area. There is also a _hardware encoder_ list, but based on the diagram on the page, that won't be needed unless you have a mixing desk or some fancy setup of mics and cameras.
 
-I like the look of the first one on the list, as it works on macOS, Windows and Linux and is free and open source.
+I like the look of the first one on the list, as it works on macOS, Windows, and Linux, and is free and open source.
 
 * [Open Broadcaster Software ®](https://obsproject.com/ "Open Broadcaster Software®️")
 
@@ -38,7 +40,7 @@ I like the look of the first one on the list, as it works on macOS, Windows and 
 2. Install it.
 3. When you launch the software, you'll have to give it permissions.
 
-I enabled use of mic. But denied use of keystrokes across applications (I prefer to be more cautious and secure and opt in only if I need this - maybe to display the keys on the screen as I press them).
+I enabled use of mic. But denied use of keystrokes across applications (I prefer to be more cautious and secure and opt-in only if I need this - maybe to display the keys on the screen as I press them).
 
 To stream with a service like Youtube, you need to supply a secret key.
 
