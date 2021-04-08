@@ -79,8 +79,8 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
     - This works well for docs of existing Vue sites.
     - Format with markdown.
     - Great for mixing in dynamic content with the statically-rendered content.
-- [Vuepress examples](https://vuepress-examples.netlify.com/)
-- [Vuepress introduction](https://alligator.io/vuejs/vuepress-introduction/)
+- [VuePress examples](https://vuepress-examples.netlify.com/)
+- [VuePress introduction](https://alligator.io/vuejs/vuepress-introduction/)
 
 ### Docsify
 
@@ -97,7 +97,7 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 
 ### Read The Docs
 
-- [Official siteink](https://readthedocs.org/)
+- [Official homepage](https://readthedocs.org/)
 - Built on Sphinx (a Python library).
 - Format with *reStructuredText* or *Markdown*.
 - Host on the Read the Docs site. This seems a like a common place for libraries to host their documentation, especially if they are Python libraries. Or self-host e.g. on Github Pages.

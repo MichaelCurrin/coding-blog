@@ -8,7 +8,7 @@ Here are some recommendations for how to make your software developers happy.
 
 1. **Use the best gear money can buy** - Devs get impatient running on cheap / slow equipment.
 2. **Enable deep focus** - Open-plan offices can hinder concentration and getting into a state of flow when solving problems.
-3. **Embrace flexible working hours** - Including remote working, flexi time, telecommuting, compressed work weeks, digital nomad.
+3. **Embrace flexible working hours** - Including remote working, flexi-time, telecommuting, compressed work weeks, digital nomad.
 4. **It's a burn-down not a burn-out!** - Don't expect devs to regularly work overtime.
 5. **Empower** - Autonomy, not micromanagement.
 6. **Promote Continuous Learning** - Devs who get bored and lose curiosity could write worse code and eventually leave.

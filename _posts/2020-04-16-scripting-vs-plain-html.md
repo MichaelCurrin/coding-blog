@@ -18,9 +18,9 @@ HTML is static. So you typically need some scripting language (Python/PHP/Node.j
 
 ## Templating
 
-HTML needs to have presentation instructions duplicately verbosely (the same styling, navigation bar, etc. used on most pages, with slight differences) and so it is not [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) like typical programming.
+HTML needs to have presentation instructions duplicated verbosely (the same styling, navigation bar, etc. used on most pages, with slight differences) and so it is not [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) like typical programming.
 
-This makes it tedious and messy to maintain for site of more than one HTML page. If you use PHP/Python you can write your menu in a template or function one and then reuse it on every page that needs it. So then you separate the content from styleing layout.
+This makes it tedious and messy to maintain for site of more than one HTML page. If you use PHP/Python you can write your menu in a template or function one and then reuse it on every page that needs it. So then you separate the content from styling layout.
 
 If you need a site of only **one** page and you are learning HTML, then creating an `index.html` file and serving that on a local server or with Github Pages can work fine. It won't allow users to upload content, but if you need add or update pictures, text, etc. you can do that by editing the `index.html` page and uploading any images to the repo.
 

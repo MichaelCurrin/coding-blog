@@ -18,7 +18,7 @@ People are sensitive to authenticity. If you write software or create art or eve
 
 What if the tool or art as no use or commercial value but is just fun or inspiring or makes you think differently?
 
-I realized the other day that governments, school principles and so one place more budget and recognition on business/maths/sciences than the humanities. But, what do people do to cope with coronavirus and stress in general after work? They use the humanities. They listen to music, they educate themselves, they make art and poetry, they play games, they watch series and movies.
+I realized the other day that governments, school principles and so one place more budget and recognition on business/maths/sciences than the humanities. But, what do people do to cope with the Coronavirus and stress in general after work? They use the humanities. They listen to music, they educate themselves, they make art and poetry, they play games, they watch series and movies.
 
 These are art forms that keep people sane and happy. Often enabled by tech. But you can do them without tech.
 

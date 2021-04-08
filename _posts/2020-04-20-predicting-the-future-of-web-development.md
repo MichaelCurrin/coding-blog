@@ -5,10 +5,10 @@ tags: future predictions
 ---
 ## Watch the video
 
-If you are into frontend development or just choosing a language or framework, I'd highly recommended watching this Youtube video of a conference talk:
+If you are into frontend development or just choosing a language or framework, I'd highly recommended watching this YouTube video of a conference talk:
 
 * Title: [Predicting the Future of the Web Development (2020 and 2025)](https://www.youtube.com/watch?v=24tQRwIRP_w)
-* Youtube channel: _Coding Tech_
+* YouTube channel: _Coding Tech_
 * Speaker: _Richard Feldman_
 * Event: [_ReactiveConf_](https://reactiveconf.com/) _2019 in Prague_
 * Length: _29 minutes_
@@ -56,7 +56,7 @@ Below I share some languages the speaker covered, where dialects are built on to
 
 ### JS dialects
 
-* CoffeScript
+* CoffeeScript
 * [Dart](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/Dart)
 * Babel
 * [TypeScript](https://github.com/MichaelCurrin/learn-to-code/tree/master/en/topics/scripting_languages/TypeScript)

@@ -38,7 +38,7 @@ Some places to start:
 - See recent code challenges post and see solutions from others in various languages.
     - See [SoloLearn](https://www.sololearn.com/). I like the code challenges view on the mobile app though actually coding on a mobile device is not so nice so you might switch to the website on a desktop.
 - Find mathematical and algorithmic challenges if you are interested in that.
-    - Great for thinking about scalable solutions in tech services with large infracture, such as a high volume website with millions of requests or database records to search.
+    - Great for thinking about scalable solutions in tech services with large infrastructure, such as a high volume website with millions of requests or database records to search.
     - Go to a site like [Project Euler](https://projecteuler.net/).
 
 ## Talk to someone
@@ -51,12 +51,12 @@ I sometimes get challenges from friends to make a game or website. Sometimes the
 
 ## On originality
 
-Also, don't get stuck on being creative and original. Everything come from something before. A lot of programming is often just gluing existing tools together. Whether they are different Python libraries, or using a webserver and database service to serve data you scraped. You have a unique background and community.
+Also, don't get stuck on being creative and original. Everything come from something before. A lot of programming is often just gluing existing tools together. Whether they are different Python libraries, or using a web server and database service to serve data you scraped. You have a unique background and community.
 
 Maybe you can take the idea of Instagram but tailor it to dog owners or hikers. Or create a meetup and networking platform for tech people in your city. Or maybe just make a pointless and fun game or script which force you to learn some new skills and maybe you'll use those pieces of code or skills in a later project.
 
 ## No-code solutions
 
-Often the best code is no code. Nothing to write or maintain. Get the benefits of another library or website service to downloable tool which someone has shared or sells.
+Often the best code is no code. Nothing to write or maintain. Get the benefits of another library or website service to downloadable tool which someone has shared or sells.
 
 The problem you are trying to be solved has problem being solved in a similar way on a blog post or Stack Overflow and maybe exists as a library or script. You might have to tweak it or take the best parts from it - that's the beauty of open source code.

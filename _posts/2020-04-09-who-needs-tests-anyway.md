@@ -24,7 +24,8 @@ I came across this philosophy:
 
 > Write tests unless you have a really good reason not too.
 
-That attitude starts with a fresh perspective - test everything. Be deliberate if you want to not have tests and reassess that later on. Whether you have tests or not, at the very least test your application locally and on production. Even if you are pretty sure you change worked, there is a risk that something you did was wrong or had an incorrect or impleid assumption or something else changed that you did not know about.
+That attitude starts with a fresh perspective - test everything. Be deliberate if you want to not have tests and reassess that later on. Whether you have tests or not, at the very least test your application locally and on production. Even if you are pretty sure you change worked, there is a risk that something you did was wrong or had an incorrect or implied assumption or something else changed that you did not know about.
+
 
 ## Story of no tests
 
@@ -57,6 +58,6 @@ When did the update to Python 3, the tests helped me uncover issues in things th
 
 I started out a lot of projects without tests and they are usually fine. Some of my projects are on Github are very simple or unimportant - they probably aren't relied upon by anyone and sometimes its just a demo or experiment.
 
-Some projects have mostly **presentation** logic (like a static website page) which would need a lot of overhead to test compared with testing that a function or class or API call works as expected in good situations and edgecases. The overheard is the test pipeline, the test code and test dependendencies and the effort to describe the elegant HTML in terms of code and update tests whenever the frontend changes.
+Some projects have mostly **presentation** logic (like a static website page) which would need a lot of overhead to test compared with testing that a function or class or API call works as expected in good situations and edge-cases. The overheard is the test pipeline, the test code and test dependencies and the effort to describe the elegant HTML in terms of code and update tests whenever the frontend changes.
 
 The thing about tests is that they help you in the long run - if you plan to come back to the project in weeks or months from now, the tests give you confidence that things will still work. The tests can also describe the behavior of the functions and show the intent and kind of data you would throw at them.

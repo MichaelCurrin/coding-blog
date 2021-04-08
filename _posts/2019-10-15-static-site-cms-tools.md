@@ -20,7 +20,7 @@ I like this and found this experience similar to the Jekyll Admin view, but with
 
 Their is a free tier - [pricing](https://forestry.io/pricing/).
 
-Foresty supports a few site generators ([list](https://forestry.io/docs/faqs/glossary/static-site-generators/)), summarized here below and grouped by language.
+Forestry supports a few site generators ([list](https://forestry.io/docs/faqs/glossary/static-site-generators/)), summarized here below and grouped by language.
 
 - JavaScript
     - Next JS
@@ -42,7 +42,7 @@ Forestry has some great quickstart options, covering a couple of the languages.
 
 Website: [siteleaf.com](https://siteleaf.com)
 
-This acts as a CMS for **Jekyll** sites hosted on Github. I found this difficult to setup the way I wanted and get my head around and it had a few limitations compared with Foresty, so after trying out a few Siteleaf projects I stopped using it.
+This acts as a CMS for **Jekyll** sites hosted on Github. I found this difficult to setup the way I wanted and get my head around and it had a few limitations compared with Forestry, so after trying out a few Siteleaf projects I stopped using it.
 
 Changes through Siteleaf create commits in Github. When you have YAML metadata in the frontmatter of your sites, these will be formatted according to Siteleaf's styling, removing any comments. Also, any files without extensions become `.md` files. I didn't what it did to my project.
 
@@ -120,10 +120,10 @@ With some customization (config file and HTML), you can access this admin view i
 
 This CMS is probably targeted at developers. It unfortunately requires a lot of knowledge about the Jekyll ecosystem of liquid/markdown, functions, layouts and so on. So you might have to write code in your CMS and edit YAML. But this can still make you more productive as a developer using a CMS rather than an IDE.
 
-From my little spend spent on Foresty, I found that better as a no-code solution.
+From my little spend spent on Forestry, I found that better as a no-code solution.
 
 
-## Jekyl Manager
+## Jekyll Manager
 
 Homepage: [ashmaroli.github.io/jekyll-manager/](https://ashmaroli.github.io/jekyll-manager/)
 Repo: [jekyll-admin](https://github.com/jekyll/jekyll-manager)

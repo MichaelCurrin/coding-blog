@@ -42,7 +42,7 @@ I like the look of the first one on the list, as it works on macOS, Windows, and
 
 I enabled the use of the _mic_. But I denied the use of _keystrokes across applications. Since I prefer to be more cautious and secure and opt-in only if I need this - maybe to display the keys on the screen as I press them.
 
-To stream with a service like Youtube, you need to supply a secret key.
+To stream with a service like YouTube, you need to supply a secret key.
 
 1. Select _YouTube - RTMP_.
 2. Click _Get Stream Key_.

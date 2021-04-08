@@ -12,9 +12,9 @@ tags: interviews
 
 ## Pairing
 
-If you want to test the candidate's abiliy to work in a team, you can pair them with somebody from your company so they can solve a problem together. This can let you see if the candidate knows how and when to ask for help and if they take ideas from someone else or are stubborn.
+If you want to test the candidate's ability to work in a team, you can pair them with somebody from your company so they can solve a problem together. This can let you see if the candidate knows how and when to ask for help and if they take ideas from someone else or are stubborn.
 
-You provide the candidate with a laptop and they can call on their partner when they struggle to solve the problem logically or need a question answered (how to do split a string by more than one delimeter, why is my while loop not ending, why is nothing printed?)
+You provide the candidate with a laptop and they can call on their partner when they struggle to solve the problem logically or need a question answered (how to do split a string by more than one delimiter, why is my while loop not ending, why is nothing printed?)
 
 ## Ideas for technical challenges
 

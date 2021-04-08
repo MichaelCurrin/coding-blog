@@ -104,7 +104,7 @@ Generally the target is not indented and steps inside a command are indented. No
 
 That example comes from the GNU [make](https://www.gnu.org/software/make/manual/make.html#Overview) docs. It is probably to heavy and detailed for beginners, but it is there in case you any official documentation.
 
-This arcticle is more beginner-friendly. It also goes into some specific examples around using `make` for a C project.
+This article is more beginner-friendly. It also goes into some specific examples around using `make` for a C project.
 
 - [What is a Makefile and how does it work?](https://opensource.com/article/18/8/what-how-makefile) on OpenSource.com
 

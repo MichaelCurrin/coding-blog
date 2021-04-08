@@ -16,7 +16,7 @@ I didn't realize how slow the ORM was compared with native SQL statements until 
 
 I decided to optimize the campaign labeling process first. When assigning a campaign label, the script uses the ORM to _insert_ a single record, then immediately _get_ the created record (so it is available as Python object). This is repeated for every single record to be insrted. This is inefficient because there is overhead in connecting to the database and executing the query to read or write data. So, instead of handling record individually due to the ORM limitation, I composed a single [INSERT](https://www.w3schools.com/sql/sql_insert.asp) statement in SQL with all the values - this requires only a single query to the database. So the duration came down from minutes to _less than a second_, which is several orders of magnitude faster.
 
-I could have gone through the trouble of writing the raw SQL as a string and substiting in values, but that is not elegant and also means a risk of SQL syntax errors. I used the ORM's [SQLBuilder](http://sqlobject.org/SQLBuilder.html) module to compose and execute the batch SQL statement, passing in the table name, field names and a list of rows to be used.
+I could have gone through the trouble of writing the raw SQL as a string and substituting in values, but that is not elegant and also means a risk of SQL syntax errors. I used the ORM's [SQLBuilder](http://sqlobject.org/SQLBuilder.html) module to compose and execute the batch SQL statement, passing in the table name, field names and a list of rows to be used.
 
 The logic is in a function named `bulkAssignTweetCampaign` in [tweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/lib/tweets.py). That is called by the `main` function of [searchAndStoreTweets.py](https://github.com/MichaelCurrin/twitterverse/blob/feature/fetched_data_to_csv/app/utils/insert/searchAndStoreTweets.py).
 
@@ -58,7 +58,7 @@ VALUES (2, 403), (2, 404), (2, 405) ... ;
 # Execute the query using the database connection object.
 # This will just return a success code. A downside of this
 # approach is that, unlike when using the ORM, here
-# we do not get theinserted tweet_campaign records returned
+# we do not get the inserted ` records returned
 # as Python objects, as this is just a write operation with no
 # ORM layer.
 db.conn.query(SQL)

@@ -26,9 +26,9 @@ Some things I discovered while exploring the service with this Jekyll site:
 
 * See the Forestry [pricing](https://forestry.io/pricing/ "pricing") page.
 * On the free tier you can:
-  * Manage up to 3 sites.
-  * Invite up to 3 users per site.
-* Foresty is not aware of Jekyll Liquid paths or base path value, so creating paths and image paths may take extra work or not display well in the editor even though the built site is fine. Using a site without a base path (such as Netlify rather then Github Pages) makes this easier.
+    - Manage up to 3 sites.
+    - Invite up to 3 users per site.
+* Forestry is not aware of Jekyll Liquid paths or base path value, so creating paths and image paths may take extra work or not display well in the editor even though the built site is fine. Using a site without a base path (such as Netlify rather then Github Pages) makes this easier.
 * Forestry has its own markdown preference.
     - Bullet points are all asterisks.
     - If you try and insert links which are linked later in the page, Forestry will bring the link up to where it is used. e.g. `[foo]` and `[foo]: http://example.com` becomes `[foo](http://example.com)` only, which can be annoying if you want to use the link multiple times.
@@ -57,7 +57,7 @@ Configuration is managed in a [.forestry](https://github.com/MichaelCurrin/codin
 * When editing a page, you can use the WYSIWYG Editor by default using the menu at the bottom and keyboard shortcuts (such as for bold and italics). You can switch between the Raw Editor and WYSIWYG Editor using the menu in the top right. I find there is way to reduce indentation for bullet points, but this is easy in raw mode.
 * You can even change the template, you need different fields and validation.
 * Example of options when editing a page:
-  * ![Page options menu]({{ "/assets/Page options menu.png" | relative_url }})
+    * ![Page options menu]({{ "/assets/Page options menu.png" | relative_url }})
 * You don't have to worry about managing filenames of pages or blog posts - these are based on the title you use. And the date, in case of blog posts, which need a date.
 * You can leave pages and posts in draft form and then come back to them later. Change _Draft_ from _ON_ to _OFF_, then the _Save Draft_ button becomes _Save_.
 
@@ -69,7 +69,7 @@ Configuration is managed in a [.forestry](https://github.com/MichaelCurrin/codin
 ### Saving and rebuilding
 
 * The default is to save a page as a **draft**.
-* Forestry will **autosave** content for you and if you return to a file it will ask you if you want to discard changes or use the work in progress unsaved changes.
+* Forestry will **auto-save** content for you and if you return to a file it will ask you if you want to discard changes or use the work in progress unsaved changes.
 * When adding a site to Forestry, it by default only it only looks at **public** repos. You can add access as well for **private** repos, but you might avoid this if you have permissions for a work-related org of private repos.
 * When you add a Github repo to Forestry, you get to choose the **branch**. When you've confirmed, you'll get an email from Github saying that a public key was added to the repo. This means you have authorized Forestry to edit that repo.
 * A commit is made whenever you click save in Forestry. These appear in Github as authored by your user and a Forestry user.

@@ -29,7 +29,7 @@ void main()
 }
 ```
 
-## Subsitution
+## Substitution
 
 In _Bash_, the double-quotes allows substitution of variables, while single-quotes restricts to literal characters.
 
@@ -139,7 +139,7 @@ $ irb
 ```
 ```ruby
 irb> greeting = "Hello"
-irb> numbner = 123
+irb> number = 123
 irb> puts "string: #{greeting}. decimal: #{number}"
 string: Hello. decimal: 123
 ```

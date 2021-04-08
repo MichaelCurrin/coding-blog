@@ -33,7 +33,7 @@ You can find code challenges as algorithms to solve here - I liked [Leetcode](ht
 
 I recommend that you install and use the [Programming Ideas 2](https://play.google.com/store/apps/details?id=com.alansa.ideabag2&hl=en&gl=US) app on PlayStore.
 
-Regardless of your choice of scriping language, you can enjoy this app as it is outlines the concepts and you figured out how to code it. Even if you just think through it or write it down on paper, this is a great exercise in exercising your creativity and logic.
+Regardless of your choice of scripting language, you can enjoy this app as it is outlines the concepts and you figured out how to code it. Even if you just think through it or write it down on paper, this is a great exercise in exercising your creativity and logic.
 
 You can find something to test your skills in a language and build something fun and useful such as:
 

@@ -5,7 +5,7 @@ tags: art
 ---
 I enjoyed this video on YouTube:
 
-* [The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U "The Art of Code - Dylan Beattie")
+- [The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U "The Art of Code - Dylan Beattie")
 
 The speaker asks - is coding art, science, or is it engineering? Or all of them?
 
