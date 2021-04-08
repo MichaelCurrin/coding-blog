@@ -14,7 +14,7 @@ You can set up a live session on YouTube for free. There is just some verificati
 2. Open YouTube Studio - [studio.youtube.com](https://studio.youtube.com/ "https://studio.youtube.com/").
 3. Click _Create_ in the top right.
 4. Click _Go live_.
-5. You'll have to go through the _Verify_ flow. You'll be prompted for your country and phone number and will get a text message or call to verify that you are not a robot.
+5. You'll have to go through the _Verify_ flow. You will get prompted for your country and phone number and then will get a text message or call to verify that you are not a robot.
 6. The dashboard will tell you to wait - _"Ready in 24 hours"_. Come back again and then click _Go live_.
 
 
@@ -22,7 +22,7 @@ You can set up a live session on YouTube for free. There is just some verificati
 
 You can do this while you wait for the verification step.
 
-If you just need to stream audio and video with your webcam, you'll probably be fine as you are.
+If you only need to stream audio and video with your webcam, you'll probably be fine as you are.
 
 To broadcast your screen, you'll need to install an encoder. As in my case, I want to stream a live coding session and don't care so much about the camera.
 
@@ -40,13 +40,13 @@ I like the look of the first one on the list, as it works on macOS, Windows, and
 2. Install it.
 3. When you launch the software, you'll have to give it permissions.
 
-I enabled th use of the mic. But denied use of keystrokes across applications (I prefer to be more cautious and secure and opt-in only if I need this - maybe to display the keys on the screen as I press them).
+I enabled the use of the _mic_. But I denied the use of _keystrokes across applications. Since I prefer to be more cautious and secure and opt-in only if I need this - maybe to display the keys on the screen as I press them.
 
 To stream with a service like Youtube, you need to supply a secret key.
 
 1. Select _YouTube - RTMP_.
 2. Click _Get Stream Key_.
-3. You'll get taken to the YouTube Studio dashboard. Get your key from there and paste it in the broadcaster app.
+3. You'll get taken to the YouTube Studio dashboard. Get your key from there and paste it into the broadcaster app.
 
 You can also click _Cancel_ if you want to look around the app without streaming yet.
 
