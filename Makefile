@@ -8,6 +8,10 @@ install:
 	bundle config set --local path vendor/bundle
 	bundle install
 
+.PHONY: hooks
+hooks:
+	cd .git/hooks && ln -s -f ../../hooks/pre-push pre-push
+
 upgrade:
 	bundle update
 
