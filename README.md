@@ -32,7 +32,7 @@ The Jekyll Admin plugin adds a CMS view for editing content. Any changes saved a
 
 Once the site is running as per section above, you can access the admin URL. Note that no username or password is needed.
 
-- http://localhost:5000/admin
+- [localhost:5000/admin](http://localhost:5000/admin)
 
 Note that the URL paths is fixed, even if the main site is configured to serve on a subpath.
 
@@ -53,4 +53,3 @@ Licensed under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCur
 You can reuse any **code** in this project for your own project but you must include a copy of the original license.
 
 For pages and blog posts, **copyright** on the **content** belongs to the author only. You may **not** reuse any of the content on this site without prior permission.
-
