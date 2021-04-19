@@ -2,7 +2,7 @@
 > My blog of experiences and advice around coding
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/coding-blog)](https://github.com/MichaelCurrin/coding-blog/tags/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License](https://img.shields.io/badge/License-No_license-blue)](#license)
 
 [![Made with Jekyll](https://img.shields.io/badge/jekyll-3.9-blue?logo=jekyll)](https://jekyllrb.com)
 [![Theme minima](https://img.shields.io/badge/theme-jekyll--theme--midnight-blue)](https://github.com/pages-themes/midnight)
@@ -48,8 +48,6 @@ That plugin also includes the `jekyll-sitemap` and `jekyll-feed` plugins.
 
 ## License
 
-Licensed under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin/).
+Licensed under [No license](https://choosealicense.com/no-permission/) by [@MichaelCurrin](https://github.com/MichaelCurrin/). Which means you might the code is under exclusive copyright by the author.
 
-You can reuse any **code** in this project for your own project but you must include a copy of the original license.
-
-For pages and blog posts, **copyright** on the **content** belongs to the author only. You may **not** reuse any of the content on this site without prior permission.
+You may **not** reuse any of the content on this site without prior permission.
