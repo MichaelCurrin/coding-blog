@@ -38,7 +38,7 @@ Regardless of your choice of scripting language, you can enjoy this app as it is
 You can find something to test your skills in a language and build something fun and useful such as:
 
 - Number calculator
-- TODO app
+- To-do app
 - Factorial solver
 - Fibonacci solver
 - High-performance multi-threaded application like a web server or web scraper
