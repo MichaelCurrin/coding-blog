@@ -1,5 +1,5 @@
 ---
-title: Why you should code your own blog
+title: Why you should code and host your own blog site
 description: An overview of building a blog without a lot of coding experience
 
 ---
@@ -38,7 +38,8 @@ There are many tools and programming languages out there to support this. Consid
     * Many templates are available as GitHub repos with a one-click-deploy button (assuming you have a Netlify account already).
     * Support statics sites in Node, Python, Hugo, Jekyll, PHP and maybe others.
   * [CloudFare Pages](https://pages.cloudflare.com/)
-    * CloudFare was just a CDN before but now provides static site hosting.
+    * This provides deployment and static site hosting.
+    * Separate from CloudFare core, which is just a CDN and WAF for peformance and protection of an existing site.
   * Google Cloud
   * AWS
     * CloudFront (caching) + S3 (storage)
