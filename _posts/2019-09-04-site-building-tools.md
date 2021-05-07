@@ -21,24 +21,26 @@ Lists of tools for building websites, including static websites and docs sites.
      - [JamStack.wtf](https://jamstack.wtf/)
      - [JAMStack templates](https://templates.netlify.com/) on Netlify.
 
+
 ## Static site generators
 
 ### Hugo
 
 - [Official site](https://gohugo.io/)
-- Go
+- Go-based
 
 ### Jekyll
 
 - [Official site](https://jekyllrb.com/)
-- Ruby
+- Ruby-based
+- Powers GitHub Pages sites.
 
 See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/static-sites-generator-resources/tree/master/Jekyll).
 
 ### Gatsby
 
 - [Official site](https://www.gatsbyjs.org/)
-- JavaScript
+- JavaScript - React 
 - [Gatsby First steps](https://alligator.io/gatsbyjs/gatsby-first-steps/) tutorial
 
 ### Hydrogen
@@ -56,7 +58,7 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 
 - [Official site](https://nuxtjs.org/)
 - JavaScript - VueJS
-- Github - [https://github.com/nuxt]
+- Github - [Nuxt](https://github.com/nuxt) org
 - Tutorials
      - [Netlify deployment](https://nuxtjs.org/faq/netlify-deployment/) guide
      - Tutorial - [Create a static site in 15 minutes or less using Vue/Nuxt and Netlify](https://codeburst.io/create-a-static-site-in-15-minutes-or-less-using-vue-js-e4e2a9945ee6)
