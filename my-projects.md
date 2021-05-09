@@ -5,9 +5,11 @@ title: My Projects
 Highlights of my GitHub repos.
 
 
-## Knowledge sharing websites
+## Knowledge-sharing websites
 
 I add to at least one of these daily, covering many programming languages and libraries.
+
+<!-- See also write-ups on https://gist.github.com/MichaelCurrin/bbe1db28e42eca63dcb9f8728758259d -->
 
 - [Code Cookbook](https://github.com/MichaelCurrin/code-cookbook/)
     - Recipes to follow or copy and paste to get your project up and running. Useful also for comparing the same file (like a `Makefile` or GH Actions workflow) across different projects, but all pasted in the same place.
