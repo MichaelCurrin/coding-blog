@@ -32,6 +32,6 @@ My dev homepage, showcasing just my most popular repos
 
 - [MichaelCurrin/my-github-projects](https://github.com/MichaelCurrin/my-github-projects) repo
 
-A dev portfolio site using my Github repo data, fetched from the Github GraphQL API.
+A dev portfolio site using my GitHub repo data, fetched from the GitHub GraphQL API.
 
 See also my projects on GitHub itself - [github.com/MichaelCurrin](https://github.com/MichaelCurrin?tab=repositories).

@@ -8,7 +8,7 @@ This article is about writing automated tests in a project, such as unit tests o
 
 ## Why write tests?
 
-Who needs tests? You do, probably. Not always if they impractical, but when it matters. If your application (or the code on Github) will give an error and you don't know about it, is it still okay? How many people will be affected?
+Who needs tests? You do, probably. Not always if they impractical, but when it matters. If your application (or the code on GitHub) will give an error and you don't know about it, is it still okay? How many people will be affected?
 
 Sometimes when prototyping you just need something that works and to reach point to decide if the application is worth adding to. So you might keep tests early on but add them later, to check the functionality is what you expect.
 
@@ -29,7 +29,7 @@ That attitude starts with a fresh perspective - test everything. Be deliberate i
 
 ## Story of no tests
 
-I had an experience recently on a simple project with no tests. I made a change in Github directly and did not test the code locally because it looked right to me. In fact the syntax was right, but the logic was wrong - referencing a field in SQL that doesn't exist. I didn't even deploy the change straight away.
+I had an experience recently on a simple project with no tests. I made a change in GitHub directly and did not test the code locally because it looked right to me. In fact the syntax was right, but the logic was wrong - referencing a field in SQL that doesn't exist. I didn't even deploy the change straight away.
 
 Then some weeks later I made another change, also not testing locally. I deploy the code and restarted the server and it came up.
 
@@ -41,7 +41,7 @@ So my plan is to write unit tests for that project to test functions and integra
 
 At the least, the test should handle the "happy flow", using variation inputs and combinations. As a second priority, if there is any kind of invalid or bad data, then that needs to be handled too in tests.
 
-The test should be run on Github through Github Actions, or Circle CI. This will give me a status check of pass or failing code, without having to run tests locally.
+The test should be run on GitHub through GitHub Actions, or Circle CI. This will give me a status check of pass or failing code, without having to run tests locally.
 
 ## Story of writing tests for a migration
 
@@ -49,14 +49,14 @@ One very good reason to add or extend tests in a project is before doing a refac
 
 In my case, I upgraded an application from Python 2 to Python 3. But I had poor test coverage. And its tedious to test by hand with good and bad data and various combinations. Especially if it takes days or weeks to do the change and tests need to be run daily to check everything is still working.
 
-Therefore I find it very valuable to write tests upfront and run them regularly - locally and on a push to Github. I got to check the status of the Pull Request checks to see if everything was okay before merging.
+Therefore I find it very valuable to write tests upfront and run them regularly - locally and on a push to GitHub. I got to check the status of the Pull Request checks to see if everything was okay before merging.
 
 When did the update to Python 3, the tests helped me uncover issues in things that I did not know to watch out for, or where I just made a careless mistake which meant a loss in functionality.
 
 
 ## When not to write tests
 
-I started out a lot of projects without tests and they are usually fine. Some of my projects are on Github are very simple or unimportant - they probably aren't relied upon by anyone and sometimes its just a demo or experiment.
+I started out a lot of projects without tests and they are usually fine. Some of my projects are on GitHub are very simple or unimportant - they probably aren't relied upon by anyone and sometimes its just a demo or experiment.
 
 Some projects have mostly **presentation** logic (like a static website page) which would need a lot of overhead to test compared with testing that a function or class or API call works as expected in good situations and edge-cases. The overheard is the test pipeline, the test code and test dependencies and the effort to describe the elegant HTML in terms of code and update tests whenever the frontend changes.
 

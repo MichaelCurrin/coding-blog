@@ -34,16 +34,16 @@ Below is a list of systems I have worked with or read about which use config fil
     - YAML file configs.
     - See [buildkite.com](https://buildkite.com)
     - Deploy applications including running tests and building containers.
-  * Github Pages
+  * GitHub Pages
     - `_config.yml`.
-    - This describes attributes like the title, URL, theme, Jekyll plugins. Locally you might use a `Gemfile`, but the config itself is sufficient for deploying remotely.  See [Github Pages](https://pages.github.com/) website.
+    - This describes attributes like the title, URL, theme, Jekyll plugins. Locally you might use a `Gemfile`, but the config itself is sufficient for deploying remotely.  See [GitHub Pages](https://pages.github.com/) website.
   * Netlify
     - `netlify.toml`.
-    - Netlify is similar to Github Pages but allows more fine-grained control. You can use the config to set similar details but also custom build commands (such as using _npm_, _Hugo_ or _Gatsby_). While you can set details through the Netlify UI, having it in a config file makes it easier to manage, especially when setting the website up a second time using the same details as before. See [Netlify](https://netlify.com).
-  * Github Actions
+    - Netlify is similar to GitHub Pages but allows more fine-grained control. You can use the config to set similar details but also custom build commands (such as using _npm_, _Hugo_ or _Gatsby_). While you can set details through the Netlify UI, having it in a config file makes it easier to manage, especially when setting the website up a second time using the same details as before. See [Netlify](https://netlify.com).
+  * GitHub Actions
     - `.github/workflows/action-name.yml`.
-    - See [Actions](https://github.com/features/actions) page on Github.
-    - Can be used running automated tests and publishing a package or deploying. This could be for a Ruby or Python or Github Pages project for example. It can also be used for automation like sending a tweet or maintaining a Github repo with a bot.
+    - See [Actions](https://github.com/features/actions) page on GitHub.
+    - Can be used running automated tests and publishing a package or deploying. This could be for a Ruby or Python or GitHub Pages project for example. It can also be used for automation like sending a tweet or maintaining a GitHub repo with a bot.
 * Managing servers
   * Puppet
     - `puppet.conf`.

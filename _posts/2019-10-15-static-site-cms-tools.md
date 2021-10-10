@@ -42,9 +42,9 @@ Forestry has some great quickstart options, covering a couple of the languages.
 
 Website: [siteleaf.com](https://siteleaf.com)
 
-This acts as a CMS for **Jekyll** sites hosted on Github. I found this difficult to setup the way I wanted and get my head around and it had a few limitations compared with Forestry, so after trying out a few Siteleaf projects I stopped using it.
+This acts as a CMS for **Jekyll** sites hosted on GitHub. I found this difficult to setup the way I wanted and get my head around and it had a few limitations compared with Forestry, so after trying out a few Siteleaf projects I stopped using it.
 
-Changes through Siteleaf create commits in Github. When you have YAML metadata in the frontmatter of your sites, these will be formatted according to Siteleaf's styling, removing any comments. Also, any files without extensions become `.md` files. I didn't what it did to my project.
+Changes through Siteleaf create commits in GitHub. When you have YAML metadata in the frontmatter of your sites, these will be formatted according to Siteleaf's styling, removing any comments. Also, any files without extensions become `.md` files. I didn't what it did to my project.
 
 
 ## Netlify CMS
@@ -112,7 +112,7 @@ Limitations:
 
 ### Remote
 
-Unfortunately you cannot setup an admin view for a CMS on a Github Pages site, as Github Pages does not support user login.
+Unfortunately you cannot setup an admin view for a CMS on a GitHub Pages site, as GitHub Pages does not support user login.
 
 With some customization (config file and HTML), you can access this admin view in Netlify through their Netlify CMS integration for managing user access.
 
@@ -157,6 +157,6 @@ Free for use with one user.
 - Pricing: [gitbook.com/pricing](https://www.gitbook.com/pricing)
     - Free tier gives you 10 spaces.
 
-Targeted at building a documentation site, Gitbook allows you to use their CMS view to build and host a site which is synced to Github. The code synced to your repo is minimal though but becomes a full site when viewed through their editor / user-facing view.
+Targeted at building a documentation site, Gitbook allows you to use their CMS view to build and host a site which is synced to GitHub. The code synced to your repo is minimal though but becomes a full site when viewed through their editor / user-facing view.
 
 I've also seen Gitbook built standalone using an NPM package but don't know how much is involved there and what it does.

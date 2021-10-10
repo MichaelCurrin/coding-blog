@@ -3,7 +3,7 @@ title: Project reflection
 description:
 tags: projects
 ---
-With my own projects on Github, I am learning a lot about setting goals and using issues and PRs. And doing something in smaller incremental releasable pieces, rather than increasing the scope of a PR with nice-to-haves.
+With my own projects on GitHub, I am learning a lot about setting goals and using issues and PRs. And doing something in smaller incremental releasable pieces, rather than increasing the scope of a PR with nice-to-haves.
 
 If a task is too big, I get frustrated or stuck or distracted then don't come back to it for a while, or can't remember what I was a doing. So I find small wins better, with a route ahead to what I am trying to achieving that has flexibility so the implementation can change.
 

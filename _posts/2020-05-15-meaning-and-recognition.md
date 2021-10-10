@@ -6,7 +6,7 @@ tags: reflection motivation
 
 To me, it's all the same creating and sharing - when it comes to software, websites, a theatre performance or music recording or uploading a photo or drawing. It can be discouraging at times when something matters to you and you or your creation feel "undiscovered". You hope one day, after much hard work and some luck, you will get discovered.
 
-What happens when you write software or a website that no one cares about or uses or discovers? How much effort do you have to put in to "market" it, or do you just keep making content which ties back to your as the blog author or Github contributor? How do you make it easy for people to use your projects when you have many repos?
+What happens when you write software or a website that no one cares about or uses or discovers? How much effort do you have to put in to "market" it, or do you just keep making content which ties back to your as the blog author or GitHub contributor? How do you make it easy for people to use your projects when you have many repos?
 
 If my best project I've ever made (so far) gets zero stars or forks and downloads, should I care? Should I focus on something else or share it more and get verbal feedback?
 

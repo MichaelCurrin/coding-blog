@@ -92,6 +92,6 @@ I continue to keep my skills sharp with personal projects and community projects
 - Static sites - Using mostly Jekyll and a bit of Hugo
 - Web applications - I've worked with Flask, CherryPy and Django
 - Databases - I've worked with MySQL, Postgres, SQLite and MongoDB
-- GraphQL - Fetching data from APIs like Github V4 API and a bit of setting up my own API.
+- GraphQL - Fetching data from APIs like GitHub V4 API and a bit of setting up my own API.
 - DevOps areas - I've work with deploy and backup pipelines and containerizing an application
 -->

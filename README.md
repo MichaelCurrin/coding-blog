@@ -41,7 +41,7 @@ The [forestry.io](http://forestry.io/) service is also used a convenient remote 
 
 ## Notes
 
-The [github-pages](https://github.com/github/pages-gem) gem is set in the Gemfile so that a Github Pages theme can be used and so that `site.github` can be used in templates. The site still builds to Github Pages without it set in the config. But it is added for consistency and in case it is needed for Netlify (running outside of Github).
+The [github-pages](https://github.com/github/pages-gem) gem is set in the Gemfile so that a GitHub Pages theme can be used and so that `site.github` can be used in templates. The site still builds to GitHub Pages without it set in the config. But it is added for consistency and in case it is needed for Netlify (running outside of GitHub).
 
 That plugin also includes the `jekyll-sitemap` and `jekyll-feed` plugins.
 

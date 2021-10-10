@@ -28,14 +28,14 @@ Some things I discovered while exploring the service with this Jekyll site:
 * On the free tier you can:
     - Manage up to 3 sites.
     - Invite up to 3 users per site.
-* Forestry is not aware of Jekyll Liquid paths or base path value, so creating paths and image paths may take extra work or not display well in the editor even though the built site is fine. Using a site without a base path (such as Netlify rather then Github Pages) makes this easier.
+* Forestry is not aware of Jekyll Liquid paths or base path value, so creating paths and image paths may take extra work or not display well in the editor even though the built site is fine. Using a site without a base path (such as Netlify rather then GitHub Pages) makes this easier.
 * Forestry has its own markdown preference.
     - Bullet points are all asterisks.
     - If you try and insert links which are linked later in the page, Forestry will bring the link up to where it is used. e.g. `[foo]` and `[foo]: http://example.com` becomes `[foo](http://example.com)` only, which can be annoying if you want to use the link multiple times.
 
 ### Configuration
 
-Configuration is managed in a [.forestry](https://github.com/MichaelCurrin/coding-blog/tree/master/.forestry) directory in Github. Including site settings and front matter templates. This means that
+Configuration is managed in a [.forestry](https://github.com/MichaelCurrin/coding-blog/tree/master/.forestry) directory in GitHub. Including site settings and front matter templates. This means that
 
 * Configuration is version-controlled, so you can view the history for rolling back changes.
 * You can remove and import a site without having to set it up manually again.
@@ -64,13 +64,13 @@ Configuration is managed in a [.forestry](https://github.com/MichaelCurrin/codin
 ### Media
 
 * You can manage assets such as images through Forestry. By default these go to the _uploads_ directory, but for Jekyll you might use the _assets_ directory. If you click _Media_ in the sidebar, you can see files in that directory.
-* You can preview images in the CMS editor when laying them out. But if you use a Github Pages _Jekyll_ site on a subpath, then the images will give errors on the finished site when published. So then you have to use the `relative_url` Jekyll filter, which only shows as text in the editor but looks fine in the rendered site. If you use _Netlify_ (on a subdomain rather than a subpath) then you won't have this issue.
+* You can preview images in the CMS editor when laying them out. But if you use a GitHub Pages _Jekyll_ site on a subpath, then the images will give errors on the finished site when published. So then you have to use the `relative_url` Jekyll filter, which only shows as text in the editor but looks fine in the rendered site. If you use _Netlify_ (on a subdomain rather than a subpath) then you won't have this issue.
 
 ### Saving and rebuilding
 
 * The default is to save a page as a **draft**.
 * Forestry will **auto-save** content for you and if you return to a file it will ask you if you want to discard changes or use the work in progress unsaved changes.
 * When adding a site to Forestry, it by default only it only looks at **public** repos. You can add access as well for **private** repos, but you might avoid this if you have permissions for a work-related org of private repos.
-* When you add a Github repo to Forestry, you get to choose the **branch**. When you've confirmed, you'll get an email from Github saying that a public key was added to the repo. This means you have authorized Forestry to edit that repo.
-* A commit is made whenever you click save in Forestry. These appear in Github as authored by your user and a Forestry user.
+* When you add a GitHub repo to Forestry, you get to choose the **branch**. When you've confirmed, you'll get an email from GitHub saying that a public key was added to the repo. This means you have authorized Forestry to edit that repo.
+* A commit is made whenever you click save in Forestry. These appear in GitHub as authored by your user and a Forestry user.
 * If your site is slow to rebuild, you can use the preview mode in Settings as that only rebuilds the contents that changed. This can be useful if you have a large site that take a minute to rebuild normally and simulates using `--incremental` flag for Jekyll locally.

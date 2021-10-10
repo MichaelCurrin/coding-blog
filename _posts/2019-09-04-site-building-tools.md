@@ -40,13 +40,13 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 ### Gatsby
 
 - [Official site](https://www.gatsbyjs.org/)
-- JavaScript - React 
+- JavaScript - React
 - [Gatsby First steps](https://alligator.io/gatsbyjs/gatsby-first-steps/) tutorial
 
 ### Hydrogen
 
 - [Official site](https://hydrogenjs.org/)
-- [Github repo](https://github.com/ShailenNaidoo/hydrogen)
+- [GitHub repo](https://github.com/ShailenNaidoo/hydrogen)
 - JavaScript
 
 ### Next
@@ -58,7 +58,7 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 
 - [Official site](https://nuxtjs.org/)
 - JavaScript - VueJS
-- Github - [Nuxt](https://github.com/nuxt) org
+- GitHub - [Nuxt](https://github.com/nuxt) org
 - Tutorials
      - [Netlify deployment](https://nuxtjs.org/faq/netlify-deployment/) guide
      - Tutorial - [Create a static site in 15 minutes or less using Vue/Nuxt and Netlify](https://codeburst.io/create-a-static-site-in-15-minutes-or-less-using-vue-js-e4e2a9945ee6)
@@ -102,7 +102,7 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 - [Official homepage](https://readthedocs.org/)
 - Built on Sphinx (a Python library).
 - Format with *reStructuredText* or *Markdown*.
-- Host on the Read the Docs site. This seems a like a common place for libraries to host their documentation, especially if they are Python libraries. Or self-host e.g. on Github Pages.
+- Host on the Read the Docs site. This seems a like a common place for libraries to host their documentation, especially if they are Python libraries. Or self-host e.g. on GitHub Pages.
 - Build from `/docs` directory.
 - > "Read the Docs simplifies software documentation by automating building, versioning, and hosting of your docs for you."
 
@@ -111,4 +111,4 @@ See also my resources for Jekyll - [link](https://github.com/MichaelCurrin/stati
 - [Official site](https://www.gitbook.com/)
 - Format with markdown.
 - Great if you don't want to write any code, but limited on number of public and private sites on the free plan.
-- Can sync to Github repo.
+- Can sync to GitHub repo.
