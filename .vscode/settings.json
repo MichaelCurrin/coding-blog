@@ -1,6 +1,7 @@
 {
   "files.associations": {
-    "*.md": "liquid"
+    "*.md": "liquid",
+    "*.json": "liquid"
   },
-  "markdown.extension.toc.updateOnSave": false,
+  "markdown.extension.toc.updateOnSave": false
 }
