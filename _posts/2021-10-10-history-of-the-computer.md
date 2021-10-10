@@ -1,7 +1,10 @@
 ---
-title: History of the computer
+title: The History of the Computer
 
 tags: computers, programming, history, computer-science
+
+cover_img_url: 'https://res.cloudinary.com/practicaldev/image/fetch/s--FtvARjvH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x53ujk968kpc5tx6xa08.jpg'
+
 ---
 
 Do you use a computer every day, but wonder where it originated from? 
