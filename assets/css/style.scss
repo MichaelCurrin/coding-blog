@@ -4,22 +4,23 @@
 @import "{{ site.theme }}";
 
 #header nav {
-    /* The default is blue. */
-    background: none;
+  /* The default is blue. */
+  background: none;
 }
 
-/* Prevent the theme's mobile overrides from making the menu hidden or pushed off the page. Also restore the section to be pushed down so the heading is easier to read. */
+/* Prevent the theme's mobile overrides from making the menu hidden or pushed
+off the page. Also restore the section to be pushed down so the heading is
+easier to read. */
 @media print, screen and (max-width: 480px) {
-    #header {
-        margin-top: 0px;
-    }
+  #header {
+    margin-top: 0px;
+  }
 
-    section {
-        margin-top: 70px;
-    }
+  section {
+    margin-top: 70px;
+  }
 
-    nav {
-        display: inherit;
-    }
-
+  nav {
+    display: inherit;
+  }
 }
