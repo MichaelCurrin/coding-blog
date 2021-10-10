@@ -5,7 +5,7 @@ tags: make
 
 ## Intro
 
-A Makefile comes from a C progamming origin for compile C files in to binaries. You’ll still see it in modern C programs. If you ever used a Rakefile or NPM scripts, its a lot like that.
+A Makefile comes from a C programming origin for compile C files in to binaries. You’ll still see it in modern C programs. If you ever used a Rakefile or NPM scripts, its a lot like that.
 
 You need the `make` command installed. This comes by default when I use Linux and Mac systems.
 

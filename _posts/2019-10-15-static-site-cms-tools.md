@@ -10,7 +10,7 @@ Websites, libraries or plugins to create content through a CMS and compile to st
 
 Website: [forestry.io](https://forestry.io)
 
-> Write front-end code with Gatsby, Hugo, Jekyll or Vuepress and push to your Git repo. Forestry will pull in your commits and update the CMS.
+> Write front-end code with Gatsby, Hugo, Jekyll or VuePress and push to your Git repo. Forestry will pull in your commits and update the CMS.
 >
 > Invite your team to create content in a rich UI. Their updates get committed back without merge conflicts.
 
@@ -137,7 +137,7 @@ This has some extra features which come in useful. See the links for more info. 
 
 Website: [storyblok.com/](https://www.storyblok.com/)
 
-I've not used this before but came across it through a Storybok Nuxt quickstart repo for Netlify. [storyblok/nuxtwebsite](https://github.com/storyblok/nuxtwebsite)
+I've not used this before but came across it through a Storyblok Nuxt quickstart repo for Netlify. [storyblok/nuxtwebsite](https://github.com/storyblok/nuxtwebsite)
 
 Free for use with one user.
 

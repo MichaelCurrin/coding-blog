@@ -45,6 +45,6 @@ It suggests that you:
 
 I learnt that being able to write code does not make you a great developer. You need to learn to work with others - juniors, a manager, a developer at your level, other teams and departments... Often they don't mind how you are doing something but care more about what the result will be, when it will be ready and whether it meets the requirements of the business or customer.
 
-These communincations skills come from interactions in your company and even if you are not a developer yet you can still practice them.
+These communications skills come from interactions in your company and even if you are not a developer yet you can still practice them.
 
 You can also put yourself in situations like tech conferences, meetups and hackathons where you will interact with people from various levels of experience and different coding backgrounds (or no coding skills at all). You can learn to exchange knowledge or actually work together on projects, without committing to a job or long-term project. This is a great way to work on the technical and non-technical skills needed to be a developer.

@@ -33,7 +33,7 @@ void main()
 
 In _Bash_, the double-quotes allows substitution of variables, while single-quotes restricts to literal characters.
 
-```bash
+```sh
 $ NAME='Michael'
 $ echo Hello $NAME!
 Hello Michael!
@@ -45,7 +45,7 @@ Hello $NAME!
 
 This is similar in _PHP_.
 
-```
+```sh
 $ php -a
 ```
 ```php
@@ -62,7 +62,7 @@ Hello $name!
 
 In _Bash_, double quotes around a variable can give different output compared to without.
 
-```bash
+```sh
 $ echo $HOME
 /home/michael
 $ echo "$HOME" # Same output as above.
@@ -92,7 +92,7 @@ void main()
 
 ### Python
 
-```
+```sh
 $ python
 ```
 ```python
@@ -104,7 +104,7 @@ $ python
 
 Though, the newer Python standard (for versions 2.7+ and 3.2+) is to use the curly brackets as the [format method](https://pyformat.info/).
 
-```
+```sh
 $ python
 ```
 ```python
@@ -134,7 +134,7 @@ string: Hello. decimal: 123
 
 _Ruby_ supports the implicit interpolation too, but some years before _Python_ did.
 
-```
+```sh
 $ irb
 ```
 ```ruby
@@ -152,7 +152,7 @@ Examples of printing
 
 ### Bash
 
-```bash
+```sh
 # bash
 $ printf 'Foo'
 $ sprintf 'Foo'
@@ -219,7 +219,7 @@ The increment notation of `i++;` is in Java and JavaScript. It actually goes bac
 
 A semicolon is not required in general use, but it can be useful for executing multiple commands in one line.
 
-```bash
+```sh
 $ echo 'Line 1'
 Line 1
 $ echo 'Line 2'
@@ -234,13 +234,13 @@ A semi-colon can also be useful for doing an `if` or `for` conditional in a sing
 
 For example, check if a value is greater than another.
 
-```bash
+```sh
 $ if [ 3 -gt 2 ]; then echo 'Yes'; else echo 'No'; fi```
 Yes
 ```
 
 The longer way is with line breaks instead of semi-colons.
-```bash
+```sh
 $ if [ 3 -gt 2 ]
 > then echo 'Yes'
 > else echo 'No'
@@ -250,7 +250,7 @@ Yes
 
 In a script, this would be:
 
-```bash
+```sh
 if [ 3 -gt 2 ]
   then
     echo 'Yes'
@@ -288,14 +288,14 @@ x = 1; y = 2; print(x + y);
 
 And also useful running multiple _Python_ commands with a single string argument in _Bash_.
 
-```bash
+```sh
 $ python3 -c 'x = 1; y = 2; print(x + y)'
 3
 ```
 
 Line breaks also work for that single string argument.
 
-```bash
+```sh
 $ python3 -c 'x = 1
 > y = 2
 > print(x + y)
