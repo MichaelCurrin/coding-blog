@@ -28,7 +28,7 @@ I add to at least one of these daily, covering many programming languages and li
 My dev homepage, showcasing just my most popular repos
 
 
-## My Github Projects
+## My GitHub Projects
 
 - [MichaelCurrin/my-github-projects](https://github.com/MichaelCurrin/my-github-projects) repo
 
