@@ -1,9 +1,9 @@
-### Site metadata ###
+### Site metadata
 
 title: Coding Blog
 description: "My blog of experiences and advice around coding"
 
-### Build settings ###
+### Build settings
 
 url: https://michaelcurrin.github.io
 baseurl: /coding-blog
@@ -34,7 +34,7 @@ defaults:
 
 exclude:
   - vendor/
+  - Gemfile
   - LICENSE
   - Makefile
   - README.md
-  - Gemfile
