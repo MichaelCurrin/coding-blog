@@ -3,11 +3,11 @@ title: The History of the Computer
 
 tags: computers, programming, history, computer-science
 
-cover_img_url: 'https://res.cloudinary.com/practicaldev/image/fetch/s--FtvARjvH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x53ujk968kpc5tx6xa08.jpg'
+cover_img_url: 'https://res.cloudinary.com/practicaldev/image/fetch/s--LiCcJzsQ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/baa12aws5ygkddsqom9u.jpg'
 
 ---
 
-Do you use a computer every day, but wonder where it originated from? 
+Do you use a computer every day, but wonder where it originated from?
 
 This article steps through the history of computers, covering some firsts in technology and products as well as discussing the creators behind them.
 
@@ -27,16 +27,16 @@ Definition according to [Wikipedia](https://en.wikipedia.org/wiki/Computer):
 
 ## Where is the term "computer" from?
 
-A computer was originally a human clerk who completed calculations i.e. one who _computes_. 
+A computer was originally a human clerk who completed calculations i.e. one who _computes_.
 
-In the 1920s, the devices used to perform the tasks of the human computers were known as a "computing machine". 
+In the 1920s, the devices used to perform the tasks of the human computers were known as a "computing machine".
 
 In the 1940s, this was simply called a "computer" - usually called an "electronic computer" or "digital computer".
 
 
 ## Why did computers evolve?
 
-The invention of the computer in various forms introduced a lot of efficiencies, which made operations easier and sped up progress exponentially. 
+The invention of the computer in various forms introduced a lot of efficiencies, which made operations easier and sped up progress exponentially.
 
 This has continued to modern-day life.
 
@@ -52,7 +52,7 @@ For example, in:
 
 ### First computing device
 
-To start our view of the history of the computer, we'll go back to the first computing device - the [abacus](https://en.wikipedia.org/wiki/Abacus). 
+To start our view of the history of the computer, we'll go back to the first computing device - the [abacus](https://en.wikipedia.org/wiki/Abacus).
 
 This was first used as a tool for calculations by the Egyptians about 3500 years ago.
 
@@ -61,7 +61,7 @@ An abacus is a mechanical device, where the beads on the wires represent quantit
 
 ### First mechanical calculator
 
-In the 1640s, [Blaise Pascal][] created the first [mechanical calculator][] or "calculating machine", at only age 19. This device is known as "Pascal's calculator" or "Pascalines". 
+In the 1640s, [Blaise Pascal][] created the first [mechanical calculator][] or "calculating machine", at only age 19. This device is known as "Pascal's calculator" or "Pascalines".
 
 It is capable of adding and subtracting numbers. It was created to help his father, a tax collector, calculate taxes owed and paid.
 
@@ -87,7 +87,7 @@ Babbage is also credited with the design of the first modern programming languag
 
 In 1936, at Cambridge University, the mathematician and computer scientist [Alan Turing][] invented the principle of the modern computer.
 
-His "Turing machine" was an abstract computer, a conceptual model, and not a real physical machine. The machine was used to formally define what would now be called "effective calculability" or "computability". 
+His "Turing machine" was an abstract computer, a conceptual model, and not a real physical machine. The machine was used to formally define what would now be called "effective calculability" or "computability".
 
 You may have heard of a concept named after Turing, called [Turing completeness][]. This is a way to express the power of a data manipulation rule set. Most programming languages of Turing Complete.
 
@@ -189,7 +189,7 @@ Though there was no way to reply to messages and it required a $59/y subscriptio
 Some research that this article was based on.
 
 - [List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science) on Wikipedia.
-- [A Brief History of the Computer](http://egov.uok.edu.in/elearningug/tutorials/7934_1_2016_161115135359.pdf) - 
+- [A Brief History of the Computer](http://egov.uok.edu.in/elearningug/tutorials/7934_1_2016_161115135359.pdf) -
 University of Kashmir
 - [A Brief History of Computers](https://www.cs.uah.edu/~rcoleman/Common/History/History.html) - University of Alabama
 - [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/) - Stanford Encyclopedia of Philosophy
@@ -206,5 +206,5 @@ University of Kashmir
 ## Credits
 
 Photo by <a href="https://unsplash.com/@glenncarstenspeters?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Glenn Carstens-Peters</a> on <a href="https://unsplash.com/s/photos/old-computer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+
 Edited with https://pixlr.com/e/
