@@ -1,8 +1,11 @@
 ---
-title: About me
+title: About
 ---
 
+<!-- See also https://github.com/MichaelCurrin -->
+
 Here is some info about me:
+
 
 ## Skills
 
