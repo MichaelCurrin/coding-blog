@@ -11,6 +11,10 @@ layout: default
             </a>
         </h1>
 
+        {% if page.cover_img_url and page.cover_img_url != '' %}
+            <img src="{{ page.cover_img_url }}" alt="Blog post cover">
+        {% endif %}
+
         <p class="post-meta">
             <i>{{ page.description | markdownify }}</i>
 
