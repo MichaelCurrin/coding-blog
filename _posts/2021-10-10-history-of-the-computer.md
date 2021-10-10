@@ -7,7 +7,7 @@ cover_img_url: 'https://res.cloudinary.com/practicaldev/image/fetch/s--LiCcJzsQ-
 
 ---
 
-Do you use a computer every day, but wonder where it originated from?
+Do you use a computer every day and wonder where it originated from?
 
 This article steps through the history of computers, covering some firsts in technology and products as well as discussing the creators behind them.
 
