@@ -69,7 +69,7 @@ You can host plenty of free sites on those domains. If you want a custom domain 
 
 ### Static site generators
 
-Instead of writing all the HTML and CSS yourself, you can choose a static site generator. That a tool that uses templating syntax to output an HTML site. It also means you can usually make a simple change to switch between themes. Whether builtin, community or paid.
+Instead of writing all the HTML and CSS yourself, you can choose a static site generator. That's a tool that uses templating syntax to output an HTML site. It also means you can usually make a simple change to switch between themes. Whether builtin, community or paid.
 
 I like using _Jekyll_ for most of my sites is very easy to set up on GitHub Pages without any install or build steps - just add content. It is built in Ruby, but you don't need to know Ruby syntax - you do have to learn the _Liquid_ templating syntax, but you get to use that across programming languages (for example, in Python Flask or Django you also use Liquid syntax).
 
