@@ -1,7 +1,7 @@
 ---
 title: The History of the Computer
 
-tags: computers, programming, history, computer-science
+tags: computers programming computer-science history
 
 cover_img_url: 'https://res.cloudinary.com/practicaldev/image/fetch/s--LiCcJzsQ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/baa12aws5ygkddsqom9u.jpg'
 
