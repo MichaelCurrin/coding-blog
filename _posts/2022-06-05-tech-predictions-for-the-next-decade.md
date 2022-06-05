@@ -1,6 +1,7 @@
 ---
 title: Tech predictions for the next decade
 description: ''
+tags: future computers javascript machine-learning predictions rust security python
 
 ---
 I've been reflecting on trends in tech for the next few years and wanted to share that in a post to share what I've encountered and to start some discussions.
