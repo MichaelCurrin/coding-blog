@@ -72,11 +72,11 @@ These were described as all "really just JavaScript" when compiled. TypeScript a
 
 ## NPM security vulnerability
 
-If you take _one thing_ away from the talk:
-
 The speakers said that NPM has a vulnerability in executing **arbitrary code** on install, using **pre**- and **post-install** commands. This can be used for **malicious** behavior, especially with nested dependencies.
 
-How **disable** that as a config item and leave it set:
+It was recommended to do disable this behavior for safety. However, I find this was a bad idea, because _every_ `npm run` command then does nothing. Well you get a weird error and then if you run with `--verbose` you see the reason behind it.
+
+But anyway, if you do want to disable it:
 
 ```sh
 npm config set ignore-scripts true
