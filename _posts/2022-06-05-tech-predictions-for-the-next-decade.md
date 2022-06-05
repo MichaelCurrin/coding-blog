@@ -4,6 +4,8 @@ description: ''
 tags: future computers javascript machine-learning predictions rust security python
 
 ---
+_To comment, find this post on dev.to_ [_here_](https://dev.to/michaelcurrin/tech-predictions-for-the-next-decade-1aa5 "go to dev.to post")_._
+
 I've been reflecting on trends in tech for the next few years and wanted to share that in a post to share what I've encountered and to start some discussions.
 
 Some of this is based on what I've come across in videos and articles, some is my opinion based on what I've seen happening in the last few years.
