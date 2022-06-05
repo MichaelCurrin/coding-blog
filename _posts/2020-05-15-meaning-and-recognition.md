@@ -16,7 +16,7 @@ I guess then it comes down to make art and content and share it because it makes
 
 People are sensitive to authenticity. If you write software or create art or even blog or tweet for an audience to get fame or money, but not for you to use and enjoy - that gets considered "commercial" or a "sell-out". Especially for a band that changes artistic direction and their original fans feel betrayed and they judge the artist for not being authentic.
 
-What if the tool or art as no use or commercial value but is just fun or inspiring or makes you think differently?
+What if the tool or art has no use or commercial value but is just fun or inspiring or makes you think differently?
 
 I realized the other day that governments, school principles and so one place more budget and recognition on business/maths/sciences than the humanities. But, what do people do to cope with the Coronavirus and stress in general after work? They use the humanities. They listen to music, they educate themselves, they make art and poetry, they play games, they watch series and movies.
 
