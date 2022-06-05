@@ -10,6 +10,12 @@ fields:
 - type: text
   name: description
   label: Description
+- name: tags
+  type: text
+  config:
+    required: true
+  label: Tags
+  description: e.g. abc def-ghi
 pages:
 - _posts/2020-02-27-this-blog-moves-to-forestry.md
 - _posts/2020-03-04-programming-by-configuration.md
