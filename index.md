@@ -15,7 +15,7 @@ Welcome to my blog - I write about tech topics that interest me, my experience a
 
 My preferred tools are Python, JavaScript and Bash, so language-specific posts are about those often. I also like making static sites and learning to use CMS tools.
 
-Follow me on my DEV.to blog. I post there regularly.
+Follow me on my DEV.to blog if you like that platform. I sometimes cross-post.
 
 <a href="https://dev.to/michaelcurrin">
     <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
