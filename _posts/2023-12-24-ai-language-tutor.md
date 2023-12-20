@@ -6,6 +6,7 @@ tags: ai technology gpt language
 
 I have a passion for languages and am excited to learn Dutch and bits of other languages. I found AI tools like ChatGPT can make the learning process faster and more fun. So I am here to share my expertise so you can do that too.
 
+
 ## Obstacles I encountered before AI
 
 I use many approaches and tools at once to learn a language, but I find a lot of frustration still if I don't use AI.
@@ -17,6 +18,7 @@ I use many approaches and tools at once to learn a language, but I find a lot of
 - It is possible to use a Google search for a list of words or phrases to use for a restaurant or grocery store. But what about something more specific, like how to book a dentist appointment or talk about my specific hobbies and my home country?
 - How do I know what to learn next?
 - With structured tools like Duolingo, I found it takes a really long time to cover enough content to get the vocabulary for conversations that I have or expect to have soon, or I have to look through pages and pages piecing together what I need. Like talking to an acquaintance at a bar, asking for directions, interacting with a waiter, or at the market.
+- A tool like Duolingo also feels very formal sometimes and it doesn't represent the kind of daily conversations you hear, like how people greet each other or say goodbye, or when express surprise or joy or annoyance when someone says something (e.g. "Wow, I can't believe that", "Did that really happen?", "Oh, how sweet", "Yuck, that's gross").
 - I have many friends to a language with weekly. But I would like to have someone available 24/7 to engage with in a foreign language for as long as I want, explaining things to me and letting me choose text or audio options.
 
 
@@ -40,13 +42,17 @@ If you have something more technical like a job interview or questions to expect
 
 Get the AI to talk you through a situation you want to prepare for. e.g. Interactions with a waiter, booking a flight online, phoning to make a doctor's appointment, or giving directions to someone. If you are stuck for ideas, get the AI to come up with situations based on your intention for being in the country or speaking the language. Such as when you are abroad or a holiday, studying or relocating.
 
-### Debate
+### Have a debate
 
 Have a debate on a current topic. Such as the impact of social media, AI, animal testing, free education, or veganism. Ask the AI to generate some topics that are popular or even ones it can find in this month's news.
 
 I got this idea from [TalkPal.ai](https://talkpal.ai), which has Debate as a premium feature.
 
-### Translation
+### Do research
+
+Are you interested in learning about the country you're in and how the culture? Ask the AI to give you some informative content and get it to
+
+### Translation content you give it.
 
 Ask for translations and explanations. Whether from your conversation or from text that you copy and paste. Give it an entire page if you want.
 
@@ -72,11 +78,13 @@ If the language you are learning has a gender, ask for that too.
 
 ### Generate phrases
 
-Ask the AI for a table of phrases with columns for English and your chosen language.
+Ask the AI for a table of phrases, with columns for English and your chosen language.
 
 Do that for a particular situation like "talking about hobbies with a stranger" or "polite phrases at a restaurant to greet, order, and pay". You can give it more context first, like your personality and hobbies or favorite foods, then get it to start a conversation.
 
 I am curious about learning a bit of a lot of languages. From my experience, I find this table-of-phrases approach way more effective and faster than using Duolingo (which is too slow and with a narrow structure) or finding an article online (which will have maybe 10 phrases and the next article will have mostly the same ones).
+
+This approach is also great for learning informal aspects that might be in articles but not formal courses. Like slang, dialects, common informal expressions, and jokes.
 
 ### Translate across languages
 
