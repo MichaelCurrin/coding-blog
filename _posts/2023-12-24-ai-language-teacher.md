@@ -2,6 +2,7 @@
 title: AI as a language teacher
 description: 'How to turn a chatbot into an interactive and informative language assistant'
 tags: ai technology gpt language
+cover_path: assets/images/posts/ai-language-teacher-text.jpg
 ---
 
 I have a passion for languages and am excited to learn Dutch (in the Netherlands) and bits of other languages I encounter. I found AI tools like ChatGPT can make the learning process faster and more fun. I decided to share my expertise here, so you can be equipped to do that too.
@@ -99,3 +100,8 @@ You could ask for a column that is the phonetic pronunciation. Especially for la
 Generate a curriculum or practice exercises appropriate for your level.
 
 This can be high-level initially. Then you can ask to start a section or move on to another. You could ask it to quiz you occasionally, or when it thinks the current section is complete.
+
+
+## Cover image
+
+_Banner made with NightCafe, originally posted [here]https://creator.nightcafe.studio/creation/tiZVO63u6DiQB0cZvS7d)._
