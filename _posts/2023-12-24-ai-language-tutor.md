@@ -74,7 +74,7 @@ Ask for a table or list of words in a setting or theme.
 
 If the language you are learning has a gender, ask for that too.
 
-> "Give me a list of fruit and vegetables as a table, with columns for Dutch and English. Include the gender e.g. (de) appel | (the) apple".
+> "Give me a list of fruit and vegetables as a table, with columns for Dutch and English. Include the gender e.g. (de) appel \| (the) apple".
 
 ### Generate phrases
 
