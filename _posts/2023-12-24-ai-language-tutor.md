@@ -4,7 +4,7 @@ description: 'How to turn a chatbot into an interactive and informative language
 tags: ai technology gpt language
 ---
 
-I have a passion for languages and am excited to learn Dutch and bits of other languages. I found AI tools like ChatGPT can make the learning process faster and more fun. So I am here to share my expertise so you can do that too.
+I have a passion for languages and am excited to learn Dutch (in the Netherlands) and bits of other languages I encounter. I found AI tools like ChatGPT can make the learning process faster and more fun. I decided to share my expertise here, so you can be equipped to do that too.
 
 
 ## Obstacles I encountered before AI
@@ -26,7 +26,7 @@ I use many approaches and tools at once to learn a language, but I find a lot of
 
 Using AI, we can overcome the problems discussed above in a fast, easy, customized, and fun way.
 
-Use your favorite AI chatbot for this. I found ChatGPT3, Bing, and Google Bard all handle foreign languages well.
+Use your favorite AI chatbot for this. I found ChatGPT3, Bing, and Google Bard all handle foreign languages well. I have an article on tradeoffs between them and with links to each, if you like - [AI chatbot options in 2023](https://michaelcurrin.github.io/coding-blog/2023/10/28/ai-tools.html.)
 
 ### Have a conversation
 
