@@ -5,7 +5,9 @@ tags: ai technology gpt language
 cover_img_path: assets/images/posts/ai-language-teacher-text.jpg
 ---
 
-I have a passion for languages and am excited to learn Dutch (in the Netherlands) and bits of other languages I encounter. I found AI tools like ChatGPT can make the learning process faster, fun, and tailored to my level and needs. I share my expertise here, so you can be equipped to do that too.
+I have a passion for languages and am excited to learn Dutch (in the Netherlands) and bits of other languages I encounter. AI looks like ChatGPT have made the learning process faster, more fun, and personalized. I'm here to share insights so you can achieve that too.
+
+**Overview:**
 
 - [Why use AI?](#why-use-ai)
 - [Ways to use AI as a language tutor](#ways-to-use-ai-as-a-language-tutor)
@@ -29,8 +31,7 @@ I have a passion for languages and am excited to learn Dutch (in the Netherlands
 
 Here are some challenges I encountered learning a language which I overcame with AI.
 
-- In Duolingo, vocabulary acquisition for daily interactions happens very slow.
-- Duolingo feels stiff, doesn't often reflect casual everyday usage, and only covers a single sentence at a time.
+- In Duolingo, vocabulary acquisition for daily interactions happens very slow, the content often doesn't reflect casual usage or everyday purposes, and it only covers a single sentence at a time.
 - Google Translate lacks context and is often too literal.
 - Difficulty finding engaging content between beginner and intermediate levels.
 - It's challenging to search online for language concepts when you observe grammar or informal speech but don't how to label it.
@@ -44,13 +45,16 @@ Here are some challenges I encountered learning a language which I overcame with
 Using AI, we can overcome the problems discussed above in a  Below are some approaches I recommend. The responses shown here are all from ChatGPT3.
 
 
-### Conversational Practice
+### Conversational practice
 
 The simplest is just to start to talking to the AI in the language you want to learn and see the response in the same language.
 
-> Hoi, ik ben Michael. Hoe heet jij?
+```
+Hoi, ik ben Michael. Hoe heet jij?
+```
 
-_Hoi Michael! Ik ben ChatGPT. Hoe gaat het met je vandaag?_
+> Hoi Michael! Ik ben ChatGPT. Hoe gaat het met je vandaag?
+
 
 Ask it at the start to correct your grammar and spelling if you make mistakes.
 
@@ -64,9 +68,11 @@ Get it to focus on asking you questions so keep you on your toes for responding 
 
 Ask to get the AI to get to know you, like as a best friend, acquaintance, or date. Get it to ask you some icebreaker questions.
 
-> Ask me a icebreaker question in beginner level Dutch
+```
+Ask me a icebreaker question in beginner level Dutch
+```
 
-_Natuurlijk! Wat zou jouw superkracht zijn als je er één mocht kiezen?_
+> _Natuurlijk! Wat zou jouw superkracht zijn als je er één mocht kiezen?_
 
 If you have something more technical to prepare for like a job interview or questions to expect for a presentation, get the AI to take on one of these roles.
 
@@ -82,19 +88,23 @@ I got this idea from [TalkPal.ai](https://talkpal.ai), which has Debate as a pre
 
 Are you interested in learning about the country you're in and how the culture? Ask the AI to give you some informative content about food, places, shopping, and so on.
 
-> I move to the Netherlands! Give me a sentence talking about must-see attractions, food, and culture. Write it in Dutch and make it easy for a beginner to understand. Give me the English in brackets afterwards
+```
+I move to the Netherlands! Give me a sentence talking about must-see attractions, food, and culture. Write it in Dutch and make it easy for a beginner to understand. Give me the English in brackets afterwards.
+```
 
-_"Ik wil graag de molens in Kinderdijk zien, de stroopwafels proeven en de Nederlandse cultuur ervaren!" (I want to see the windmills in Kinderdijk, taste the stroopwafels, and experience Dutch culture!)_
+> _"Ik wil graag de molens in Kinderdijk zien, de stroopwafels proeven en de Nederlandse cultuur ervaren!" (I want to see the windmills in Kinderdijk, taste the stroopwafels, and experience Dutch culture!)_
 
 ### Translate content
 
 Ask for translations and explanations about them. Whether from the conversation already in progress, or from text that you copy and paste. Give it an entire page if you want.
 
-> what does this mean in Dutch?
->
-> ter wereld
+```
+what does this mean in Dutch?
 
-_"Ter wereld" in Dutch translates to "in the world" or "on Earth" in English. It's used to refer to something happening or existing within the scope of the entire world or on a global scale._
+ter wereld
+```
+
+> _"Ter wereld" in Dutch translates to "in the world" or "on Earth" in English. It's used to refer to something happening or existing within the scope of the entire world or on a global scale._
 
 Google Translate can be very literal and does not always capture the way a native would express themselves. The AI will have a better understanding of the context and intent and multiple meanings of a word.
 
@@ -110,7 +120,9 @@ If the story gets boring you can ask for a plot twist or ask it to go in a certa
 
 Ask for explanations of words if you get stuck (it is also smart enough to explain the word in the context of the sentence).
 
-> pitch me 3 bullet points of a kids story. In Dutch. Give me the English in brackets afterwards
+```
+pitch me 3 bullet points of a kids story. In Dutch. Give me the English in brackets afterwards
+```
 
 - _Tim, een nieuwsgierige jongen, vindt een betoverde schatkist in het bos. (Tim, a curious boy, discovers an enchanted treasure chest in the forest.)_
 - _In de kist zit een kaart die leidt naar een magische wereld vol pratende dieren. (Inside the chest, there's a map leading to a magical world inhabited by talking animals.)_
@@ -122,7 +134,9 @@ Ask for a table or list of words in a setting or theme.
 
 If the language you are learning has a gender, ask for that too. e.g.
 
-> Give me a list as a table with columns for Dutch and English. Make sure to include the definite article in brackets before.
+```
+Give me a list as a table with columns for Dutch and English. Make sure to include the definite article in brackets before.
+```
 
 | Dutch           | English        |
 | --------------- | -------------- |
@@ -145,7 +159,9 @@ Ask the AI for a table of phrases, with columns for English and your chosen lang
 
 Do that for a particular situation like hobbies with a stranger, or in a restaurant or party or shop.
 
-> Give 5 polite phrases I can use at a restaurant such as to greet, order a meal, change the order, and pay and leave. Format as a table with Dutch and English columns.
+```
+Give 5 polite phrases I can use at a restaurant such as to greet, order a meal, change the order, and pay and leave. Format as a table with Dutch and English columns.
+```
 
 | Dutch                                                | English                                             |
 | ---------------------------------------------------- | --------------------------------------------------- |
@@ -161,7 +177,9 @@ I am curious about learning a bit of a lot of languages. From my experience, I f
 
 This approach is also great for learning informal aspects that might be in articles but not formal courses. Like slang, dialects, common informal expressions, and jokes.
 
-> Give me 3 slang phrases I can use with my friends. Format as a table in Dutch and English
+```
+Give me 3 slang phrases I can use with my friends. Format as a table in Dutch and English
+```
 
 | Dutch                    | English                    |
 | ------------------------ | -------------------------- |
@@ -173,7 +191,9 @@ This approach is also great for learning informal aspects that might be in artic
 
 You can ask for a table of multiple languages in one table e.g. English, Dutch, Spanish.
 
-> I work in IT. Give me 2 sentences for how to greet someone and say what I do for a living. Format a table of Dutch, French, and English.
+```
+I work in IT. Give me 2 sentences for how to greet someone and say what I do for a living. Format a table of Dutch, French, and English.
+```
 
 | Dutch                                         | French                                                               | English                                       |
 | --------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------- |
@@ -184,7 +204,9 @@ You can ask for a table of multiple languages in one table e.g. English, Dutch, 
 
 You could ask for a column that is the phonetic pronunciation. Especially for languages like Japanese, Greek, or Polish with unfamiliar alphabets.
 
-> Give me a table of greetings. Columns in English and Polish and pronunication in Polish
+```
+Give me a table of greetings. Columns in English and Polish and pronunication in Polish
+```
 
 | English        | Polish        | Pronunciation (Polish) |
 | -------------- | ------------- | ---------------------- |
@@ -204,30 +226,36 @@ Be careful of asking for phonetic pronunciation, as you get something it is hard
 
 Sometimes I see something used a lot but it seems strange. And Google and Google Translate give bad results. So then I ask the AI.
 
-> In Dutch, I see people saying "ie" when as in "hoe gaat ie" or when they talk about an inanimate object. can you explain?
+#### Slang
 
-_Certainly! In Dutch, "ie" is a colloquial way of saying "hij" or "het" in informal speech. It's a shortened, more casual form used in spoken language, particularly in informal settings or among friends and family._
+```
+In Dutch, I see people saying "ie" when as in "hoe gaat ie" or when they talk about an inanimate object. can you explain?
+```
 
-_For instance:_
-
-- _"Hoe gaat ie?" means "How is he/it doing?" but used informally to inquire about someone's well-being._
-- _"Die auto, hoeveel kost ie?" means "That car, how much does it cost?" using "ie" instead of "het" (it) in reference to an inanimate object._
-
-_It's a bit like saying "he" or "it" instead of "he/she/it" in English, but in Dutch, it's a more informal and shortened version._
-
-> I see abbreviations, explain what they are
+> _Certainly! In Dutch, "ie" is a colloquial way of saying "hij" or "het" in informal speech. It's a shortened, more casual form used in spoken language, particularly in informal settings or among friends and family._
 >
-> 'k weet het.
->
-> 't zusje.
->
-> 's nachts.
+> _For instance:_
+> - _"Hoe gaat ie?" means "How is he/it doing?" but used informally to inquire about someone's well-being._
+> - _"Die auto, hoeveel kost ie?" means "That car, how much does it cost?" using "ie" instead of "het" (it) in reference to an inanimate object._
+> _It's a bit like saying "he" or "it" instead of "he/she/it" in English, but in Dutch, it's a more informal and shortened version._
 
-_Certainly! These are abbreviations commonly used in Dutch:_
+#### Abbreviations
 
-- _**'k weet het**: This stands for "ik weet het," which translates to "I know it" in English. It's a shortened form where the "ik" (I) is abbreviated to just the letter 'k to make the phrase more casual or quicker to say._
-- _**'t zusje**: This is an abbreviation for "het zusje" which means "the little sister" in English. The article "het" (the) is shortened to 't for ease of pronunciation or casual conversation._
-- _**'s nachts**: This stands for "des nachts" or "in de nacht" in full, both of which mean "at night" in English. The abbreviation 's represents "des" (of the), and it's commonly used in written and spoken Dutch to refer to activities or events happening during the nighttime._
+```
+I see abbreviations, explain what they are
+
+'k weet het.
+
+'t zusje.
+
+'s nachts.
+```
+
+> Certainly! These are abbreviations commonly used in Dutch:_
+>
+> - _**'k weet het**: This stands for "ik weet het," which translates to "I know it" in English. It's a shortened form where the "ik" (I) is abbreviated to just the letter 'k to make the phrase more casual or quicker to say._
+> - _**'t zusje**: This is an abbreviation for "het zusje" which means "the little sister" in English. The article "het" (the) is shortened to 't for ease of pronunciation or casual conversation._
+> - _**'s nachts**: This stands for "des nachts" or "in de nacht" in full, both of which mean "at night" in English. The abbreviation 's represents "des" (of the), and it's commonly used in written and spoken Dutch to refer to activities or events happening during the nighttime._
 
 ### Requesting course outlines
 
