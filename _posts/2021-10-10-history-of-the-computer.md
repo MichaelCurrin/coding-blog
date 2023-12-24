@@ -3,8 +3,7 @@ title: The History of the Computer
 
 tags: computers programming computer-science history
 
-cover_img_url: 'https://res.cloudinary.com/practicaldev/image/fetch/s--LiCcJzsQ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/baa12aws5ygkddsqom9u.jpg'
-
+cover_img_path: assets/images/posts/history-modern-computer.webp
 ---
 
 Do you use a computer every day and wonder where it originated from?
