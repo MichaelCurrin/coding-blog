@@ -24,3 +24,24 @@ easier to read. */
     display: inherit;
   }
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #434343;
+  padding: 8px;
+}
+
+th {
+  background-color: #373434;
+  font-weight: bold;
+}
+
+/* Wrap codeblocks */
+.highlight code {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
