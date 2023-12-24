@@ -11,33 +11,40 @@ layout: default
             </a>
         </h1>
 
+        {% assign img_url = '' %}
         {% if page.cover_img_url and page.cover_img_url != '' %}
-            <img src="{{ page.cover_img_url }}" alt="Blog post cover">
+        {% assign img_url = page.cover_img_url %}
+        {% elsif page.cover_img_path and page.cover_img_path != '' %}
+        {% assign img_url = page.cover_img_path | relative_url %}
+        {% endif %}
+
+        {% if img_url != '' %}
+        <img src="{{ img_url }}" alt="Blog post cover">
         {% endif %}
 
         <p class="post-meta">
             <i>{{ page.description | markdownify }}</i>
 
-            <div>
-                <span>
-                    <b>Posted on:</b>
-                </span>
+        <div>
+            <span>
+                <b>Posted on:</b>
+            </span>
 
-                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}"
-                    itemprop="datePublished">
-                    {{ page.date | date: site.short_date }}
-                </time>
-            </div>
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}"
+                itemprop="datePublished">
+                {{ page.date | date: site.short_date }}
+            </time>
+        </div>
 
-            {% if page.tags %}
-                <div>
-                    <span>
-                        <b>Tags:</b>
-                    </span>
+        {% if page.tags %}
+        <div>
+            <span>
+                <b>Tags:</b>
+            </span>
 
-                    {% include post-tags.html tags=page.tags %}
-                </div>
-            {% endif %}
+            {% include post-tags.html tags=page.tags %}
+        </div>
+        {% endif %}
         </p>
     </header>
 
