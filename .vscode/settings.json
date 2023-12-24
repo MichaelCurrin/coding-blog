@@ -1,6 +1,6 @@
 {
   "files.associations": {
-    "*.md": "liquid",
+    "*.md": "markdown", // set as liquid for a while for a Jekyll extension I think I uninstalled or is deprecated, plus table formatting only works in Markdown
     "*.json": "liquid"
   },
   "markdown.extension.toc.updateOnSave": false
