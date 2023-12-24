@@ -5,13 +5,13 @@ tags: ai technology gpt language
 cover_img_path: assets/images/posts/ai-language-teacher-text.jpg
 ---
 
-I have a passion for languages and am excited to learn Dutch (in the Netherlands) and bits of other languages I encounter. AI looks like ChatGPT have made the learning process faster, more fun, and personalized. I'm here to share insights so you can achieve that too.
+I have a passion for languages and am excited to learn Dutch (in the Netherlands) as well as bits of other languages. AI tools like ChatGPT have made my learning process faster, more fun, and personalized. I'm here to share insights so you can achieve that too.
 
 **Overview:**
 
 - [Why use AI?](#why-use-ai)
 - [Ways to use AI as a language tutor](#ways-to-use-ai-as-a-language-tutor)
-    - [Conversational Practice](#conversational-practice)
+    - [Conversational practice](#conversational-practice)
     - [Roleplaying scenarios](#roleplaying-scenarios)
     - [Engaging in debates](#engaging-in-debates)
     - [Learning about country and culture](#learning-about-country-and-culture)
@@ -22,6 +22,8 @@ I have a passion for languages and am excited to learn Dutch (in the Netherlands
     - [Translating across languages](#translating-across-languages)
     - [Phonetic pronunciation assistance](#phonetic-pronunciation-assistance)
     - [Ask for explanations](#ask-for-explanations)
+        - [Slang](#slang)
+        - [Abbreviations](#abbreviations)
     - [Requesting course outlines](#requesting-course-outlines)
     - [Play a game](#play-a-game)
 - [Choose an AI tool](#choose-an-ai-tool)
@@ -37,7 +39,7 @@ Here are some challenges I encountered learning a language which I overcame with
 - It's challenging to search online for language concepts when you observe grammar or informal speech but don't how to label it.
 - Need for specific phrases beyond basics, like dentist appointments or describing your specific hobbies and your home country.
 - Uncertainty about learning structure and identifying weaknesses.
-- A desire for having someone to practice with over text or voice, any time of day.
+- A desire for having someone to practice with over text or voice, any time of day, for as long as a want. Especially on a train commute.
 
 
 ## Ways to use AI as a language tutor
@@ -121,12 +123,14 @@ If the story gets boring you can ask for a plot twist or ask it to go in a certa
 Ask for explanations of words if you get stuck (it is also smart enough to explain the word in the context of the sentence).
 
 ```
-pitch me 3 bullet points of a kids story. In Dutch. Give me the English in brackets afterwards
+Pitch me 3 bullet points of a kids story. In Dutch. Give me the English in brackets afterwards
 ```
 
 - _Tim, een nieuwsgierige jongen, vindt een betoverde schatkist in het bos. (Tim, a curious boy, discovers an enchanted treasure chest in the forest.)_
 - _In de kist zit een kaart die leidt naar een magische wereld vol pratende dieren. (Inside the chest, there's a map leading to a magical world inhabited by talking animals.)_
 - _Samen met zijn nieuwe dierenvrienden gaat Tim op avontuur om een betovering te verbreken en de verdwenen koning terug te vinden. (With his newfound animal friends, Tim embarks on a quest to break a curse and find the missing king.)_
+
+Over about a week, I worked with the AI to write kids adventure story in Dutch, where every day I asked for a new chapter (which ends up being a page long) and then I asked it questions on the words.
 
 ### Generate words
 
