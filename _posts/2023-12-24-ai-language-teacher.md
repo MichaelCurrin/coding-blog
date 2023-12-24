@@ -2,7 +2,7 @@
 title: AI as a language teacher
 description: 'How to turn a chatbot into an interactive and informative language assistant'
 tags: ai technology gpt language
-cover_path: assets/images/posts/ai-language-teacher-text.jpg
+cover_img_path: assets/images/posts/ai-language-teacher-text.jpg
 ---
 
 I have a passion for languages and am excited to learn Dutch (in the Netherlands) and bits of other languages I encounter. I found AI tools like ChatGPT can make the learning process faster and more fun. I decided to share my expertise here, so you can be equipped to do that too.
