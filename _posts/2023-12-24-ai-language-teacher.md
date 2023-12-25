@@ -44,7 +44,7 @@ Here are some challenges I encountered learning a language which I overcame with
 
 ## Ways to use AI as a language tutor
 
-Using AI, we can overcome the problems discussed above in a  Below are some approaches I recommend. The responses shown here are all from ChatGPT3.
+Using AI, we can overcome the problems discussed above in a  Below are some approaches I recommend. The responses shown here are all from ChatGPT.
 
 
 ### Conversational practice
@@ -255,7 +255,7 @@ I see abbreviations, explain what they are
 's nachts.
 ```
 
-> Certainly! These are abbreviations commonly used in Dutch:_
+> _Certainly! These are abbreviations commonly used in Dutch:_
 >
 > - _**'k weet het**: This stands for "ik weet het," which translates to "I know it" in English. It's a shortened form where the "ik" (I) is abbreviated to just the letter 'k to make the phrase more casual or quicker to say._
 > - _**'t zusje**: This is an abbreviation for "het zusje" which means "the little sister" in English. The article "het" (the) is shortened to 't for ease of pronunciation or casual conversation._
@@ -276,7 +276,7 @@ Ask the AI to play a game. Such a guessing game inspired by 30 Seconds or 20 Que
 
 ## Choose an AI tool
 
-Use your favorite AI chatbot for this. I found ChatGPT3, Bing, and Google Bard all handle foreign languages well. I have an article on tradeoffs between them and with links to each, if you like - [AI chatbot options in 2023](https://michaelcurrin.github.io/coding-blog/2023/10/28/ai-tools.html).
+Use your favorite AI chatbot for this. I found ChatGPT, Bing, and Google Bard all handle foreign languages well. I have an article on tradeoffs between them and with links to each, if you like - [AI chatbot options in 2023](https://michaelcurrin.github.io/coding-blog/2023/10/28/ai-tools.html).
 
 To hear the speech spoken to you, you can use Bard with the speech icon. But I found it sounds artificial.
 
