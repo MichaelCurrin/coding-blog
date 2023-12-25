@@ -38,7 +38,7 @@ Here are some challenges I encountered learning a language which I overcame with
 - Difficulty finding engaging content between beginner and intermediate levels.
 - It's challenging to search online for language concepts when you observe grammar or informal speech but don't how to label it.
 - Need for specific phrases beyond basics, like dentist appointments or describing your specific hobbies and your home country.
-- Uncertainty about learning structure and identifying weaknesses.
+- Uncertainty about my learning path structure and identifying my weaknesses.
 - A desire for having someone to practice with over text or voice, any time of day, for as long as a want. Especially on a train commute.
 
 
