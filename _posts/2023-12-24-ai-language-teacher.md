@@ -35,9 +35,9 @@ Here are some challenges I encountered learning a language which I overcame with
 
 - In Duolingo, vocabulary acquisition for daily interactions happens very slow, the content often doesn't reflect casual usage or everyday purposes, and it only covers a single sentence at a time.
 - Google Translate lacks context and is often too literal.
-- Difficulty finding engaging content between beginner and intermediate levels.
-- It's challenging to search online for language concepts when you observe grammar or informal speech but don't how to label it.
-- Need for specific phrases beyond basics, like dentist appointments or describing your specific hobbies and your home country.
+- Difficulty finding engaging content that is between beginner and intermediate levels.
+- It was challenging to search online for language concepts when you observe grammar or informal speech but don't how to label it.
+- A need for specific phrases beyond basics, like dentist appointments or describing your specific hobbies and your home country.
 - Uncertainty about my learning path structure and identifying my weaknesses.
 - A desire for having someone to practice with over text or voice, any time of day, for as long as a want. Especially on a train commute.
 
@@ -76,7 +76,9 @@ Ask me a icebreaker question in beginner level Dutch
 
 > _Natuurlijk! Wat zou jouw superkracht zijn als je er één mocht kiezen?_
 
-If you have something more technical to prepare for like a job interview or questions to expect for a presentation, get the AI to take on one of these roles.
+Unforunately this case is not actually beginner level as asked, so you can try emphasizing that you want "basic vocabularly and grammary only". Or try Bing if you first tried ChatGPT.
+
+If you have something more technical to prepare for, like a job interview or questions to expect for a presentation, get the AI to take on one of these roles. This will give more of a sense of interactivity and unpredictability of real life (unlike non-AI tools) while also giving relevant and knowledgable questions on your topic (it can be hard to find someone in-person who has this expertise).
 
 Get the AI to talk you through a situation you want to prepare for. e.g. Interactions with a waiter, booking a flight online, phoning to make a doctor's appointment, or giving directions to someone. If you are stuck for ideas, get the AI to come up with situations based on your intention for being in the country or speaking the language. Such as when you are abroad or a holiday, studying or relocating.
 
@@ -91,7 +93,7 @@ I got this idea from [TalkPal.ai](https://talkpal.ai), which has Debate as a pre
 Are you interested in learning about the country you're in and how the culture? Ask the AI to give you some informative content about food, places, shopping, and so on.
 
 ```
-I move to the Netherlands! Give me a sentence talking about must-see attractions, food, and culture. Write it in Dutch and make it easy for a beginner to understand. Give me the English in brackets afterwards.
+I moved to the Netherlands! Give me a sentence talking about must-see attractions, food, and culture. Write it in Dutch and make it easy for a beginner to understand. Give me the English in brackets afterwards.
 ```
 
 > _"Ik wil graag de molens in Kinderdijk zien, de stroopwafels proeven en de Nederlandse cultuur ervaren!" (I want to see the windmills in Kinderdijk, taste the stroopwafels, and experience Dutch culture!)_
