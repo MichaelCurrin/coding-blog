@@ -226,7 +226,7 @@ Give me a table of greetings. Columns in English and Polish and pronunication in
 | Yes            | Tak           | tahk                   |
 | No             | Nie           | nyeh                   |
 
-Be careful of asking for phonetic pronunciation, as you get something it is harder to read like this for "Cześć" - `'tʂɛɕt͡ɕ`
+Be careful of asking for "phonetic" pronunciation, as you get something more advanced phonetic standard. e.g. "Cześć" will appear as "'tʂɛɕt͡ɕ" rather than "cheshch".
 
 ### Ask for explanations
 
