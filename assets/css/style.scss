@@ -3,9 +3,103 @@
 
 @import "{{ site.theme }}";
 
+/** Tables **/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #434343;
+  padding: 8px;
+}
+
+th {
+  background-color: #373434;
+  font-weight: bold;
+}
+
+/* Wrap codeblocks */
+.highlight code {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+/** New colors by Claude - not all areas might be used, it's just based on the
+ * original theme SCSS. **/
+
+:root {
+  --bg-color: #1e1e1e;
+  --text-color: #d4d4d4;
+  --header-color: #252526;
+  --accent-color: #67b4f4;
+  --secondary-accent: #3cbbc9;
+  --menu: #3f80b5;
+  --hover-color: #5998d0;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+#header {
+  background: var(--header-color);
+  border-bottom-color: var(--accent-color);
+}
+
 #header nav {
-  /* The default is blue. */
   background: none;
+}
+
+#header nav ul li a {
+  background: var(--menu);
+  border-color: var(--menu);
+}
+
+#header nav ul li a:hover {
+  background: var(--hover-color);
+  border-color: var(--hover-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--accent-color);
+}
+
+a {
+  color: var(--secondary-accent);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+code {
+  background: #2d2d2d;
+}
+
+pre {
+  background: #2d2d2d;
+  border-color: #3e3e3e;
+}
+
+blockquote {
+  border-left-color: var(--secondary-accent);
+}
+
+hr {
+  background: var(--header-color);
+}
+
+section #title .credits {
+  color: #888;
 }
 
 /* Prevent the theme's mobile overrides from making the menu hidden or pushed
@@ -23,25 +117,4 @@ easier to read. */
   nav {
     display: inherit;
   }
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-table, th, td {
-  border: 1px solid #434343;
-  padding: 8px;
-}
-
-th {
-  background-color: #373434;
-  font-weight: bold;
-}
-
-/* Wrap codeblocks */
-.highlight code {
-  white-space: pre-wrap;
-  overflow-wrap: break-word;
 }
