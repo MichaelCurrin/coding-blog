@@ -2,6 +2,7 @@
 title: Features of popular GenAI platforms in 2025
 description: 'A comparison of popular GenAI tools and what their capabilities are, so you can pick one or more tools for your needs.'
 tags: ai productivity technology gpt
+cover_img_path: assets/images/posts/ai-tools-text-2025.jpg
 ---
 
 A comparison of popular GenAI tools and what their capabilities are, so you can pick one or more tools for your needs.
