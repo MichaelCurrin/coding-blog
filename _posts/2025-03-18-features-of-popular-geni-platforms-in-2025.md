@@ -44,4 +44,4 @@ For more details including screenshots and sample prompts, see [Feature comparis
 
 ## Cover image
 
-Generated using Microsoft Bing Image Creator - [link](https://sl.bing.net/gyTvogcpkGW).
+Generated using Microsoft Bing Image Creator.
