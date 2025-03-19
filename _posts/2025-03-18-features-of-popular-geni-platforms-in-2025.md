@@ -36,9 +36,9 @@ For more details including screenshots and sample prompts, see [Feature comparis
 | Voice call mode                                      |   ✅    |          ✅          | ❌ web, ✅ mobile |        ❌         |
 | Reasoning (deep think, think before responding)      |   ✅    |          ❌          |        ✅         |        ✅         |
 | Generate images with AI                              |   ✅    |          ✅          |        ✅         |        ❌         |
-| Create artifacts (output document or code as a file) |   ✅    |          ❌          |        ✅         |        ✅         |
+| Canvas/artifacts (output document or code as a file) |   ✅    |          ❌          |        ✅         |        ✅         |
 | Live app preview (HTML page in sidepanel)            |   ❌    |          ❌          |        ❌         |        ✅         |
-| Dataviz (inline graphs using Python code)            |   ❌    |          ❌          |        ✅         |        ❌         |
+| Dataviz (inline graphs using Python code)            |   ✅    |          ❌          |        ✅         |        ❌         |
 | Memory about you                                     |   ✅    |          ❌          |        ✅         |        ❌         |
 
 
