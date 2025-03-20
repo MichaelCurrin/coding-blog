@@ -22,6 +22,7 @@ Last updated March 2025, here is what you can do on each platform on the **free 
 
 For more details including screenshots and sample prompts, see [Feature comparison](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/artificial-intelligence/feature-comparison.html) on my Dev Cheatsheets site.
 
+
 | Functionality                                        | ChatGPT |       Copilot        |   Google Gemini   |      Claude       |
 | ---------------------------------------------------- | :-----: | :------------------: | :---------------: | :---------------: |
 | Model used                                           | GPT-4o  | Microsoft Prometheus |    Gemini 2.0     |     Claude3.7     |
@@ -37,7 +38,7 @@ For more details including screenshots and sample prompts, see [Feature comparis
 | Reasoning (deep think, think before responding)      |   ✅    |          ❌          |        ✅         |        ✅         |
 | Generate images with AI                              |   ✅    |          ✅          |        ✅         |        ❌         |
 | Canvas/artifacts (output document or code as a file) |   ✅    |          ❌          |        ✅         |        ✅         |
-| Live app preview (HTML page in sidepanel)            |   ❌    |          ❌          |        ❌         |        ✅         |
+| Live app preview (HTML page in sidepanel)            |   ✅    |          ❌          |        ❌         |        ✅         |
 | Dataviz (inline graphs using Python code)            |   ✅    |          ❌          |        ✅         |        ❌         |
 | Memory about you                                     |   ✅    |          ❌          |        ✅         |        ❌         |
 
