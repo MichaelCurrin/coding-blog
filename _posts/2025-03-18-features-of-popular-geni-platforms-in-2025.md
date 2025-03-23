@@ -35,7 +35,7 @@ For more details including screenshots and sample prompts, see [Feature comparis
 | Text-to-speech output                                |   ✅    |          ✅          |        ✅         |        ❌         |
 | Speech recognition                                   |   ✅    |          ✅          |        ✅         | ❌ web, ✅ mobile |
 | Voice call mode                                      |   ✅    |          ✅          | ❌ web, ✅ mobile |        ❌         |
-| Reasoning (deep think, think before responding)      |   ✅    |          ❌          |        ✅         |        ✅         |
+| Reasoning (deep think, think before responding)      |   ✅    |          ✅          |        ✅         |        ✅         |
 | Generate images with AI                              |   ✅    |          ✅          |        ✅         |        ❌         |
 | Canvas/artifacts (output document or code as a file) |   ✅    |          ❌          |        ✅         |        ✅         |
 | Live app preview (HTML page in sidepanel)            |   ✅    |          ❌          |        ❌         |        ✅         |
